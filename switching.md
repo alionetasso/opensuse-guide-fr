@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 2. Migrando para o GNU/Linux - Vantagens e Desafios de Migrar para o GNU/Linux
+title: 2. Changer pour GNU/Linux - Avantages et défis de la migration vers GNU/Linux
 permalink: migrando
 ---
 
-# 2. Migrando para o GNU/Linux
+# 2. Migrer vers GNU/Linux
 
-Migrar para um sistema operacional novo e muito diferente requer um grande esforço, ainda que seja no mesmo computador — claro que você não precisa migrar completamente, nada te impede de usar dois ou mais sistemas operacionais. Este capítulo descreve alguns pontos que você deve considerar antes de se aventurar no maravilhoso mundo do GNU/Linux.
+Migrer vers un nouveau système d'exploitation très différent demande des efforts, même si c'est sur le même ordinateur - bien sûr vous n'avez pas à migrer complètement, rien ne vous empêche d'utiliser deux systèmes d'exploitation ou plus. Ce chapitre décrit quelques points à considérer avant de vous aventurer dans le monde merveilleux de GNU/Linux.
 
 ## 2.1 Por que usar GNU/Linux?
 

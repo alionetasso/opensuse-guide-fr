@@ -21,7 +21,7 @@ openSUSE Leap est un système d'exploitation pour PC basé sur GNU et Linux. C'e
 
 openSUSE Leap est l'une des distributions GNU/Linux les plus utilisées et l'une des plus anciennes qui existent. openSUSE Leap hérite du noyau de SUSE Linux Enterprise et prend en charge le matériel, les environnements de bureau et les applications graphiques mises à jour. Chaque année, un *service pack* est publié et tous les 3 ou 4 ans, il y a une mise à jour majeure dans laquelle le système central est également mis à jour.
 
-Pour les utilisateurs expérimentés et aventureux de GNU/Linux qui veulent prendre des risques avec leur système d'exploitation et vivre à la pointe de la nouveauté, il y a aussi une version d'openSUSE appelée [openSUSE Tumbleweed] (https://en.opensuse.org/Portal:Tumbleweed).
+Pour les utilisateurs expérimentés et aventureux de GNU/Linux qui veulent prendre des risques avec leur système d'exploitation et vivre à la pointe de la nouveauté, il y a aussi une version d'openSUSE appelée [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed).
 
 openSUSE Leap est développé de manière ouverte et transparente par une communauté de bénévoles qui travaillent en collaboration avec les employés de SUSE.
 

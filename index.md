@@ -1,39 +1,40 @@
 ---
 layout: default
-title: 1. Introdução - Guia do openSUSE Leap 15.0 para Iniciantes
-permalink: introducao
+title: 1. Introduction - Guide du débutant sur openSUSE Leap 15.0
+permalink: introduction
 redirect_from: /index.html
 ---
 
-# 1. Introdução
+# 1. Introduction
 
-O objetivo deste guia é prover aos novos usuários tudo que eles precisam saber para começar a usar o openSUSE Leap como sistema operacional em seus *desktops* em casa ou no trabalho — de forma rápida e fácil.
+Le but de ce guide est de fournir aux nouveaux utilisateurs tout ce qu'ils ont besoin de savoir pour commencer à utiliser rapidement et facilement openSUSE Leap comme  système d'exploitation sur leur ordinateur fixe ou portable à domicile ou au travail.
 
-Ler esse guia deve poupar *muito* seu tempo no longo prazo. Os apêndices ao final são direcionados a leitores particularmente entusiastas.
+La lecture de ce guide devrait vous faire gagner beaucoup de temps à long terme. L'annexe à la fin s'adresse aux lecteurs particulièrement enthousiastes.
 
-Observe que este guia não está oficialmente relacionado com o [Projeto openSUSE](http://www.opensuse.org) nem com a [SUSE LINUX Products GmbH](http://www.suse.com) ou a Micro Focus International.
+Notez que ce guide n'est pas officiellement lié au [projet openSUSE](http://www.opensuse.org) ni à [SUSE LINUX Products GmbH](http://www.suse.com) ou à Micro Focus International.
 
-Divirta-se bastante! (*Have a lot of fun!*)
+Amusez-vous bien ! (*Have a lot of fun!*)
 
-## 1.1 Sobre o openSUSE Leap
+## 1.1 À propos d'openSUSE Leap
 
-O openSUSE Leap é um sistema operacional para PC baseado no GNU e no Linux. É uma alternativa livre/aberta e grátis para, por exemplo, o Microsoft Windows, com muitas vantagens. O openSUSE Leap é destinado a *desktops*, *notebooks*, *netbooks*, servidores e *multimedia center PCs* em casa ou em pequenos escritórios. Você também pode usar o openSUSE em seu dispositivo [ARM](https://en.opensuse.org/Portal:ARM) ou [PPC](https://en.opensuse.org/Portal:PowerPC), mas isso não é abordado neste guia.
+openSUSE Leap est un système d'exploitation pour PC basé sur GNU et Linux. C'est une alternative gratuite et gratuite à Microsoft Windows avec de nombreux avantages. openSUSE Leap convient aux ordinateurs portables, aux ordinateurs de bureau, aux netbooks, aux serveurs et aux ordinateurs de centre multimédia à la maison ou dans les petits bureaux. Vous pouvez également exécuter openSUSE sur votre ordinateur [ARM](https://en.opensuse.org/Portal:ARM) ou [PPC](https://en.opensuse.org/Portal:PowerPC), mais cela n'est pas abordé par ce guide.
 
-O openSUSE Leap está entre as distribuições GNU/Linux mais usadas e é também uma das mais antigas existentes. O openSUSE Leap herda o núcleo do SUSE Linux Enterprise e adiciona suporte a *hardware*, ambientes de trabalho e aplicativos gráficos atualizados. Todo ano um *service pack* é lançado e a cada 3 ou 4 anos há uma atualização maior na qual também o núcleo do sistema é atualizado.
+openSUSE Leap est l'une des distributions GNU/Linux les plus utilisées et l'une des plus anciennes qui existent. openSUSE Leap hérite du noyau de SUSE Linux Enterprise et prend en charge le matériel, les environnements de bureau et les applications graphiques mises à jour. Chaque année, un *service pack* est publié et tous les 3 ou 4 ans, il y a une mise à jour majeure dans laquelle le système central est également mis à jour.
 
-Para usuários de GNU/Linux experientes e aventureiros que querem tomar algum risco com seu sistema operacional e viver no limite do que há de mais novo, também há uma versão *rolling release* (com atualizações frequentes) do openSUSE chamada [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed).
+Pour les utilisateurs expérimentés et aventureux de GNU/Linux qui veulent prendre des risques avec leur système d'exploitation et vivre à la pointe de la nouveauté, il y a aussi une version d'openSUSE appelée [openSUSE Tumbleweed] (https://en.opensuse.org/Portal:Tumbleweed).
 
-O openSUSE Leap é desenvolvido de forma aberta e transparente por uma comunidade de voluntários que trabalham em conjunto com os funcionários da SUSE.
+openSUSE Leap est développé de manière ouverte et transparente par une communauté de bénévoles qui travaillent en collaboration avec les employés de SUSE.
 
-## 1.2 Traduções ou versões modificadas
+## 1.2 Traductions ou versions modifiées
 
-O código-fonte deste guia está disponível a quem possa interessar no GitHub sob os termos da [GNU Free Documentation License](license):
+Le code source de ce guide est à la disposition de toute personne susceptible d'être intéressée par GitHub selon les termes de la [GNU Free Documentation License](licence) :
 
-- [Código-fonte do guia original em inglês por Martin Schlander](https://github.com/cb400f/opensuse-guide.org/)
-- [Código-fonte da tradução para o Português Brasileiro pelo Projeto Linux Kamarada](https://github.com/kamarada/guiadoopensuse/)
+- [Code source du guide original en anglais par Martin Schlander](https://github.com/cb400f/opensuse-guide.org/)
+- [Code source pour la traduction en portugais brésilien par le projet Linux Kamarada](https://github.com/kamarada/guiadoopensuse/)
+- [Code source pour la traduction en français par Chalu](https://github.com/CChalu/opensuse-guide-fr)
 
-Isso facilita criar versões modificadas ou traduções.
+Cela facilite la création de versions modifiées ou de traductions.
 
-Além desta tradução, as outras versões derivadas conhecidas até o momento são:
+En plus de cette traduction, les autres versions dérivées connues à ce jour sont :
 
-- [Tradução para o Espanhol por victorhck](https://victorhck.gitlab.io/guia_openSUSE/)
+- [traduction espagnole par victorhck](https://victorhck.gitlab.io/guia_openSUSE/)

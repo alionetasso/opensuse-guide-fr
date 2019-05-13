@@ -6,9 +6,9 @@ permalink: obtenir
 
 # 3. Obtenir openSUSE
 
-Aqui estão algumas maneiras de obter o openSUSE.
+Voici quelques-unes des façons d'acquérir openSUSE.
 
-## 3.1 Baixando
+## 3.1 Télécharger l'ISO
 
 Você pode baixar o openSUSE de graça, sem custo algum. Para isso, acesse:
 
@@ -16,7 +16,7 @@ Você pode baixar o openSUSE de graça, sem custo algum. Para isso, acesse:
 
 O DVD completo (4,7GB) fornece a melhor experiência. Você não precisa usar um DVD, a mesma imagem ISO pode ser usada para gerar um *pendrive* de instalação (veja o próximo capítulo).
 
-## 3.2 Comprando uma mídia extra oficial barata
+## 3.2 Acheter à bas prix des médias non officiels
 
 Há muitas lojas *online* que vendem mídias extra oficiais (DVD, *pendrive*) com o openSUSE bem baratas. Claro que isso é absolutamente legal, uma vez que estamos lidando com *software* livre.
 
@@ -28,7 +28,7 @@ Alguns exemplos:
 - [Ixsoft.de](http://www.ixsoft.de/cgi-bin/web_store.cgi?ref=Catalogs/de/opensuse-catalog.html)
 - [Thelinuxshop.co.uk](http://thelinuxshop.co.uk/opensuse-m-14.html)
 
-## 3.3 Comprando uma caixa
+## 3.3 Acheter un coffret
 
 Há empresas vendendo o openSUSE em uma caixa (em alemão) com suporte e brindes adicionais.
 

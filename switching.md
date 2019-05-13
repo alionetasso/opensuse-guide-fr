@@ -26,7 +26,7 @@ Il y a de nombreuses raisons pour lesquelles des millions de personnes aiment ut
 - **Essayez quelque chose de nouveau** : le simple fait d'essayer quelque chose de nouveau et de différent peut être, en soi, une motivation pour de nombreuses personnes. et....
 - Et... c'est très amusant !
 
-<center>[hardware](images/pics/hardware.gif)</center>
+<center>![hardware](images/pics/hardware.gif)</center>
 
 ## 2.2 Les défis de la migration
 

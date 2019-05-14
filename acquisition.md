@@ -1,3 +1,4 @@
+guide opensuse
 ---
 layout: default
 title: 3. Obtenir openSUSE - Comment télécharger ou acheter openSUSE
@@ -10,19 +11,18 @@ Voici quelques-unes des façons d'acquérir openSUSE.
 
 ## 3.1 Télécharger l'ISO
 
-Você pode baixar o openSUSE de graça, sem custo algum. Para isso, acesse:
-
+Vous pouvez télécharger openSUSE gratuitement. Il suffit d'aller à l'adresse :  
 [http://software.opensuse.org/](http://software.opensuse.org/)
 
-O DVD completo (4,7GB) fornece a melhor experiência. Você não precisa usar um DVD, a mesma imagem ISO pode ser usada para gerar um *pendrive* de instalação (veja o próximo capítulo).
+Le DVD complet (4,7 Go) offre l'expérience la plus fluide et la plus complète. Vous n'avez pas besoin d'utiliser un DVD, il peut aussi être placé sur une clé USB (voir chapitre suivant).
+
 
 ## 3.2 Acheter à bas prix des médias non officiels
 
-Há muitas lojas *online* que vendem mídias extra oficiais (DVD, *pendrive*) com o openSUSE bem baratas. Claro que isso é absolutamente legal, uma vez que estamos lidando com *software* livre.
+Il existe de nombreuses boutiques en ligne qui proposent de vendre des médias non officiels (DVD, clé USB) avec openSUSE très bon marché. C'est bien sûr tout à fait légal, car il s'agit de logiciels libres.
 
-Comprar uma dessas mídias te livra do trabalho (e do risco de erros) de baixar e gravar a mídia você mesmo.
-
-Alguns exemplos:
+Cela vous évite d'avoir à télécharger et à graver le média vous-même, ce qui vous évite les risques d'erreurs qui pourraient en découler.   
+Voir par exemple :
 
 - [OSDisc.com](http://www.osdisc.com/cgi-bin/view.cgi/products/linux/suse)
 - [Ixsoft.de](http://www.ixsoft.de/cgi-bin/web_store.cgi?ref=Catalogs/de/opensuse-catalog.html)
@@ -30,16 +30,14 @@ Alguns exemplos:
 
 ## 3.3 Acheter un coffret
 
-Há empresas vendendo o openSUSE em uma caixa (em alemão) com suporte e brindes adicionais.
+Il y a des sociétés qui vendent openSUSE dans une boîte (en allemand) avec support, et des goodies supplémentaires inclus, voir :
 
-Para mais informações, consulte:
+[http://en.opensuse.org/Buy_openSUSE](http://en.opensuse.org/Buy_openSUSE)  
+![box](images/pics/box.png)
 
-[http://en.opensuse.org/Buy_openSUSE](http://en.opensuse.org/Buy_openSUSE)
 
-{% include pic.html image="box.png" %}
+## 3.4 Le code source
 
-## 3.4 Código-fonte
-
-Você pode encontrar o código-fonte para todos os pacotes de *softwares* livres do openSUSE aqui, no formato de pacotes RPM de código-fonte (*Source RPMs* ou SRPMs):
+Vous pouvez trouver le code source de tous les paquets gratuits d'openSUSE ici, sous forme de fichiers RPM source :  
 
 [http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/suse/src/](http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/suse/src/)

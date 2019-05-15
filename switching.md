@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. Changer pour GNU/Linux - Avantages et défis de la migration vers GNU/Linux
-permalink: switching
+permalink: migrer
 ---
 
 # 2. Migrer vers GNU/Linux

@@ -1,20 +1,20 @@
-- title: Começando
+- title: Prise en main
   pages:
-  - title: 1. Introdução
-    link: introducao
-  - title: 2. Migrando para o GNU/Linux
-    link: migrando
-  - title: 3. Obtendo o openSUSE
-    link: obtendo
-  - title: 4. Instalação
-    link: instalacao
+  - title: 1. Introduction
+    link: introduction
+  - title: 2. Changer pour GNU/Linux
+    link: migrer
+  - title: 3. Obtenir openSUSE
+    link: obtenir
+  - title: 4. Installation
+    link: installation
 
-- title: O Básico
+- title: Les fondamentaux
   pages:
-  - title: 5. Ambiente de trabalho KDE Plasma
+  - title: 5. Espace de travail KDE Plasma
     link: kde
-  - title: 6. Aplicativos para tarefas comuns
-    link: aplicativos
+  - title: 6. Applications pour les tâches courantes
+    link: applications
   - title: 7. Segurança e root
     link: seguranca
   - title: 8. Terminal

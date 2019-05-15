@@ -101,34 +101,32 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 	</tr>
 </table><br />
 
-### Criar Novo Usuário
+### Créer un nouvel utilisateur
 
 <table>
 	<tr>
-	{% include installation.html image="inst-user" %}
-	<td valign="top">Agora é hora de criar sua conta de usuário. Note que por padrão a senha do usuário <em>root</em> (administrator) será igual à do usuário normal.<br /><br />
-
-	Se você quer a segurança adicional de uma senha de administrador diferente, considere desmarcar essa opção. Você também pode querer desabilitar o <em>login</em> automático para prevenir que pessoas acessem facilmente seu sistema e dados.</td>
+	<td width="205" valign="top"><a href="images/installation/dvd/inst-user.png" rel="thumbnail"><img src="images/installation/dvd/inst-userb.png" alt="inst-user" class="pic" /></a></td>
+	<td valign="top">Il est maintenant temps de créer votre utilisateur. Notez que par défaut, le mot de passe de l'utilisateur root (administrateur) sera le même que celui de l'utilisateur normal.<br /><br />
+	Si vous voulez avoir la sécurité supplémentaire d'un mot de passe root séparé, pensez à décocher cette case. Vous pouvez également envisager de désactiver l'autologin pour empêcher les gens d'accéder facilement à votre système et à vos données.</td>
 	</tr>
-</table>
+</table><br />
 
-### Configurações da instalação
+### Paramètres d'installation
 
 <table>
 	<tr>
-		{% include installation.html image="inst-overview" %}
-		<td valign="top">Se certifique de que tudo está conforme o desejado — uma vez passada essa tela, não haverá volta!</td>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-overview.png" rel="thumbnail"><img src="images/installation/dvd/inst-overviewb.png" alt="inst-overview" class="pic" /></a></td>
+		<td valign="top">Vérifiez deux fois que tout est comme vous le souhaitez - c'est le point de non-retour !</td>
 	</tr>
-</table>
+</table><br />
 
-### Instalação propriamente dita
+### Installation proprement dite
 
 <table>
 	<tr>
 		{% include installation.html image="inst-inst" %}
-		<td valign="top">Agora é feita a instalação propriamente dita: o sistema operacional é copiado para o disco e configurado. Quando terminar, o computador será reiniciado e o sistema estará pronto para uso.<br /><br />
-
-Divirta-se bastante com o openSUSE!
+		<td valign="top">L'installation effective s'effectue maintenant. Une fois terminé, le système redémarre et est prêt à être utilisé.<br /><br />
+Amusez-vous bien avec openSUSE !
 		</td>
 	</tr>
 </table>

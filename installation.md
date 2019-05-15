@@ -124,9 +124,8 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 
 <table>
 	<tr>
-		{% include installation.html image="inst-inst" %}
-		<td valign="top">L'installation effective s'effectue maintenant. Une fois terminé, le système redémarre et est prêt à être utilisé.<br /><br />
-Amusez-vous bien avec openSUSE !
-		</td>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-inst.png" rel="thumbnail"><img src="images/installation/dvd/inst-instb.png" alt="inst-inst" class="pic" /></a></td>
+		<td valign="top">L'installation effective est alors effectuée. Une fois terminé, le système redémarre et est prêt à être utilisé.<br /><br />
+Amusez-vous bien avec openSUSE !</td>
 	</tr>
-</table>
+</table><br />

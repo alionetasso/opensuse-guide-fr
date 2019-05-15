@@ -1,22 +1,31 @@
 ---
 layout: default
-title: 6. Aplicativos para tarefas comuns - Aplicativos para fazer as tarefas mais comuns
-permalink: aplicativos
+title: 6. Applications pour les tâches courantes - Applications pour effectuer les tâches les plus courantes
+permalink: applications
 ---
 
-# 6. Aplicativos para tarefas comuns
+# 6. Applications pour les tâches courantes
 
-Aqui vai uma lista de aplicativos usados para fazer tarefas comuns, todos eles são instalados por padrão e são de alta qualidade, mas naturalmente você pode substituí-los por alternativos, se desejar.
+Voici une liste d'applications utilisées pour effectuer des tâches courantes, elles sont toutes installées par défaut et sont toutes de haute qualité, mais vous pouvez naturellement les remplacer par des alternatives si vous le souhaitez.
 
-{% include tip.html tip="Todas as alternativas mencionadas a seguir podem ser facilmente instaladas usando o [gerenciador de pacotes](installpackage), se os [repositórios de *software*](repositories) recomendados estão habilitados (ver capítulos adiante)." %}
+<div class="tip">
+<table>
+<tbody>
+<tr>
+<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td>Toutes les alternatives mentionnées ci-dessous seront disponibles pour une installation simple avec le <a href="installpackage.php">gestionnaire de paquets</a>, si les <a href="repositories.php">dépôts de logiciels recommandés</a> sont ajoutés (voir chapitres suivants).</td>
+</tr>
+</tbody>
+</table>
+</div><br />
 
-Você pode encontrar mais alternativas aos seus aplicativos conhecidos aqui:
+Vous trouverez ici d'autres produits de remplacement pour vos applications habituelles :
 
-[http://en.opensuse.org/Application_equivalents](http://en.opensuse.org/Application_equivalents)
+[http://fr.opensuse.org/Application_equivalents](http://fr.opensuse.org/Application_equivalents)
 
-## 6.1 Navegue na Internet com o Firefox
+## 6.1 Surfez sur le Web avec Firefox
 
-Mozilla Firefox é o navegador *web* padrão. É um dos navegadores *web* mais usados do mundo.
+Mozilla Firefox est le navigateur Web par défaut. C'est l'un des principaux navigateurs Web au monde.
 
 {% include screenshot.html image="firefox" %}
 

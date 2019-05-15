@@ -1,4 +1,3 @@
-guide opensuse
 ---
 layout: default
 title: 3. Obtenir openSUSE - Comment télécharger ou acheter openSUSE

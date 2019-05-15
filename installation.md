@@ -4,11 +4,11 @@ title: 4. Installation - Comment installer openSUSE sur son ordinateur
 permalink: installation
 ---
 
-# 4. Instalação
+# 4. Installation
 
 Ceci n'est qu'une brève description de l'installation d'openSUSE. Pour une aide plus complète, consultez la documentation officielle.
 
-## 4.1 Antes de instalar
+## 4.1 Avant l'installation
 
 Avant de commencer, vous devez faire attention à certaines choses.
 
@@ -65,7 +65,7 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-welcome.png" rel="thumbnail"><img src="images/installation/dvd/inst-welcomeb.png" alt="welcome" class="pic" /></a></td>
-		<td valign="top">Le contrat de licence ne vise qu'à vous informer de vos droits. Il n'exige pas votre acceptation, puisqu'il ne limite pas votre utilisation.<br /><br /> 
+		<td valign="top">Le contrat de licence ne vise qu'à vous informer de vos droits. Il n'exige pas votre acceptation, puisqu'il ne limite pas votre utilisation.<br /><br />
 		Vérifiez que la langue et la disposition du clavier sont conformes à vos souhaits.</td>
 	</tr>
 </table><br />
@@ -90,20 +90,20 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 <table>
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-time.png" rel="thumbnail"><img src="images/installation/dvd/inst-timeb.png" alt="inst-time" class="pic" /></a></td>
-		<td valign="top">Set the timezone here.<br /><br />If you have only GNU/Linux it's recommended to set the hardware clock to UTC, if you dual boot with MS Windows set it to local time.</td>
+		<td valign="top">Sélectionnez le fuseau horaire ici.<br /><br />Si vous n'avez que GNU/Linux, il est recommandé de régler l'horloge matérielle sur UTC, si vous avez un dual-boot avec MS Windows, réglez-la à l'heure locale..</td>
 	</tr>
 </table><br />
 
-### Interface de usuário
+### Interface utilisateur
 
 <table>
 	<tr>
-		{% include installation.html image="inst-desktop" %}
-		<td valign="top">Várias diferentes interfaces gráficas (ambientes de trabalho) existem para o GNU/Linux. A área de trabalho com KDE Plasma é pré-selecionada, é a preferida por cerca de 70% dos usuários do openSUSE e é também o foco deste guia. Mas você também pode escolher a área de trabalho com GNOME ou uma instalação de servidor, com interface textual.<br /><br />
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
+		<td valign="top">Différentes interfaces graphiques (environnements de bureau) existent pour GNU/Linux. L'espace de travail Plasma de KDE est présélectionné et est préféré par environ 70% des utilisateurs d'openSUSE et est également l'objet de ce guide. Mais vous pouvez aussi choisir le bureau GNOME ou l'installation d'un serveur en mode texte.<br /><br />
 
-		Em "Personalizado" você pode selecionar manualmente diferentes padrões, incluindo áreas de trabalho leves como Xfce e LXDE.</td>
+		Sous "Personnalisé", vous pouvez sélectionner manuellement différents motifs, y compris les environnements de bureau légers Xfce et LXDE..
 	</tr>
-</table>
+</table><br />
 
 ### Criar Novo Usuário
 

@@ -1,98 +1,106 @@
 ---
 layout: default
-title: 5. Ambiente de trabalho KDE Plasma - Use e Configure o KDE no Desktop ou Netbook
+title: 5. Environnement de bureau KDE Plasma - Utilisation et configuration de KDE sur ordinateur de bureau ou netbook
 permalink: kde
 ---
 
-# 5. Ambiente de trabalho KDE Plasma
+# 5. Environnement de bureau KDE Plasma
 
-O ambiente de trabalho KDE Plasma é uma das primeiras coisas que você verá quando você iniciar o openSUSE Leap pela primeira vez. O ambiente de trabalho consiste da área de trabalho, menus, painéis, gerenciamento de arquivos e gerenciamento de janelas.
+L'environnement de bureau KDE Plasma est l'une des premières choses que vous verrez lorsque vous démarrerez openSUSE Leap pour la première fois. L'espace de bureau comprend le bureau lui-même, les menus, les panneaux, la gestion des fichiers et la gestion des fenêtres.
 
-O ambiente de trabalho KDE Plasma é bastante configurável. Se há alguma coisa que não te agrada, é quase certo que você pode configurá-la de acordo com suas preferências. É também bastante rico em funcionalidades. Abaixo são mencionadas apenas as funcionalidades mais básicas.
+L'environnement de bureau Plasma de KDE est très configurable. S'il y a quelque chose que vous n'aimez pas, vous pouvez presque certainement le configurer à votre goût. Il est également extrêmement riche en fonctionnalités, ci-dessous ne sont mentionnées que les fonctionnalités les plus basiques.
 
-## 5.1 A área de trabalho
+## 5.1 L'environnement de bureau
 
-A área de trabalho não é muito diferente de outras áreas de trabalho que provavelmente você está familiarizado — você tem um painel embaixo e um menu de lançamento é aberto ao clicar no botão no canto inferior esquerdo.
+Le bureau n'est pas très différent des autres environnements de bureau que vous connaissez - vous avez un panneau en bas, un menu de lancement qui s'ouvre dans le coin inférieur gauche.
 
-No entanto, algumas coisas diferem significativamente da maioria das outras áreas de trabalho:
+Cependant, certaines choses diffèrent considérablement de la plupart des autres environnements de bureau :
 
-- o KDE usa o *clique único* para abrir arquivos e iniciar programas por padrão; e
-- por padrão, quando você desliga o computador, os aplicativos que você está usando serão iniciados novamente quando você ligar o computador.
+- KDE utilise par défaut un simple clic pour ouvrir des fichiers et lancer des programmes
+- Par défaut, les applications en cours d'exécution lors de l'arrêt seront relancées lors de la session suivante.
 
-{% include screenshot.html image="desktop" %}
+<center><a href="images/screenshots/desktop.png" rel="thumbnail"><img src="images/screenshots/desktopb.png" alt="desktop" class="pic" /></a></center><br />
 
-### 5.1.1 O lançador de aplicativos
+### 5.1.1 O Le menu lanceur d'applications
 
-O lançador de aplicativos é aberto clicando no ícone no canto inferior esquerdo da tela ou pressionando a tecla **Super** ou **Alt + F1**. Abaixo no menu há uma caixa de pesquisa e no topo esquerdo estão seus aplicativos favoritos. Você pode adicionar ou remover aplicativos dos favoritos clicando o botão direito do *mouse* neles.
+Le menu de lancement s'ouvre en cliquant sur l'icône dans le coin inférieur gauche de l'écran ou en appuyant sur la touche Super ou Alt+F1. En bas, il y a un champ de recherche et en haut à gauche, vos applications préférées. Vous pouvez ajouter et supprimer des applications de vos favoris en cliquant dessus avec le bouton droit de la souris.
 
-{% include screenshot.html image="launchmenu" %}
+<center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center><br />
 
-Você pode editar itens do menu ou adicionar novos itens assim:
+Vous pouvez modifier des entrées de menu ou en ajouter de nouvelles comme ceci :
+Cliquez avec le bouton droit de la souris sur l'icône du menu => Modifier les applications....
 
-<div class="path">Clique com o botão direito do <em>mouse</em> no ícone do lançador =&gt; Clique em "Editar aplicativos"</div>
+<div class="path">Cliquez avec le bouton droit de la souris sur l'icône du menu  =&gt; Modifier les applications...</div>
 
-Para adicionar um atalho para um aplicativo na área de trabalho ou no painel você pode fazer assim (requer que os *widgets* estejam desbloqueados):
+Pour ajouter un raccourci pour une application sur le bureau ou dans le panneau, vous pouvez le faire (les widgets doivent être déverrouillés) ainsi :
 
-<div class="path">Localize o aplicativo no lançador => Clique com o botão direito do <em>mouse</em> => Clique em "Adicionar à área de trabalho" ou "Adicionar ao painel"</div>
+<div class="path">Trouver l'application dans le menu => Clic droit sur l'entrée => Cliquez sur "Ajouter au panneau" ou "Ajouter au bureau"</div>
 
-### 5.1.2 Áreas de trabalho virtuais
+### 5.1.2 Espace de travail virtuel
 
-Para evitar que sua área de trabalho fique bagunçada com várias janelas, você pode usar áreas de trabalho virtuais para organizar seus aplicativos e ser mais produtivo. No painel você encontra uma pequena grade, esse é o paginador de áreas de trabalho, use-o para alternar entre suas áreas de trabalho virtuais.
+Pour éviter que votre bureau ne soit encombré de fenêtres, vous pouvez utiliser des espaces de travail virtuels pour organiser vos applications et être plus productif. Dans le panneau vous trouverez une petite grille, c'est le pager de bureau, utilisez-le pour basculer entre vos bureaux virtuels.
 
-<center><img src="{{ site.baseurl | append: '/images/screenshots/pager.png' | replace: '//', '/' }}" alt="pager" class="pic" /></center>
+<center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center><br />
 
-Você também pode usar o efeito grade da área de trabalho para ter uma visão geral em tela cheia das suas áreas de trabalho virtuais, experimente pressionar **Ctrl + F8** (requer suporte a efeitos da área de trabalho, leia mais sobre isso adiante).
+Vous pouvez également utiliser l'effet de grille du bureau pour obtenir une vue d'ensemble de vos bureaux virtuels en plein écran, essayez d'appuyer sur *Ctrl + F8* (nécessite la prise en charge de des effets de bureau, voir le paragraphe sur ce sujet ci-dessous).
 
-## 5.2 Gerenciamento de arquivos
+## 5.2 Gestion des fichiers
 
-O gerenciador de arquivos padrão é o Dolphin. Você pode encontrá-lo como um dos favoritos no lançador de aplicativos ou na categoria "Sistema". Usá-lo deve ser intuitivo. <em>Pendrives</em> e outras mídias removíveis aparecerão automaticamente no painel esquerdo do Dolphin.
+Le gestionnaire de fichiers par défaut est Dolphin, qui est l'un des favoris dans le menu de lancement ou dans la catégorie "Système". Il devrait être très intuitif. Les clés USB et autres supports amovibles apparaîtront automatiquement dans le volet gauche de Dolphin.
+<div class="path">Launch Menu => System => Dolphin</div><br />
 
-<div class="path">Lançador de aplicativos => Aplicativos => Sistema => Gerenciador de arquivos (Dolphin)</div>
+Vous pouvez également trouver Dolphin comme l'un des favoris dans le menu de lancement des applications.
 
-Você também pode encontrar o Dolphin como um dos favoritos no lançador de aplicativos.
+<center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center><br />
 
-{% include screenshot.html image="dolphin" %}
+## 5.3 Configurer le bureau (Paramètres système KDE)
 
-## 5.3 Configurações da área de trabalho
+Les paramètres globaux de KDE sont regroupés de manière pratique en un seul endroit. Ici, vous pouvez configurer presque tout ce qui concerne l'espace de travail de KDE Plasma, y compris le comportement de la souris, les applications par défaut, les associations de fichiers, etc.
 
-As configurações globais do KDE estão convenientemente reunidas em um único lugar. Aqui você pode configurar praticamente qualquer coisa relacionada ao ambiente de trabalho KDE Plasma, incluindo comportamento do *mouse*, aplicativos padrão, associações de arquivos, etc.
+<div class="path">Menu lanceur des applications => Applications => Configuration => Configuration du système</div>
 
-<div class="path">Lançador de aplicativos => Aplicativos => Configurações => Configurações do sistema</div>
+Vous pouvez également trouver Configurer le bureau (paramètres système) comme l'un des favoris dans le menu de lancement des applications.
 
-Você também pode encontrar o aplicativo Configurações do sistema como um dos favoritos no lançador de aplicativos.
+<center><a href="images/screenshots/systemsettings.png" rel="thumbnail"><img src="images/screenshots/systemsettingsb.png" alt="systemsettings" class="pic" /></a></center><br />
 
-{% include screenshot.html image="systemsettings" %}<p></p>
-
-{% include tip.html tip="Não confunda o aplicativo Configurações do sistema do KDE, usado para configurações pessoais do ambiente de trabalho KDE e dos aplicativos do KDE, com o Centro de controle do YaST, usado para configurações de administrador em um nível mais profundo do sistema (ver capítulo sobre o YaST mais adiante)." %}
+<div class="tip">
+<table>
+<tbody>
+<tr>
+<td><img src="images/pics/tip.png" alt="tip" /></td>
+<td>Ne confondez pas le centre de contrôle KDE utilisé pour la configuration personnelle de l'espace de travail KDE et des applications KDE avec le centre de contrôle YaST utilisé pour les paramètres d'administration à un niveau plus profond du système (Voir plus loin le chapitre sur YaST).</td>
+</tr>
+</tbody>
+</table>
+</div><br />
 
 ## 5.4 Monitor do sistema / Tabela de processos
 
-Naturalmente o KDE também tem uma ferramenta para monitorar processos em execução e utilização de recursos do sistema. Simplesmente pressione **Ctrl + Esc** para mostrar a janela Atividade do sistema.
+Naturellement, KDE dispose également d'un outil pour surveiller les processus en cours d'exécution et l'utilisation des ressources du système. Appuyez simplement sur *Ctrl+Esc* pour afficher la fenêtre d'activité système.
 
-{% include screenshot.html image="systemactivity" %}
+<center><a href="images/screenshots/systemactivity.png" rel="thumbnail"><img src="images/screenshots/systemactivityb.png" alt="systemactivity" class="pic" /></a></center><br />
 
-Para um monitor de sistema avançado e personalizável, incluindo gráficos de rede, entre outros recursos, use o programa KSysGuard.
+Pour un moniteur système avancé et personnalisable, y incluant les graphiques réseau, etc. exécutez le programme *ksysguard*.
 
 ## 5.5 Widgets
 
-A área de trabalho KDE Plasma é centrada em *widgets* e contêineres. A área de trabalho e o painel são contêineres nos quais *widgets* podem ser adicionados. O lançador de aplicativos, a área de notificação, etc. são simplesmente *widgets*. Muitos outros *widgets* estão disponíveis.
+Le Bureau Plasma de KDE est centré autour de widgets et de conteneurs. Le bureau et le panneau sont des conteneurs dans lesquels des widgets peuvent être placés. Le menu, la barre d'état système, etc. sont simplement des widgets. Beaucoup d'autres widgets sont disponibles.  
+Pour ajouter des widgets :
 
-Para adicionar widgets:
+<div class="path">Clic droit sur le bureau => Ajouter des widgets => Glisser des widgets sur le bureau ou le panneau</div>
 
-<div class="path">Clique com o botão direito do <em>mouse</em> na área de trabalho => Adicionar widgets => Arraste <em>widgets</em> para a área de trabalho ou para um painel</div>
+Pour configurer, déplacer, redimensionner des widgets, etc., cliquez pour ouvrir la boîte à outils dans le coin supérieur droit du bureau. Cela nécessite le déverrouillage des widgets.
 
-Para configurar, mover, redimensionar *widgets*, etc. clique no canto superior direito da área de trabalho para abrir a caixa de ferramentas. Isso requer que os *widgets* estejam desbloqueados.
+<div class="path">Clic droit sur le bureau => Soit "Verrouiller les widgets", soit "Déverrouiller les widgets".</div><br/>
 
-<div class="path">Clique com o botão direito do <em>mouse</em> na área de trabalho => Clique em "Bloquear widgets" ou "Desbloquear widgets".</div><br/>
+<center><a href="images/screenshots/widgets.png" rel="thumbnail"><img src="images/screenshots/widgetsb.png" alt="widgets" class="pic" /></a></center><br /><br />
 
-{% include screenshot.html image="widgets" %}
+## 5.6 Effets de bureau
 
-## 5.6 Efeitos da área de trabalho
+Le gestionnaire de fenêtres de KDE prend en charge les effets de bureau 3D. Une sélection basique et discrète d'effets est activée par défaut si vous disposez du support matériel et des pilotes appropriés en place. Essayez d'appuyer sur *Ctrl+F8* ou *Ctrl+F9* par exemple.
 
-O gerenciador de janelas do KDE tem suporte embutido para efeitos 3D da área de trabalho. Uma seleção básica e discreta de efeitos será habilitada por padrão se você tiver o *hardware* apropriado e os devidos *drivers* instalados. Experimente pressionar **Ctrl + F8** ou **Ctrl + F9**, por exemplo.
+Vous pouvez désactiver ou activer d'autres/plusieurs effets dans Paramètres système.
 
-Você pode desabilitar ou habilitar outros/mais efeitos nas Configurações do sistema.
+<center><a href="images/screenshots/effects.png" rel="thumbnail"><img src="images/screenshots/effectsb.png" alt="effects" class="pic" /></a></center><br />
 
-{% include screenshot.html image="effects" %}
-
-O atalho de teclado para temporariamente habilitar ou desabilitar os efeitos da área de trabalho é **Alt + Shift + F12**.
+Le raccourci clavier pour activer/désactiver temporairement les effets de bureau est *Alt+Maj+F12*.

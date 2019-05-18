@@ -15,24 +15,24 @@
     link: kde
   - title: 6. Apps pour les tâches courantes
     link: applications
-  - title: 7. Segurança e root
-    link: seguranca
+  - title: 7. Sécurité et root
+    link: securite
   - title: 8. Terminal
     link: command
   - title: 9. Paramètres Admin. (YaST)
     link: yast
-  - title: 10. Installing Software
+  - title: 10. Installation de logiciels
     link: installpackage
-  - title: 11. Software Repositories
+  - title: 11. Dépôts de logiciels
     link: repositories
 
-- title: Setup
+- title: Configuration
   pages:
   - title: 12. MS Windows Interop
     link: windows
-  - title: 13. Multimedia Codecs
+  - title: 13. Codecs Multimedia
     link: codecs
-  - title: 14. Browser Plugins
+  - title: 14. Plugins de navigateur
     link: browserplugins
   - title: 15. Pilotes graphiques
     link: 3d

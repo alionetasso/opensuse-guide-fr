@@ -55,7 +55,7 @@ GIMP (GNU Image Manipulation Program) est une application d'édition d'images tr
 
 {% include screenshot.html image="gimp" %}
 
-{% include tip.html tip='GIMP peut se présenter sous la forme d'une fenêtre unique, cliquez simplement sur "Fenêtres" dans le menu et cochez l'option "Mode Fenêtre unique".' %}
+{% include tip.html tip="GIMP peut se présenter sous la forme d'une fenêtre unique, cliquez simplement sur "Fenêtres" dans le menu et cochez l'option "Mode Fenêtre unique"." %}
 
 Alternatives à considérer : Gwenview (édition très basique seulement), Krita (principalement une application de dessin/peinture)
 

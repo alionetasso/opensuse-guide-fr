@@ -20,7 +20,7 @@ Le mot de passe *root* vous sera demandé lors de l'installation de paquets ou d
 
 Pour travailler graphiquement avec les fichiers système qui nécessitent des permissions *root*, vous pouvez lancer le gestionnaire de fichiers Dolphin en mode *super utilisateur*.
 
-{% include screenshot.html image="super-user-dolphin" %}
+{% include screenshot.html image="super-dolph" %}
 
 ### 7.1.2 Travailler en tant qu'utilisateur root dans le terminal
 

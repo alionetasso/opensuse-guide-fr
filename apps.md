@@ -35,7 +35,7 @@ Alternatives à considérer : Opéra, Chromium, Falkon, Konqueror
 
 LibreOffice est une suite bureautique complète avec traitement de texte, feuilles de calcul, présentation, dessin et plus encore. Elle est très compatible avec la suite bureautique Microsoft Office.
 
-{% include screenshot.html image="libreoffice" %}
+{% include screenshot.html image="lowriter" %}
 
 Alternatives à considérer : Calligra, Abiword, Gnumeric
 

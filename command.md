@@ -1,205 +1,206 @@
 ---
 layout: default
-title: 8. Terminal - Running Commands and Using the Command Line Interface on openSUSE
+title: 8. Terminal - Exécution des commandes et utilisation de l'interface de ligne de commande sur openSUSE
 permalink: command
 ---
 
 # 8. Terminal
 
-Almost any task can be performed graphically on a modern GNU/Linux distribution such as openSUSE, but to really become a self-reliant user and to truly take advantage of the power of your GNU/Linux operating system, you should at least know a few terminal basics - it's not difficult at all!
+Presque toutes les tâches peuvent être effectuées graphiquement sur une distribution GNU/Linux moderne comme openSUSE, mais pour vraiment devenir un utilisateur autonome et profiter pleinement de la puissance de votre système d'exploitation GNU/Linux, vous devriez au moins connaître quelques bases du terminal - ce n'est pas difficile du tout !
 
-There are thousands of commands you can run, each with a number of different options. So this chapter is just a small teaser describing the most common commands.
+Il existe des milliers de commandes que vous pouvez exécuter, chacune avec un certain nombre d'options différentes. Ce chapitre n'est donc qu'un petit avant-goût décrivant les commandes les plus courantes.
 
-You'll find *Konsole* under System in the launch menu.
+Vous trouverez *Konsole* sous Système dans le menu de lancement.
 
 {% include video.html video="konsole" screenshot="konsole" size="4.3 MB" %}
 
-Using the command line is quite easy. Simply enter a command and possibly one or more options and one or more arguments and then press Enter. Example:
+L'utilisation de la ligne de commande est assez simple. Entrez simplement une commande et éventuellement une ou plusieurs options et un ou plusieurs arguments, puis appuyez sur Entrée. Exemple :
 
 <div class="cl">ls -l /home/[username]/ </div>
 
-The *command* **ls** displays a list of files, the *option* **-l** means that the list will be displayed in a long listing format, and the *argument* **/home/[username]/** sets the directory of which the contents are listed.
+La *commande* **ls** affiche une liste de fichiers, l'*option* **-l** signifie que la liste sera affichée dans un format de liste longue, et l'*argument* **/home/[username]/** spécifie le répertoire dont le contenu est listé.
 
-## 8.1 Useful Shortcuts
+## 8.1 Raccourcis utiles
 
-### Tab-key
+### touche tabulation
 
-The tab-key is increcibly useful, if possible it will auto-complete commands and arguments, which helps you work faster and avoid typos.
+La touche de tabulation est incroyablement utile, si possible elle complétera automatiquement les commandes et arguments, ce qui vous aide à travailler plus vite et à éviter les fautes de frappe.
 
-### Ctrl+Shift+V
+### Ctrl+Maj+V
 
-Paste from the clipboard.
+Coller à partir du presse-papiers.
 
 ### Ctrl+C
 
-This shortcut stops any operation you may have started.
+Ce raccourci arrête toute opération que vous avez démarrée.
 
-## 8.2 Examples of Basic Commands
+## 8.2 Exemples de commandes de base
 
-This is just a very small selection of commands to give you an idea of how things work.
+Ceci n'est qu'une toute petite sélection de commandes pour vous donner une idée de la façon dont les choses fonctionnent.  
+Le terme user dans les commandes est à remplacer par votre nom d'utilisateur.
 
-{% include tip.html tip="Commands written in **red** need to be ran as root." %}
+{% include tip.html tip="Les commandes écrites en **rouge** doivent être exécutées en tant que root." %}
 
-### 8.2.1 File Management
+### 8.2.1 Gestion des fichiers et répertoires
 
-Changing directory
+Changer de répertoire
 
-<div class="cl">cd /home/user/directoryname/</div>
+<div class="cl">cd /home/user/nomrepertoire/</div>
 
-Listing files of a directory
+Lister les fichiers d'un répertoire
 
 <div class="cl">ls</div>
 
-Copying a file
+Copier un fichier
 
-<div class="cl">cp filename /home/user/directoryname/filename</div>
+<div class="cl">cp nomfichier /home/user/nomrepertoire/nomfichier</div>
 
-Deleting a file
+Supprimer un fichier
 
-<div class="cl">rm filename</div>
+<div class="cl">rm nomfichier</div>
 
-Deleting a directory including contents
+Supprimer un répertoire et tout son contenu
 
-<div class="cl">rm -rf /home/user/directoryname</div>
+<div class="cl">rm -rf /home/user/nomrepertoire</div>
 
-Moving or renaming a file
+Déplacer ou renommer un fichier
 
-<div class="cl">mv /home/user/filename /home/user/newfilename</div>
+<div class="cl">mv /home/user/nomfichier /home/user/nouveaunomfichier</div>
 
-### 8.2.2 System Monitoring
+### 8.2.2 Surveillance du système
 
-Running processes and consumpition of system resources. Press **'Q'** to exit.
+Exécution des processus et consommation des ressources du système. Appuyez sur **'Q'** pour quitter.
 
 <div class="cl">top </div>
 
-Disk space usage
+Utilisation de l'espace disque
 
 <div class="cl">df</div>
 
-Memory consumption
+Consommation de mémoire
 
 <div class="cl">free</div>
 
-### 8.2.3 Network
+### 8.2.3 Réseau
 
-Find out your IP-address
+Trouvez votre adresse IP
 
 <div class="cl">ip a</div>
 
-Find out your gateway
+Trouvez votre passerelle (gateway)
 
 <div class="cl">ip route</div>
 
-Find out your DNS servers
+Découvrez vos serveurs DNS
 
 <div class="cl">cat /etc/resolv.conf</div>
 
-### 8.2.4 Man Pages and Help
+### 8.2.4 Pages Man et aide
 
-Almost all commands have an accompanying manual page describing how to use the command and the available options. For example type:
+Presque toutes les commandes sont accompagnées d'une page de manuel décrivant comment utiliser la commande et les options disponibles. Par exemple, tapez :
 
 <div class="cl">man cp</div>
 
-To leave the man page again press **'Q'**
+Pour quitter à tout moment la page de manuel, appuyez sur **'Q'**.
 
-If a command does not have a man page, try *--help* instead, example:
+Si une commande n'a pas de page de manuel, essayez plutôt *--help*, par exemple :
 
 <div class="cl">cp --help</div>
 
-### 8.2.5 Becoming Root
+### 8.2.5 Devenir Root
 
-To switch to the root user to perform system administration tasks, type:
+Pour passer à l'utilisateur root pour exécuter les tâches d'administration du système, tapez :
 
 <div class="cl">su -</div>
 
-Then type your (root) password. Nothing will appear on screen as you type, this is intended.
+Tapez ensuite votre mot de passe (root). Rien n'apparaîtra à l'écran lorsque vous tapez, ceci est voulu.
 
-To stop working as root and return to working as your normal user, run <i>exit</i>.
+Pour arrêter de travailler en tant que root et revenir au travail en tant qu'utilisateur normal, exécutez <i>exit</i>.
 
 <div class="clroot">exit</div>
 
-To run a single command as root use:
+Pour exécuter une seule commande en tant que root, utilisez :
 
 <div class="cl">su -c "[command]"</div><p></p>
 
-{% include note.html note="Do not work as root unless it's required." %}
+{% include note.html note="Ne travaillez pas en tant que root à moins que ce ne soit nécessaire." %}
 
-### 8.2.6 System Tasks
+### 8.2.6 Tâches système
 
-Shutting down.
+Éteindre l'ordinateur :
 
 <div class="clroot">systemctl shutdown</div>
 
-Rebooting.
+Redémarrer :
 
 <div class="clroot">systemctl reboot</div>
 
-Start, stop, restart or get status of system services (start|stop|restart|status). Examples:
+Démarrer, arrêter, redémarrer ou obtenir l'état des services système (start|stop|restart|status). Exemples:
 
 <div class="clroot">systemctl restart network</div>
 <div class="clroot">systemctl stop firewalld</div>
 <div class="clroot">systemctl start apache2</div>
 <div class="clroot">systemctl status smb</div>
 
-Enable or disable a service from starting at every boot. Examples:
+Activez ou désactivez un service à chaque démarrage. Exemples :
 
 <div class="clroot">systemctl enable sshd</div>
 <div class="clroot">systemctl disable cups</div>
 
-### 8.2.7 The Kernel
+### 8.2.7 Le noyau
 
-Find out your kernel version and flavour.
+Découvrez la version et la nature de votre noyau :
 
 <div class="cl">uname -r</div>
 
-Check kernel messages (useful for troubleshooting hardware issues).
+Vérifier les messages du noyau (utile pour dépanner les problèmes matériels) :
 
 <div class="clroot">dmesg</div>
 
-Listing loaded kernel modules.
+Lister les modules du noyau chargés :
 
 <div class="clroot">lsmod</div>
 
-Loading a kernel module.
+Chargement d'un module du noyau :
 
-<div class="clroot">modprobe [modulename]</div>
+<div class="clroot">modprobe [nommodule]</div>
 
-Unloading a kernel module.
+Déchargement d'un module du noyau :
 
-<div class="clroot">rmmod [modulename]</div>
+<div class="clroot">rmmod [nommodule]</div>
 
-### 8.2.8 Hardware Information
+### 8.2.8 Informations sur le matériel
 
-The command hwinfo can provide you with information about almost any hardware, some examples:
+La commande hwinfo peut vous fournir des informations sur presque tout matériel, quelques exemples :
 
 <div class="clroot">hwinfo --short --wlan</div>
 <div class="clroot">hwinfo --short --gfxcard</div>
 
-List PCI devices:
+Lister les périphériques PCI :
 
 <div class="clroot">lspci</div>
 
-List USB devices:
+Lister les périphériques USB :
 
 <div class="cl">lsusb</div>
 
-## 8.3 Editing Text Files
+## 8.3 Édition des fichiers texte
 
-Editing configuration files or other text files can be done like this using the vim editor, which is installed by default.
+L'édition de fichiers de configuration ou d'autres fichiers texte peut se faire de la même manière avec l'éditeur vim, qui est installé par défaut.
 
-Open a file with *vim /path/to/file*. Example:
+Ouvrez un fichier avec *vim /path/to/file*. Exemple :
 
 <div class="clroot">vim /etc/sysconfig/yast2</div><p></p>
 
-{% include note.html note="Root permissions are used in the example because *yast2* is a system configuration file - this is not generally required to edit files with vim." %}
+{% include note.html note="Les permissions root sont utilisées dans cet exemple parce que *yast2* est un fichier de configuration système - ce n'est généralement pas nécessaire pour éditer des fichiers avec vim." %}
 
-Press **i** to enter insert mode (you will see "-- INSERT --" at the bottom). Now you can edit the text in the file. When you're done editing press **Esc** to leave insert mode and return to command mode. Now type **:x** which is the command for exit and save. To quit without saving any changes use **:q!**.
+Appuyez sur **i** pour entrer en mode insertion (vous verrez "-- -- INSERT --" en bas de l'écran). Vous pouvez maintenant éditer le texte dans le fichier. Lorsque vous avez terminé l'édition, appuyez sur **Esc** pour quitter le mode insertion et revenir au mode commande. Tapez maintenant **:x** qui est la commande pour quitter et sauvegarder. Pour quitter sans sauvegarder les modifications, utilisez **:q!**.
 
-Vim is quite advanced, you might consider installing a simpler text based editor, e.g. try *nano*.
+Vim est assez avancé, vous pouvez envisager d'installer un éditeur de texte plus simple, par exemple essayez *nano*.
 
-## 8.4 Further reading
+## 8.4 Lectures complémentaires
 
-If you want to learn more about using the terminal there are many resources available on the internet, here are a couple of links.
+Si vous voulez en savoir plus sur l'utilisation du terminal, il existe de nombreuses ressources disponibles sur Internet, voici quelques liens.
 
 [http://linuxcommand.org/](http://linuxcommand.org/)
 

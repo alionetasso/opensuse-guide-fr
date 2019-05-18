@@ -1,65 +1,67 @@
 ---
 layout: default
-title: 7. Segurança e root - segurança básica e trabalhando como o usuário root
-permalink: seguranca
+title: 7. Sécurité et root - sécurité de base et travailler en tant qu'utilisateur root
+permalink: securite
 ---
 
-# 7. Segurança e root
+# 7. Sécurité et root
 
-O openSUSE (e o GNU/Linux em geral) é um sistema operacional bastante seguro. Mas ao usar qualquer computador conectado à Internet, você deve sempre ser cuidadoso.
+openSUSE et GNU/Linux en général est un système d'exploitation très sécurisé, mais lorsque vous utilisez n'importe quel ordinateur sur Internet, vous devez toujours être prudent.
 
-## 7.1 O usuário root
+## 7.1 L'utilisateur root
 
-Um dos motivos pelos quais o GNU/Linux é tão seguro é que normalmente você não usa o sistema com permissões de administrador — apenas o usuário *root* tem permissões de administrador completas.
+L'une des raisons pour lesquelles GNU/Linux est très sûr, c'est que vous ne travaillez normalement pas avec les permissions administrateur - seul l'utilisateur *root* (ou *super utilisateur*) a les permissions administratives complètes.
 
-A senha do usuário *root* será perguntada a você sempre que for instalar pacotes ou executar outras tarefas administrativas fora da sua pasta pessoal (/home/seunomedeusuario/). A menos que você tenha desmarcado aquela opção durante a instalação, a senha do usuário *root* é igual à senha do seu usuário comum.
+Le mot de passe *root* vous sera demandé lors de l'installation de paquets ou d'autres tâches administratives en dehors de votre répertoire /home/. A moins que vous n'ayez décoché la case pendant l'installation, l'utilisateur *root* a le même mot de passe que votre utilisateur normal.
 
-{% include note.html note="Apenas trabalhe como *root* quando for absolutamente necessário." %}
+{% include note.html note="Ne travaillez en tant que *root* que lorsque c'est nécessaire." %}
 
-### 7.1.1 Gerenciador de arquivos modo root
+### 7.1.1 Gestionnaire de fichiers super utilisateur
 
-Para trabalhar graficamente com arquivos do sistema que requerem permissões de administrador, você pode iniciar o gerenciador de arquivos Dolphin em modo *root*.
+Pour travailler graphiquement avec les fichiers système qui nécessitent des permissions *root*, vous pouvez lancer le gestionnaire de fichiers Dolphin en mode *super utilisateur*.
 
 {% include screenshot.html image="super-user-dolphin" %}
 
-### 7.1.2 Trabalhando como usuário root no terminal
+### 7.1.2 Travailler en tant qu'utilisateur root dans le terminal
 
-O comando a seguir é usado para alternar para o usuário *root* em um terminal:
+La commande suivante est utilisée pour passer à l'utilisateur *root* dans un terminal :
 
 <div class="cl">su -</div><p></p>
 
-{% include tip.html tip="Nada aparecerá na tela enquanto você digita a senha. Isso é intencional." %}
+{% include tip.html tip="Rien n'apparaîtra à l'écran pendant que vous tapez votre mot de passe. C'est le but recherché." %}
 
-Para parar de trabalhar como *root*, execute o seguinte comando:
+Pour arrêter de travailler en tant que root, entrez la commande suivante :
 
 <div class="clroot">exit</div>
 
-Para executar apenas um único comando como *root*, você pode usar:
+Pour exécuter une seule commande en tant que root, vous pouvez utiliser :
 
 <div class="cl">su -c "[command]"</div>
 
-Você pode ler mais sobre como usar o terminal no próximo capítulo.
+Pour en savoir plus sur l'utilisation du terminal, reportez-vous au chapitre suivant.
 
-## 7.2 Atualizações de segurança
+## 7.2 Mises à jour de sécurité
 
-Quando houver novas atualizações disponíveis, você será notificado pelo miniaplicativo de atualização, que fica na área de notificação:
+Lorsque de nouvelles mises à jour sont disponibles, vous serez averti par l'applet de mise à jour qui s'exécute dans la zone de la barre d'état système :
 
 {% include screenshot.html image="pk-updater" %}
 
-### 7.2.1 Instalando atualizações pelo terminal
+La mise à jour peut se faire graphiquement en cliquant sur l'applet de mise à jour dans la barre d'état.
 
-Para instalar apenas atualizações oficiais de segurança e correções de falhas, execute:
+### 7.2.1 Installation des mises à jour dans le terminal
+
+Pour installer les correctifs de sécurité officiels et les correctifs de bogues uniquement, exécutez :
 
 <div class="clroot">zypper patch</div>
 
-Para instalar atualizações oficiais e também atualizações de repositórios de terceiros, execute:
+Pour installer les correctifs officiels ainsi que les mises à jour des dépôts tiers, exécutez :
 
 <div class="clroot">zypper update</div>
 
-## 7.3 Firewall
+## 7.3 Pare-feu
 
-A instalação padrão do openSUSE inclui um *firewall* ('firewalld'). Por padrão, ele permite todas as conexões de saída e bloqueia qualquer conexão de entrada. Portanto, você só precisará mudar a configuração se desejar executar servidores. O *firewall* pode ser configurado pelo YaST, leia sobre o YaST em um capítulo mais adiante.
+openSUSE est livré avec un pare-feu inclus dans l'installation par défaut ('firewalld'). Par défaut, il autorise tout le trafic sortant et bloque tout le trafic entrant, donc vous n'aurez besoin de changer la configuration que si vous voulez exécuter certains serveurs réseau. Le pare-feu est configurable dans YaST, lisez à propos de YaST dans un chapitre ultérieur.
 
-## 7.4 Vírus e spyware
+## 7.4 Vírus et spyware
 
-Não há necessidade de rodar um antivírus ou varrer o sistema em busca de *spyware*. *Malwares* que se espalham pela Internet e afetam usuários normais de computadores domésticos praticamente não existem para GNU/Linux. Apenas se certifique de não instalar e executar *softwares* ou *scripts* de desconhecidos e estará seguro.
+Il n'est pas nécessaire d'exécuter un antivirus ou de rechercher des logiciels espions. La propagation de logiciels malveillants via Internet et infectant les systèmes de bureau des utilisateurs à domicile normaux est pratiquement inexistante pour GNU/Linux. Assurez-vous simplement que vous n'installez et n'exécutez pas vous-même des logiciels ou des scripts provenant de sources non fiables, et vous serez en sécurité.

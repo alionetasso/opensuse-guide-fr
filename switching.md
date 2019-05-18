@@ -12,8 +12,8 @@ Migrer vers un nouveau système d'exploitation très différent demande des effo
 
 Il y a de nombreuses raisons pour lesquelles des millions de personnes aiment utiliser GNU/Linux - des raisons de nature technique, financière, éthique ou philosophique, selon le point de vue de chacun.  Voici une liste des raisons les plus courantes pour choisir GNU/Linux :
 
-- **Sécurité :** Il n'y a pratiquement pas de virus pour Linux, ni de *spyware* ou autres menaces.
--** Maintenance :** Oubliez les soucis liés à l'analyse des fichiers pour détecter les virus, défragmenter le disque, nettoyer le registre, redémarrer l'ordinateur, etc .
+- **Sécurité :** Il n'y a pratiquement pas de virus pour Linux, ni de *spyware* ou autres menaces.  
+- ** Maintenance :** Oubliez les soucis liés à l'analyse des fichiers pour détecter les virus, défragmenter le disque, nettoyer le registre, redémarrer l'ordinateur, etc .
 - **Stabilité :** GNU/Linux est très stable. Les applications peuvent planter individuellement, mais le système d'exploitation lui-même plante très rarement.
 - **Logiciel libre/open source :** Vous pouvez exécuter le logiciel comme vous le souhaitez, étudier le code source, le modifier, le partager. Aucun contrat de licence d'utilisateur final avec clauses en petits caractères ;
 - **Standards ouverts:** GNU/Linux et les applications développées pour lui prennent généralement en charge les standards ouverts, permettant une interopérabilité transparente avec d'autres plates-formes et évitant la [dépendance aux fournisseurs](https://fr.wikipedia.org/wiki/Enfermement_propriétaire)
@@ -26,7 +26,7 @@ Il y a de nombreuses raisons pour lesquelles des millions de personnes aiment ut
 - **Essayez quelque chose de nouveau** : le simple fait d'essayer quelque chose de nouveau et de différent peut être, en soi, une motivation pour de nombreuses personnes. et....
 - Et... c'est très amusant !
 
- ![hardware](images/pics/hardware.gif)
+{% include pic.html image="hardware.gif" %}
 
 ## 2.2 Les défis de la migration
 
@@ -34,8 +34,8 @@ Bien qu'il y ait de nombreux avantages à utiliser GNU/Linux, il peut aussi êtr
 
 - **Courbe d'apprentissage :** Vous devrez apprendre à utiliser un nouveau système d'exploitation quelque peu différent, ainsi que de nouvelles applications - et vous devrez *désapprendre* une grande partie de ce que vous avez appris en utilisant d'autres systèmes d'exploitation ;
 - **Manque d'applications et de jeux :** Des applications qui vous sont familières, généralement Microsoft Office, Adobe Photoshop, et la plupart des grands jeux populaires peuvent vous manquer. Le *dual-boot*, *WINE* (logiciel permettant de faire fonctionner sur Linux certaines applications prévues pour Windows) et les [machines virtuelles](https://fr.wikipedia.org/wiki/Machine_virtuelle) offrent des solutions partielles à ce problème. Et, bien sûr, il existe des alternatives de haute qualité à GNU/Linux ;
-- **Manque de support pour certains matériels :** la plupart des périphériques sont supportés, mais pas tous - avant d'acheter de nouveaux composants matériels, il est recommandé de faire un peu de recherche - plus les composants sont récents et moins répandus, plus le risque de problèmes est grand.
-- ** Plus grande difficulté à obtenir de l'aide :** souvent les amis, la famille et les collègues ne seront pas en mesure de vous aider si vous avez des problèmes avec GNU/Linux, donc vous devrez peut-être demander de l'aide *en ligne*, ce qui est souvent moins efficace que de demander de l'aide en direct à quelqu'un que vous connaissez.
+- **Manque de support pour certains matériels :** la plupart des périphériques sont supportés, mais pas tous - avant d'acheter de nouveaux composants matériels, il est recommandé de faire un peu de recherche - plus les composants sont récents et moins répandus, plus le risque de problèmes est grand.  
+- **Plus grande difficulté à obtenir de l'aide :** souvent les amis, la famille et les collègues ne seront pas en mesure de vous aider si vous avez des problèmes avec GNU/Linux, donc vous devrez peut-être demander de l'aide *en ligne*, ce qui est souvent moins efficace que de demander de l'aide en direct à quelqu'un que vous connaissez.
 
 ## 2.3 Stratégie
 

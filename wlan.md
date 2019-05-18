@@ -8,7 +8,7 @@ permalink: wlan
 
 Most of the time wifi will just work out of the box. In these cases you'll be able to configure your wireless card using the NetworkManagement widget which you should find running in your system tray.
 
-{% include screenshot.html image="plasmoid-network-management" %}
+{% include screenshot.html image="pnm" %}
 
 ## 16.1 Find Out Which Chipset
 

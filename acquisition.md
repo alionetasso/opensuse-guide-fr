@@ -32,11 +32,12 @@ Voir par exemple :
 Il y a des sociétés qui vendent openSUSE dans une boîte (en allemand) avec support, et des goodies supplémentaires inclus, voir :
 
 [http://en.opensuse.org/Buy_openSUSE](http://en.opensuse.org/Buy_openSUSE)  
-![box](images/pics/box.png)
+
+{% include pic.html image="box.png" %}
 
 
 ## 3.4 Le code source
 
 Vous pouvez trouver le code source de tous les paquets gratuits d'openSUSE ici, sous forme de fichiers RPM source :  
 
-[http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/suse/src/](http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/suse/src/)
+[http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/src/](http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/src/)

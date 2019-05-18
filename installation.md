@@ -30,6 +30,7 @@ L'ISO peut également être placé sur une clé USB, voir les instructions à ce
 - openSUSE ou autre Linux: [http://en.opensuse.org/SDB:Live_USB_stick](http://en.opensuse.org/SDB:Live_USB_stick)
 - Microsoft Windows: [https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows)
 - Mac OS X: [https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x)
+- La documentation française propose des méthodes pour les trois systèmes : [https://fr.opensuse.org/SDB:Live_USB_stick](https://fr.opensuse.org/SDB:Live_USB_stick)
 
 ### 4.1.3 Configurer le BIOS
 

@@ -53,7 +53,7 @@ Alternatives à considérer pour les vidéos : SMPlayer, mpv, Kaffeine
 
 GIMP (GNU Image Manipulation Program) est une application d'édition d'images très puissante.
 
-{% include screenshot.html image="gimp" %}<p></p>
+{% include screenshot.html image="gimp" %}
 
 {% include tip.html tip='GIMP peut se présenter sous la forme d'une fenêtre unique, cliquez simplement sur "Fenêtres" dans le menu et cochez l'option "Mode Fenêtre unique".' %}
 
@@ -65,4 +65,4 @@ Kontact est une véritable suite PIM (gestion des informations personnelles), co
 
 {% include screenshot.html image="kontact" %}
 
-Alternatives à considérer : Mozilla Thunderbird, Trojita (apenas IMAP), Claws Mail
+Alternatives à considérer : Mozilla Thunderbird, Trojita (IMAP seulement), Claws Mail

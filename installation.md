@@ -97,7 +97,7 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
 		<td valign="top">Différentes interfaces graphiques (environnements de bureau) existent pour GNU/Linux. L'espace de travail Plasma de KDE est présélectionné et est préféré par environ 70% des utilisateurs d'openSUSE et est également l'objet de ce guide. Mais vous pouvez aussi choisir le bureau GNOME ou l'installation d'un serveur en mode texte.<br /><br />
-		Sous "Personnalisé", vous pouvez sélectionner manuellement différents motifs, y compris les environnements de bureau légers Xfce et LXDE..
+		Sous "Personnalisé", vous pouvez sélectionner manuellement différents motifs, y compris les environnements de bureau légers Xfce et LXDE.</td>
 	</tr>
 </table><br />
 

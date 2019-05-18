@@ -17,7 +17,7 @@ Amusez-vous bien ! (*Have a lot of fun!*)
 
 ## 1.1 À propos d'openSUSE Leap
 
-openSUSE Leap est un système d'exploitation pour PC basé sur GNU et Linux. C'est une alternative gratuite et gratuite à Microsoft Windows avec de nombreux avantages. openSUSE Leap convient aux ordinateurs portables, aux ordinateurs de bureau, aux netbooks, aux serveurs et aux ordinateurs de centre multimédia à la maison ou dans les petits bureaux. Vous pouvez également exécuter openSUSE sur votre ordinateur [ARM](https://en.opensuse.org/Portal:ARM) ou [PPC](https://en.opensuse.org/Portal:PowerPC), mais cela n'est pas abordé par ce guide.
+openSUSE Leap est un système d'exploitation pour PC basé sur GNU et Linux. C'est une alternative libre et gratuite à Microsoft Windows avec de nombreux avantages. openSUSE Leap convient aux ordinateurs portables, aux ordinateurs de bureau, aux netbooks, aux serveurs et aux ordinateurs utilisé comme centre multimédia à la maison ou au travail. Vous pouvez également exécuter openSUSE sur votre ordinateur [ARM](https://fr.opensuse.org/Portal:ARM) ou [PPC](https://en.opensuse.org/Portal:PowerPC), mais cela n'est pas abordé par ce guide.
 
 openSUSE Leap est l'une des distributions GNU/Linux les plus utilisées et l'une des plus anciennes qui existent. openSUSE Leap hérite du noyau de SUSE Linux Enterprise et prend en charge le matériel, les environnements de bureau et les applications graphiques mises à jour. Chaque année, un *service pack* est publié et tous les 3 ou 4 ans, il y a une mise à jour majeure dans laquelle le système central est également mis à jour.
 
@@ -27,7 +27,7 @@ openSUSE Leap est développé de manière ouverte et transparente par une commun
 
 ## 1.2 Traductions ou versions modifiées
 
-Afin de faciliter la création de versions modifiées ou de traductions, le code source de ce guide et des versions connues à ce jour est à la disposition de toute personne susceptible d'être intéressée selon les termes de la [GNU Free Documentation License](licence) sur GitHub ou Gitlab :
+Afin de faciliter la création de versions modifiées ou de traductions, le code source de ce guide et des versions connues à ce jour est à la disposition de toute personne susceptible d'être intéressée selon les termes de la [GNU Free Documentation License](licence) :
 
 - [Code source pour la traduction en français par l'équipe alionet](https://github.com/CChalu/opensuse-guide-fr)  
 - [Code source du guide original en anglais par Martin Schlander](https://github.com/cb400f/opensuse-guide.org/)  

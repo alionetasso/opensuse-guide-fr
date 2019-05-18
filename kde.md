@@ -21,14 +21,13 @@ Cependant, certaines choses diffèrent considérablement de la plupart des autre
 
 <center><a href="images/screenshots/desktop.png" rel="thumbnail"><img src="images/screenshots/desktopb.png" alt="desktop" class="pic" /></a></center><br />
 
-### 5.1.1 O Le menu lanceur d'applications
+### 5.1.1 Le menu lanceur d'applications
 
 Le menu de lancement s'ouvre en cliquant sur l'icône dans le coin inférieur gauche de l'écran ou en appuyant sur la touche Super ou Alt+F1. En bas, il y a un champ de recherche et en haut à gauche, vos applications préférées. Vous pouvez ajouter et supprimer des applications de vos favoris en cliquant dessus avec le bouton droit de la souris.
 
 <center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center><br />
 
 Vous pouvez modifier des entrées de menu ou en ajouter de nouvelles comme ceci :
-Cliquez avec le bouton droit de la souris sur l'icône du menu => Modifier les applications....
 
 <div class="path">Cliquez avec le bouton droit de la souris sur l'icône du menu  =&gt; Modifier les applications...</div>
 
@@ -74,7 +73,7 @@ Vous pouvez également trouver Configurer le bureau (paramètres système) comme
 </table>
 </div><br />
 
-## 5.4 Monitor do sistema / Tabela de processos
+## 5.4 Moniteur système / Tableau des processus
 
 Naturellement, KDE dispose également d'un outil pour surveiller les processus en cours d'exécution et l'utilisation des ressources du système. Appuyez simplement sur *Ctrl+Esc* pour afficher la fenêtre d'activité système.
 

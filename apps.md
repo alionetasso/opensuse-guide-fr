@@ -6,7 +6,7 @@ permalink: applications
 
 # 6. Applications pour les tâches courantes
 
-Voici une liste d'applications utilisées pour effectuer des tâches courantes, elles sont toutes installées par défaut et sont toutes de haute qualité, mais vous pouvez naturellement les remplacer par des alternatives si vous le souhaitez.
+Voici une liste d'applications utilisées pour effectuer des tâches courantes, elles sont toutes installées par défaut avec l'environnement KDE et sont toutes de haute qualité, mais vous pouvez naturellement les remplacer par des alternatives si vous le souhaitez.
 
 <div class="tip">
 <table>
@@ -29,40 +29,40 @@ Mozilla Firefox est le navigateur Web par défaut. C'est l'un des principaux nav
 
 {% include screenshot.html image="firefox" %}
 
-Alternativas a considerar: Opera, Chromium, Falkon, Konqueror
+Alternatives à considérer : Opéra, Chromium, Falkon, Konqueror
 
-## 6.2 Produtividade no escritório com o LibreOffice
+## 6.2 Productivité bureautique avec LibreOffice
 
-LibreOffice é uma suíte de escritório completa com processador de textos, planilhas eletrônicas, apresentações multimídias, editoração eletrônica e mais. É bem compatível com o Microsoft Office.
+LibreOffice est une suite bureautique complète avec traitement de texte, feuilles de calcul, présentation, dessin et plus encore. Elle est très compatible avec la suite bureautique Microsoft Office.
 
 {% include screenshot.html image="libreoffice" %}
 
-Alternativas a considerar: Calligra, Abiword, Gnumeric
+Alternatives à considérer : Calligra, Abiword, Gnumeric
 
-## 6.3 Reproduza multimídia com VLC ou Dragon
+## 6.3 Lecture multimédia avec VLC ou Dragon
 
-A instalação padrão inclui o VLC, capaz de reproduzir músicas e vídeos, assim como o reprodutor de vídeo Dragon.
+L'installation par défaut avec l'environnement KDE inclut VLC qui lit la musique et la vidéo ainsi que le lecteur vidéo Dragon.
 
 {% include screenshot.html image="vlc" %}
 
-Alternativas a considerar para músicas: Amarok, Elisa, Clementine, JuK, Qmmp
+Alternatives à considérer pour la musique : Amarok, Elisa, Clementine, JuK, Qmmp
 
-Alternativas a considerar para vídeos: SMPlayer, mpv, Kaffeine
+Alternatives à considérer pour les vidéos : SMPlayer, mpv, Kaffeine
 
-## 6.4 Edição de imagens com o GIMP
+## 6.4 Édition d'images avec GIMP
 
-O GIMP (GNU Image Manipulation Program) é um aplicativo editor de imagens muito poderoso.
+GIMP (GNU Image Manipulation Program) est une application d'édition d'images très puissante.
 
 {% include screenshot.html image="gimp" %}<p></p>
 
-{% include tip.html tip='O GIMP pode ser exibido em uma janela única, se assim você preferir: simplesmente clique no menu "Janelas" e selecione a opção "Modo de janela única".' %}
+{% include tip.html tip='GIMP peut se présenter sous la forme d'une fenêtre unique, cliquez simplement sur "Fenêtres" dans le menu et cochez l'option "Mode Fenêtre unique".' %}
 
-Alternativas a considerar: Gwenview (apenas edições bem básicas), Krita (principalmente um aplicativo de desenho)
+Alternatives à considérer : Gwenview (édition très basique seulement), Krita (principalement une application de dessin/peinture)
 
-## 6.5 E-mail, calendário, notícias e mais com o Kontact
+## 6.5 Courriel, Calendrier, Flux d'actualités et plus encore avec Kontact
 
-O Kontact é uma suíte PIM (*personal information management* — gerenciamento de informações pessoais) bem desenvolvida, combinando *e-mail*, calendário, notícias, contatos e mais em um único lugar. Os componentes do Kontact também podem ser usados como aplicativos independentes (KMail, KOrganizer, Akregator, etc.).
+Kontact est une véritable suite PIM (gestion des informations personnelles), combinant e-mail, calendrier, flux d'informations, carnet d'adresses et plus encore en un seul endroit. Chacun des composants Kontact (KMail, KOrganizer, Akregator, etc.) peut également être utilisé comme application autonome.
 
 {% include screenshot.html image="kontact" %}
 
-Alternativas a considerar: Mozilla Thunderbird, Trojita (apenas IMAP), Claws Mail
+Alternatives à considérer : Mozilla Thunderbird, Trojita (apenas IMAP), Claws Mail

@@ -19,7 +19,7 @@
     link: seguranca
   - title: 8. Terminal
     link: command
-  - title: 9. Admin. Settings (YaST)
+  - title: 9. Paramètres Admin. (YaST)
     link: yast
   - title: 10. Installing Software
     link: installpackage

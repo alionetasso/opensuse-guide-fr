@@ -6,13 +6,13 @@ permalink: yast
 
 # 9. Paramètres administrateur (YaST)
 
-YaST (Yet another Setup Tool) est l'outil central de l'administration du système. Vous pourrez trouver YaST dans le menu principal, dans la catégorie Système (ou en faisant une recherche dans le shell si vous utilisez GNOME).
+YaST (*Y*et *a*nother *S*etup *T*ool : encore un autre outil de configuration) est l'outil central de l'administration du système. Vous pourrez trouver YaST dans le menu principal, dans la catégorie Système (ou en faisant une recherche dans le shell si vous utilisez GNOME).
 
 {% include screenshot.html image="yast-controlcenter" %}
 
 **Modules YaST par défaut**
 
-Depui YaST, vous pouvez effectuer à peu près n'importe quelle tâche d'administration du système à l'aide de module graphique puissant. Par exemple :
+Depuis YaST, vous pouvez effectuer à peu près n'importe quelle tâche d'administration du système à l'aide de modules graphiques puissants. Par exemple :
 
 - Installer et supprimer des logiciels (voir chapitre suivant)
 - Configurer votre imprimante

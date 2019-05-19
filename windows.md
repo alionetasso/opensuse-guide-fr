@@ -26,7 +26,7 @@ No configuration is needed to access files shared by others. Simply:
 
 <div class="path">Launch the Dolphin file manager => Click the location bar or press Ctrl+L for an editable location bar => Enter 'smb://[ip-address]'</div><p></p>
 
-{% include screenshot.html image="smb-dolphin" %}
+{% include screenshot.html image="smb-dolph" %}
 
 If you don't know the IP-address of the share you want to access, you can *browse* the local network by simply entering *smb:/* in the Dolphin location bar. However, this will only work if you configure or (temporarily) disable the firewall first. More instructions coming soon...
 

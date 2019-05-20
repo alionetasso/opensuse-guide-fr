@@ -13,7 +13,7 @@ Migrer vers un nouveau système d'exploitation très différent demande des effo
 Il y a de nombreuses raisons pour lesquelles des millions de personnes aiment utiliser GNU/Linux - des raisons de nature technique, financière, éthique ou philosophique, selon le point de vue de chacun.  Voici une liste des raisons les plus courantes pour choisir GNU/Linux :
 
 - **Sécurité :** Il n'y a pratiquement pas de virus pour Linux, ni de *spyware* ou autres menaces.  
-- ** Maintenance :** Oubliez les soucis liés à l'analyse des fichiers pour détecter les virus, défragmenter le disque, nettoyer le registre, redémarrer l'ordinateur, etc .
+- **Maintenance :** Oubliez les soucis liés à l'analyse des fichiers pour détecter les virus, défragmenter le disque, nettoyer le registre, redémarrer l'ordinateur, etc .
 - **Stabilité :** GNU/Linux est très stable. Les applications peuvent planter individuellement, mais le système d'exploitation lui-même plante très rarement.
 - **Logiciel libre/open source :** Vous pouvez exécuter le logiciel comme vous le souhaitez, étudier le code source, le modifier, le partager. Aucun contrat de licence d'utilisateur final avec clauses en petits caractères ;
 - **Standards ouverts:** GNU/Linux et les applications développées pour lui prennent généralement en charge les standards ouverts, permettant une interopérabilité transparente avec d'autres plates-formes et évitant la [dépendance aux fournisseurs](https://fr.wikipedia.org/wiki/Enfermement_propriétaire)

@@ -22,9 +22,9 @@
   - title: 9. Paramètres Admin. (YaST)
     link: yast
   - title: 10. Installation de logiciels
-    link: installpackage
+    link: installationpaquets
   - title: 11. Dépôts de logiciels
-    link: repositories
+    link: depots
 
 - title: Configuration
   pages:

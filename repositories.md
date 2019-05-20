@@ -1,101 +1,101 @@
 ---
 layout: default
-title: 11. Software Repositories - Adding and Managing Package Repositories
-permalink: repositories
+title: 11. Dépôts de logiciels - Ajout et gestion des dépôts de paquets
+permalink: depots
 ---
 
-# 11. Software Repositories
+# 11. Dépôts de logiciels
 
-As mentioned in the previous chapter, the package manager installs software by fetching packages from software repositories, therefore the software available for easy installation via the package manager depends on the configured repositories.
+Comme mentionné dans le chapitre précédent, le gestionnaire de paquets installe un logiciel en récupérant le paquet et ses dépendances dans les dépôts de logiciels, donc les logiciels disponibles pour une installation facile via le gestionnaire de paquets dépendent des dépôts configurés.
 
-A software repository is a collection of RPM packages (the openSUSE packaging format) and metadata for the available packages. Usually repositories are on online servers, but it can also be on a CD/DVD or on other media.
+Un dépôt logiciel est une collection de paquets RPM (le format d'empaquetage d'openSUSE) et de métadonnées pour les paquets disponibles. Habituellement, les dépôts se trouvent sur des serveurs en ligne, mais ils peuvent aussi se trouver sur un CD/DVD ou sur d'autres supports.
 
-## 11.1 Managing Repositories
+## 11.1 Gestion des dépôts
 
-Respositories can be added, removed and configured via YaST, in the module called Software Repositories.
+Les dépôts de logiciels peuvent être ajoutés, supprimés et configurés via YaST, dans le module Dépôts de logiciels.
 
 {% include screenshot.html image="yast-repos" %}
 
-### 11.1.1 Adding Repositories
+### 11.1.1 Ajout de dépôts
 
-The official repositories are pre-configured, but many unofficial repositories exist and can be added too.
+Les dépôts officiels sont préconfigurés, mais de nombreux dépôts non officiels existent et peuvent être ajoutés.
 
 {% capture repositories_obs %}
-Add repositories with care.
+Ajoutez les dépôts avec prudence.
 
-- Unofficial repositories might include experimental packages
-- Not all repositories are mutually compatible
-- The risk level of a repository can change over time
-- Too many repositories makes the package manager slower
+- Les dépôts non officiels peuvent inclure des paquets expérimentaux
+- Tous les dépôts ne sont pas compatibles entre eux
+- Le niveau de risque d'un dépôt peut changer avec le temps
+- Trop de dépôts ralentit le gestionnaire de paquets
 {% endcapture %}
 {% include note.html note=repositories_obs %}
 
-The easiest and safest way to add repositories is using the list of online community repositories in YaST. This provides you with a selection of popular and quite safe repositories to choose from:
+La façon la plus simple et la plus sûre d'ajouter des dépôts est d'utiliser la liste des dépôts communautaires en ligne de YaST. Vous disposez ainsi d'une sélection de dépôts populaires et assez sûrs :
 
-<div class="path">YaST => Software => Software Repositories => Click on "Add" => Select "Community Repositories" and click "Next"</div><p></p>
+<div class="path">YaST => Logiciels => Dépôts de logiciels => Cliquez sur "Ajouter" => Selectionner "Dépôts communautaires" et cliquez sur "Suivant"</div><p></p>
 
 {% include video.html video="repos114" screenshot="community-repos" size="1.2 MB" %}
 
-Note that the *openSUSE BuildService* is a service for the community to build and share packages. *openSUSE BuildService repositories are unofficial and unsupported*. Use at your own risk.
+Notez que *openSUSE BuildService* est un service permettant à la communauté de créer et de partager des paquets. *Les dépôts openSUSE BuildService ne sont pas officiels et ne sont pas pris en charge*. L'utilisation se fait à **vos propres risques**.
 
-### 11.1.2 Recommended Repositories
+### 11.1.2 Dépôts recommandés
 
-You should always have the four *official* repositories (which are configured out of the box).<br/>
+Vous devriez toujours avoir les quatre dépôts *officiels* (qui sont configurés prêts à l'emploi) :<br/>
 
 - **Main Repository (OSS)**
 - **Main Repository (NON-OSS)**
 - **Main Update Repository**
 - **Main Update Repository (NON-OSS)**
 
-Additionally I recommend adding the following *unofficial* repositories from the Community Repositories list, for having a good balance of software supply and stability for most users.
+De plus, je recommande d'ajouter les dépôts *non-officiels* suivants de la liste des dépôts communautaires, pour avoir un bon équilibre entre la disponibilité et la stabilité des logiciels pour la plupart des utilisateurs.
 
-- **Packman Repository**
+- **Dépôt Packman**
 
 {% capture repositories_tip %}
-Still missing a package?
+Il manque toujours un paquet ?
 
-You can search for packages/repositories on the openSUSE BuildService here:
+Vous pouvez rechercher des paquets/dépôts sur openSUSE BuildService ici :
 
 [http://software.opensuse.org/search](http://software.opensuse.org/search)
 
-This package search engine also includes the Packman repository:
+Ce moteur de recherche de paquets inclut également le dépôt Packman :
 
 [http://webpinstant.com](http://webpinstant.com)
 
-Remember to add unofficial repositories with care!
+N'oubliez pas d'ajouter des dépôts non officiels avec prudence !
 {% endcapture %}
 {% include tip.html tip=repositories_tip %}
 
-### 11.1.3 Vendor Change Updates
+### 11.1.3 Mises à jour des changements de fournisseur
 
-Updating installed packages from one repository to versions from a different repository with a different *vendor*, is a little bit complicated. Read about it here:
+Mettre à jour les paquets installés d'un dépôt vers des versions d'un autre dépôt avec un autre *fournisseur*, est un peu compliqué. Pour en savoir plus, cliquez ici :
 
-[http://en.opensuse.org/SDB:Vendor_change_update](http://en.opensuse.org/SDB:Vendor_change_update)
+[https://fr.opensuse.org/SDB:Mise_à_jour_avec_changement_de_fournisseur](https://fr.opensuse.org/SDB:Mise_à_jour_avec_changement_de_fournisseur)
 
-## 11.2 Repository Management in the Terminal
+## 11.2 Gestion des dépôts dans le terminal
 
-If you wish, you can manage your repositories via a terminal too.
+Si vous le souhaitez, vous pouvez également gérer vos dépôts via un terminal.
 
-Add a repository with auto-refresh enabled `zypper addrepo -f [URL] [Alias]`. Example:
+Ajout d'un dépôt avec auto-refresh activé `zypper addrepo -f[URL][Alias]`. Exemple :
 
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
 
-Disable a repository `zypper modifyrepo -d [URL|Alias]`. Example:
+Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
 <div class="clroot">zypper modifyrepo -d Packman</div>
 
-Remove a repository `zypper removerepo [URL|Alias]`. Example:
+Supprimer un dépôt `zypper removerepo [URL|Alias]`. Exemple:
 
 <div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_15.0/</div>
 
-List configured repositories, showing  details (priorities, URL, etc.):
+Lister les dépôts configurés, en affichant les détails (priorités, URL, etc.):
 
 <div class="cl">zypper repos -d</div>
 
-See `man zypper` for more.
+Voir `man zypper` pour plus d'informations.
 
 <div class="cl">man zypper</div>
 
-Or for help on indvidual commands use for example:
+Ou pour de l'aide sur les commandes individuelles, utilisez par exemple :
 
 <div class="cl">zypper addrepo --help</div>

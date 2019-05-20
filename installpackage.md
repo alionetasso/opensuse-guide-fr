@@ -1,105 +1,106 @@
 ---
 layout: default
-title: 10. Installing Software - Install Programs With the Package Manager
-permalink: installpackage
+title: 10. Installation de logiciels - Installer les programmes avec le gestionnaire de paquets
+permalink: installationpaquets
 ---
 
-# 10. Installing Software
+# 10. Installation d'un logiciel
 
-Software installation is generally incredibly easy on openSUSE. There's a package manager, which lets you install and remove packages very easily - it's comparable to the app stores found on many modern smart phones.
+L'installation d'un logiciel est généralement très facile sur openSUSE. Il y a un gestionnaire de paquets, qui vous permet d'installer et de supprimer des paquets très facilement - c'est comparable aux app stores que l'on trouve sur de nombreux smartphones modernes.
 
-## 10.1 Using the package manager
+## 10.1 Utilisation du gestionnaire de paquets
 
-Simply open YaST Software Management.
+Ouvrez simplement YaST Software Management.
 
 {% include video.html video="installpackage114" screenshot="sw-single" size="0.99 MB" %}
 
-Now search for the package you want, select it for installation and click Accept. The package manager will then fetch the RPM package from your configured software repositories - and install it including any dependencies. After installation is complete the application should appear in the launch menu (unless it's a command line program).
+Maintenant, recherchez le paquet que vous voulez, sélectionnez-le pour l'installation et cliquez sur Accepter. Le gestionnaire de paquets récupérera alors le paquet RPM à partir de vos dépôts de logiciels configurés - et l'installera, y compris toutes les dépendances. Une fois l'installation terminée, l'application devrait apparaître dans le menu de lancement (sauf s'il s'agit d'un programme en ligne de commande).
 
-{% include tip.html tip="The availability of software packages in the package manager depends on the configured _software repositories_. Read about software repositories in the next chapter." %}
 
-### 10.1.1 Using 1-click Installation
+{% include tip.html tip="La disponibilité des logiciels dans le gestionnaire de logiciels dépend des _dépôts de logiciels_ configurés. Pour en savoir plus sur les dépôts de logiciels, lisez le chapitre suivant." %}
 
-When browsing openSUSE related websites, you're likely to come across buttons such as this one:
+### 10.1.1 Utilisation de l'installation en 1-clic
+
+Lorsque vous naviguez sur des sites Web liés à openSUSE, il est probable que vous rencontriez des boutons tels que celui-ci :
 
 <center><img class="pic" alt="oneclick" src="{{ site.baseurl | append: '/images/pics/oneclick.png' | replace: '//', '/' }}" /></center>
 
-1-click installation (also referred to as "Direct Install") simply automates the process of adding one or more software repositories to the package manager and installing one or more RPM packages. Therefore 1-click installation _should be used with the same care_ as manually adding unofficial repositories (see the next chapter for more on software repositories).
+L'installation en 1 clic (également appelée "Installation directe") automatise simplement le processus d'ajout d'un ou plusieurs dépôts de logiciels au gestionnaire de paquets et l'installation d'un ou plusieurs paquets RPM. Par conséquent, l'installation en 1 clic _devrait être utilisée avec le même soin_ que l'ajout manuel de dépôts non officiels (voir le chapitre suivant pour en savoir plus sur les dépôts de logiciels).
 
-## 10.2 Other Installation Methods
+## 10.2 Autres méthodes d'installation
 
-Most users will find everything they need and more in the package manager - especially if a few additional software repositories are added (see next chapter). But not all software is packaged and provided via repositories, and non-free software usually can't be legally redistributed via the package manager because of license restrictions.
+La plupart des utilisateurs trouveront tout ce dont ils ont besoin et plus encore dans le gestionnaire de paquets - surtout si quelques dépôts de logiciels supplémentaires sont ajoutés (voir chapitre suivant). Mais tous les logiciels ne sont pas empaquetés et fournis via des dépôts, et les logiciels non-libres ne peuvent généralement pas être redistribués légalement via le gestionnaire de paquets en raison des restrictions de licence.
 
-In these cases you'll need to go to the developer/vendor website and download and install the software manually - but **always** look for an openSUSE package in repositories first - and make sure you only download and install software from trusted sources.
+Dans ces cas, vous devrez aller sur le site Web du développeur/fournisseur et télécharger et installer le logiciel manuellement - mais **toujours** rechercher d'abord un paquet openSUSE dans les dépôts - et vous assurer que vous téléchargez et installez uniquement des logiciels de **sources fiables**.
 
-### 10.2.1 RPM file
+### 10.2.1 fichier RPM
 
-With a bit of luck the developer/vendor website will have an RPM file for openSUSE. To install a single, downloaded RPM file:
+Avec un peu de chance, le site web du développeur/vendeur aura un fichier RPM pour openSUSE. Pour installer un seul fichier RPM téléchargé :
 
-<div class="path">Open the Dolphin file manager =&gt; Navigate to the RPM file =&gt; Right Click it => Open With... => Install/Remove Software</div><p></p>
+<div class="path">Ouvrez le gestionnaire de fichiers Dolphin =&gt; Naviguer vers le fichier RPM =&gt; Cliquez avec le bouton droit de la souris => Ouvrir avec... => Installer/Supprimer des logiciels</div><p></p>
 
-{% include note.html note="Only install RPM files that are built specifically for (your version of) openSUSE." %}
+{% include note.html note="N'installez que les fichiers RPM qui sont conçus spécifiquement pour (votre version de) openSUSE." %}
 
-### 10.2.2 Tarball
+### 10.2.2 Archives Tarball
 
-If the website doesn't have an RPM for openSUSE, it will most likely have a so-called _tarball_. Tarballs (\*.tar.gz, \*.tar.bz2) are simply compressed archives similar to ZIP and RAR files. To uncompress a tarball:
+Si le site Web n'a pas de RPM pour openSUSE, il aura très probablement un fichier archive _tarball_. Les archives Tarballs (\*.tar.gz, \*.tar.bz2) sont simplement des archives compressées similaires aux fichiers ZIP et RAR. Pour décompresser une archive :
 
-<div class="path">Open the Dolphin file manager =&gt; Navigate to the tarball =&gt; Right click =&gt; Extract Archive</div>
+<div class="path">Ouvrez le gestionnaire de fichiers Dolphin =&gt; Naviguer vers l'archive =&gt; Cliquez avec le bouton droit de la souris =&gt; Extraire l'archive</div>
 
-The tarball might contain binaries that just need to be ran, or it might contain source code which needs to be compiled to run on your system - this can be very complicated, and requires you to first install various developer tools. There's no one standard way to install tarball content, but instructions should always be included in the tarball in files called INSTALL, README or similar - or you should be able to find installation instructions on the website where you downloaded the tarball.
+L'archive peut contenir des binaires qu'il suffit d'exécuter, ou il peut contenir du code source qui doit être compilé pour fonctionner sur votre système - cela peut être très compliqué, et vous devez d'abord installer divers outils de développement. Il n'y a pas de méthode standard pour installer le contenu de l'archive, mais les instructions doivent toujours être incluses dans l'archive dans des fichiers appelés INSTALL, README ou similaires - ou vous devriez pouvoir trouver les instructions d'installation sur le site Web où vous avez téléchargé l'archive.
 
-## 10.3 Package Management in the Terminal
+## 10.3 Gestion des paquets dans le terminal
 
-If you wish, you can install and remove packages via a terminal too.
+Si vous le souhaitez, vous pouvez également installer et supprimer des paquets via un terminal.
 
-To search for a package run _zypper search [search term]_. Example:
+Pour rechercher un paquet, utiliser : _zypper search [search term]_. Exemple:
 
 <div class="cl">zypper search thunder</div>
 
-To install a package run _zypper install [package name]_. Example:
+Pour installer un paquet, utiliser :  _zypper install [package name]_. Exemple:
 
 <div class="clroot">zypper install MozillaThunderbird</div>
 
-To remove a package run _zypper remove [package name]_. Example:
+Pour supprimer un paquet, utiliser : _zypper remove [package name]_. Example:
 
 <div class="clroot">zypper remove PackageKit</div>
 
-See _man zypper_ for more.
+Voir _man zypper_ pour plus d'informations.
 
 <div class="cl">man zypper</div>
 
-Or for help on indvidual commands use for example:
+Ou pour de l'aide sur les commandes individuelles, utilisez par exemple :
 
 <div class="cl">zypper install --help</div>
 
-### 10.3.1 Using 1-click in the Terminal
+### 10.3.1 Utilisation de 1-click dans le terminal
 
-You can actually use 1-click installation in the terminal too, the syntax is _OCICLI [URL]_, Example:
+Vous pouvez aussi utiliser l'installation en 1 clic dans le terminal, la syntaxe est _OCICLI[URL]_, Exemple :
 
 <div class="clroot">OCICLI http://opensuse-community.org/nvidia.ymp</div>
 
-### 10.3.2 Manually downloaded RPM file
+### 10.3.2 Fichier RPM téléchargé manuellement
 
-To install a manually downloaded RPM file, run:
+Pour installer un fichier RPM téléchargé manuellement, utilisez :
 
-<div class="clroot">zypper install /path/to/manually/downloaded.rpm</div>
+<div class="clroot">zypper install /chemin/vers/lefichier_manuellement_téléchargé.rpm</div>
 
-### 10.3.3 RPM Queries
+### 10.3.3 Informations sur les paquets RPM
 
-You can get a lot of useful information about installed packages from the RPM database very easily.
+Vous pouvez obtenir très facilement plusieurs informations utiles sur les paquets installés à partir de la base de données RPM.
 
-Check which version is installed. Example:
+Vérifiez quelle version est installée. Exemple :
 
 <div class="cl">rpm -q MozillaFirefox</div>
 
-List the files which are installed by a package, and where. Example:
+Listez les fichiers qui sont installés par un paquet, et où ils sont. Exemple :
 
 <div class="cl">rpm -ql amarok</div>
 
-Find out which package a certain file belongs to. Example:
+Découvrez à quel paquet appartient un certain fichier. Exemple :
 
 <div class="cl">rpm -qf /usr/bin/firefox</div>
 
-Get various information about a package, including changelog. Example:
+Obtenez diverses informations sur un paquet, y compris le journal des modifications. Exemple :
 
 <div class="cl">rpm -qi --changelog MozillaFirefox</div>

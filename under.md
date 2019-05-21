@@ -45,14 +45,18 @@ Chez MS Windows, ce même chemin ressemblerait à cela :
 **C:\\Documents and Settings\\*username*\\Desktop**
 
 {% include tip.html tip="In GNU/Linux filenames and folders are **case sensitive**." %}
+{% include tip.html tip="Sous GNU/Linux les noms de fichiers et de dossiers sont **sensibles à la casse (majuscule/minuscule)**." %}
 
 Normal users only have write permission in their **/home/** folder, and rarely have any need to work outside of that.
+Les utilisateurs normaux ne disposent de permissions en écriture qu'à l'intérieur de leur dossier **/home/** et n'ont que très rarement le besoin de travailler en dehors de ce dernier.
 
-## C.3 Hidden Files
+## C.3 Fichiers cachés
 
 Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut **Alt+.** or **View -&gt; Show Hidden Files** in the menubar.
+Les fichiers et dossiers dont le nom commence par '.' (un point) sont cachés. Sous Dolphin, vous pouvez les afficher via le raccourci clavier **Alt+.** ou via le menu **Affichage → Afficher les fichiers masqués** dans la barre de menu. Sous Nautilus, le gestionnaire de fichiers de GNOME, vous pouvez les afficher via le raccourci clavier **Ctrl+h** ou via le menu dit *hamburger*, en haut à droite puis en cochant **Afficher les fichiers masqués**.
 
 Applications store the user settings and data in hidden folders in the users home folder, e.g. **/home/*username*/.mozilla/** or **/home/*username*/.config/vlc/** etc. If you uninstall/reinstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.
+Les applications enregistrent les paramètres des utilisateurs et certaines données qu'elles utilisent dans le dossier *home* des utilisateurs, par exemple sous **/home/*utilisateur*/.mozilla/** ou **/home/*utilisateur*/.config/vlc/** etc. Si vous désinstallez ou réinstallez une application, ses paramètres et données resteront dans le dossier *home*. Pour réinitialiser une application, il vous suffit de renommer, déplacer ou supprimer ces paramètres et données, masqués dans votre dossier *home*.
 
 ## C.4 Important Config Files
 

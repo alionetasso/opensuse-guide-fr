@@ -1,16 +1,19 @@
 ---
 layout: default
 title: "Appendix C: Under the Hood - A Look at What's Happening Under the Surface"
+title: "Annexe C: Dans les coulisses - À la découverte de ce qu'il se passe sous la surface"
 permalink: under
 ---
 
-# Appendix C: Under the Hood
+# Appendix C: Sous la surface
 
 The purpose of this chapter is to give the reader a quick look and basic idea of what's going on beneath the surface of the openSUSE GNU/Linux operating system.
+L'objectif de ce chapitre est de donner au lecteur un aperçu et quelques idées de ce qu'il se passe dans les rouages d'un système d'exploitation openSUSE GNU/Linux.
 
-## C.1 Main System Components
+## C.1 Composants principaux du système
 
 Any modern computer operating system is a very large and complicated contraption - and GNU/Linux distributions are no exception. The Linux kernel is just one of many components. The figure below shows the core components and what their respective roles are.
+N'importe quel système d'exploitation moderne est un immense et complexe engin, et les distributions GNU/Linux ne font pas exception. Le noyau Linux n'est qu'un composant parmi bien d'autres. L'illustration ci-dessous présente les composants essentiels et leur rôle.
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
         <tbody>
@@ -18,22 +21,26 @@ Any modern computer operating system is a very large and complicated contraption
         <td style="width: 50%;"><center><a href="{{ site.baseurl | append: '/images/pics/distro.png' | replace: '//', '/' }}" rel="thumbnail"><img src="{{ site.baseurl | append: '/images/pics/distrob.png' | replace: '//', '/' }}" alt="distro" class="pic" /></a></center><br /></td>
         </tr>
         <tr>
-        <td class="image-caption">This figure shows the main components of a GNU/Linux operating system.</td>
+        <td class="image-caption">Cette illustration présente les principaux composants d'un système GNU/Linux</td>
         </tr>
         </tbody>
 </table>
 
-## C.2 File Tree
+## C.2 Aborescence
 
 Most users will hardly ever need to work outside their home folder, but nevertheless it's probably a good idea to have a basic idea about the how the file hierarchy works.
+La plupart des utilisateurs n'auront probablement jamais besoin de travailler en dehors de leur dossier *home*. Il n'est toutefois par inutile d'avoir une petite idée du fonctionnement de la hiérarchie des fichiers.
 
 On GNU/Linux you only have *one* file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are *mounted* in folders within a single file tree. The root folder for the file tree is "**/**" and paths are written using forward slashes.
+Chez GNU/Linux, il n'y a *qu'une seule* arborescence, contrairement à Microsoft Windows, par exemple, qui dispose d'arborescences différentes pour chacun des systèmes de fichiers et partitions, sous GNU/Linux les systèmes de fichiers ou partitions séparés sont *montés* dans des dossiers au sein d'une seule et même arborescence. Le dossier racine de l'arborescence est "**/**" et les chemins sont écrits à la suite en utilisant d'autre slashes.
 
 So a path might look like this in GNU/Linux:
+En conséquence, un chemin ressemblera à cela sous GNU/Linux :
 
-**/home/*username*/Desktop/**
+**/home/*username*/Bureau/**
 
 In MS Windows a comparable path might look like this:
+Chez MS Windows, ce même chemin ressemblerait à cela :
 
 **C:\\Documents and Settings\\*username*\\Desktop**
 

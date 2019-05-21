@@ -8,7 +8,7 @@ permalink: browserplugins
 
 De nombreux sites Web nécessitent l'installation de divers plugins de navigateur pour fonctionner comme il faut. Voici quelques plugins que vous voudrez peut-être installer. N'installez ces plugins que si vous en avez besoin, car ils peuvent avoir un impact sur les performances et la sécurité lorsque vous naviguez sur Internet.
 
-{% include tip.html tip="Si les concepts de *gestionnaire de paquets* et de *dépôts* vous sont étrangers, revisitez les chapitres [Installation de logiciels](installpackage) et [Dépôts de logiciels](repositories)." %}
+{% include tip.html tip="Si les concepts de *gestionnaire de paquets* et de *dépôts* vous sont étrangers, revisitez les chapitres [Installation de logiciels](installationpaquets) et [Dépôts de logiciels](depots)." %}
 
 ## 14.1 Adobe Flash
 

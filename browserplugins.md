@@ -1,20 +1,20 @@
 ---
 layout: default
-title: 14. Browser Plugins - Install Plugins For Your Web Browser Such As Flash and Java
+title: 14. Plugins de navigateur - Installez des plugins pour votre navigateur Web tels que Flash et Java
 permalink: browserplugins
 ---
 
-# 14. Browser Plugins
+# 14. Plugins de navigateur
 
-Many websites require various browser plugins to be installed to function as expected. Here are some plugins that you may want to install. Only install these plugins if you need them, as they can impact performance and security while browsing the internet.
+De nombreux sites Web nécessitent l'installation de divers plugins de navigateur pour fonctionner comme il faut. Voici quelques plugins que vous voudrez peut-être installer. N'installez ces plugins que si vous en avez besoin, car ils peuvent avoir un impact sur les performances et la sécurité lorsque vous naviguez sur Internet.
 
-{% include tip.html tip="If the concepts of *package manager* and *repositories* are foreign to you, revisit the chapters [Installing Software](installpackage) and [Software Repositories](repositories)." %}
+{% include tip.html tip="Si les concepts de *gestionnaire de paquets* et de *dépôts* vous sont étrangers, revisitez les chapitres [Installation de logiciels](installpackage) et [Dépôts de logiciels](repositories)." %}
 
 ## 14.1 Adobe Flash
 
-Install the package **freshplayerplugin**, if you need Flash support for some online videos, games and other things (*Packman Repository* is required).
+Installez le package **freshplayerplugin**, si vous avez besoin du support Flash pour certaines vidéos, jeux et autres choses en ligne (*Packman Repository* est requis).
 
-Installing Flash in the terminal:
+Installation de Flash dans le terminal :
 
 <div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
 
@@ -22,32 +22,32 @@ Installing Flash in the terminal:
 
 ## 14.2 Java
 
-Java web applets are used for games, home banking in some countries, and various other things.
+Les applets Web Java sont utilisés pour les jeux, la banque à domicile dans certains pays, et diverses autres choses.
 
-Install the package **java-1_8_0-openjdk-plugin** with the package manager if it isn't already installed.
+Installez le paquet **java-1_8_8_0-openjdk-plugin** avec le gestionnaire de paquets s'il n'est pas déjà installé.
 
-Installing Java browser plugin in the terminal:
+Installation du plugin de navigateur Java dans le terminal :
 
 <div class="clroot">zypper install java-1_8_0-openjdk-plugin</div>
 
-## 14.3 Video and Audio Streaming
+## 14.3 Streaming vidéo et audio
 
-To get support for various multimedia streams in Firefox and other browsers, install the package **xine-browser-plugin** (*Packman Repository* required).
+Pour obtenir la prise en charge de divers flux multimédia dans Firefox et d'autres navigateurs, installez le paquet **xine-browser-plugin** (*Dépôt Packman requis*).
 
-Installing multimedia plugin in the terminal:
+Installation du plugin multimédia dans le terminal :
 
 <div class="clroot">zypper install xine-browser-plugin</div>
 
 ## 14.4 Microsoft Silverlight
 
-Microsoft have created something called Silverlight to compete with Adobe Flash in making the web require proprietary extensions.
+Microsoft a créé quelque chose appelé Silverlight pour concurrencer Adobe Flash en faisant en sorte que le Web nécessite des extensions propriétaires.
 
-As you'd expect Microsoft do *not* provide an official plugin for GNU/Linux, but there is something called [Pipelight](http://fds-team.de/cms/articles/2013-08/pipelight-using-silverlight-in-linux-browsers.html) bringing Microsoft Silverlight to the GNU/Linux platform. You can find Pipelight packages for openSUSE [here](http://software.opensuse.org/package/pipelight).
+Comme on pouvait s'y attendre Microsoft ne fournit *pas* de plugin officiel pour GNU/Linux, mais il y a quelque chose nommé [Pipelight](http://fds-team.de/cms/articles/2013-08/pipelight-using-silverlight-in-linux-browsers.html) qui apporte Microsoft Silverlight sur GNU/Linux. Vous pouvez trouver le paquet Pipelight pour openSUSE [ici](http://software.opensuse.org/package/pipelight).
 
-Netflix will play in the latest Google Chrome Browser, without any need for Microsoft Silverlight.
+Netflix est compatible avec le dernier navigateur Google Chrome Browser, sans avoir besoin de Microsoft Silverlight.
 
 ## 14.5 Google Hangouts
 
-Google provide voice and video chat with Google services on GNU/Linux with a browser plugin. Download the RPM files for openSUSE here:
+Google fournit des services de chat vocal et vidéo sur GNU/Linux via le site de Google à l'aide d'un plugin de navigateur. Téléchargez les fichiers RPM pour openSUSE ici :
 
 [http://www.google.com/chat/video](http://www.google.com/chat/video)

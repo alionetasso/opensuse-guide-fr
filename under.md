@@ -1,18 +1,15 @@
 ---
 layout: default
-title: "Appendix C: Under the Hood - A Look at What's Happening Under the Surface"
 title: "Annexe C: Dans les coulisses - À la découverte de ce qu'il se passe sous la surface"
 permalink: under
 ---
 
 # Appendix C: Sous la surface
 
-The purpose of this chapter is to give the reader a quick look and basic idea of what's going on beneath the surface of the openSUSE GNU/Linux operating system.
 L'objectif de ce chapitre est de donner au lecteur un aperçu et quelques idées de ce qu'il se passe dans les rouages d'un système d'exploitation openSUSE GNU/Linux.
 
 ## C.1 Composants principaux du système
 
-Any modern computer operating system is a very large and complicated contraption - and GNU/Linux distributions are no exception. The Linux kernel is just one of many components. The figure below shows the core components and what their respective roles are.
 N'importe quel système d'exploitation moderne est un immense et complexe engin, et les distributions GNU/Linux ne font pas exception. Le noyau Linux n'est qu'un composant parmi bien d'autres. L'illustration ci-dessous présente les composants essentiels et leur rôle.
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
@@ -26,116 +23,108 @@ N'importe quel système d'exploitation moderne est un immense et complexe engin,
         </tbody>
 </table>
 
-## C.2 Aborescence
+## C.2 Arborescence
 
-Most users will hardly ever need to work outside their home folder, but nevertheless it's probably a good idea to have a basic idea about the how the file hierarchy works.
 La plupart des utilisateurs n'auront probablement jamais besoin de travailler en dehors de leur dossier *home*. Il n'est toutefois par inutile d'avoir une petite idée du fonctionnement de la hiérarchie des fichiers.
 
-On GNU/Linux you only have *one* file tree, unlike e.g. Microsoft Windows which has a different file tree for each filesystem/partition - on GNU/Linux separate filesystems/partitions are *mounted* in folders within a single file tree. The root folder for the file tree is "**/**" and paths are written using forward slashes.
-Chez GNU/Linux, il n'y a *qu'une seule* arborescence, contrairement à Microsoft Windows, par exemple, qui dispose d'arborescences différentes pour chacun des systèmes de fichiers et partitions, sous GNU/Linux les systèmes de fichiers ou partitions séparés sont *montés* dans des dossiers au sein d'une seule et même arborescence. Le dossier racine de l'arborescence est "**/**" et les chemins sont écrits à la suite en utilisant d'autre slashes.
+Chez GNU/Linux, il n'y a *qu'une seule* arborescence, contrairement à Microsoft Windows, par exemple, qui dispose d'arborescences différentes pour chacun des systèmes de fichiers et partitions, sous GNU/Linux les systèmes de fichiers ou partitions séparés sont *montés* dans des dossiers au sein d'une seule et même arborescence. Le dossier racine de l'arborescence est "**/**" et les chemins sont écrits à la suite en utilisant d'autre barres obliques (*slashes*).
 
-So a path might look like this in GNU/Linux:
 En conséquence, un chemin ressemblera à cela sous GNU/Linux :
 
-**/home/*username*/Bureau/**
+**/home/*utilisateur*/Bureau/**
 
-In MS Windows a comparable path might look like this:
 Chez MS Windows, ce même chemin ressemblerait à cela :
 
-**C:\\Documents and Settings\\*username*\\Desktop**
+**C:\\Documents and Settings\\*utilisateur*\\Desktop**
 
-{% include tip.html tip="In GNU/Linux filenames and folders are **case sensitive**." %}
 {% include tip.html tip="Sous GNU/Linux les noms de fichiers et de dossiers sont **sensibles à la casse (majuscule/minuscule)**." %}
 
-Normal users only have write permission in their **/home/** folder, and rarely have any need to work outside of that.
 Les utilisateurs normaux ne disposent de permissions en écriture qu'à l'intérieur de leur dossier **/home/** et n'ont que très rarement le besoin de travailler en dehors de ce dernier.
 
 ## C.3 Fichiers cachés
 
-Files and folders starting with '.' (dot) are hidden. You can make them visible in Dolphin file manager via the keyboard shortcut **Alt+.** or **View -&gt; Show Hidden Files** in the menubar.
 Les fichiers et dossiers dont le nom commence par '.' (un point) sont cachés. Sous Dolphin, vous pouvez les afficher via le raccourci clavier **Alt+.** ou via le menu **Affichage → Afficher les fichiers masqués** dans la barre de menu. Sous Nautilus, le gestionnaire de fichiers de GNOME, vous pouvez les afficher via le raccourci clavier **Ctrl+h** ou via le menu dit *hamburger*, en haut à droite puis en cochant **Afficher les fichiers masqués**.
 
-Applications store the user settings and data in hidden folders in the users home folder, e.g. **/home/*username*/.mozilla/** or **/home/*username*/.config/vlc/** etc. If you uninstall/reinstall an application the settings and data will remain in the home folder. To "reset" an application, you just rename or (re)move the settings and/or data hidden in your home folder.
 Les applications enregistrent les paramètres des utilisateurs et certaines données qu'elles utilisent dans le dossier *home* des utilisateurs, par exemple sous **/home/*utilisateur*/.mozilla/** ou **/home/*utilisateur*/.config/vlc/** etc. Si vous désinstallez ou réinstallez une application, ses paramètres et données resteront dans le dossier *home*. Pour réinitialiser une application, il vous suffit de renommer, déplacer ou supprimer ces paramètres et données, masqués dans votre dossier *home*.
 
-## C.4 Important Config Files
+## C.4 Fichiers de configuration importants
 
-In GNU/Linux configurations and settings are usually stored in human-readable plain text files. Almost any configuration can be done graphically via YaST or various other GUI applications, but nevertheless it can be useful to know the location of some key config files.
+Dans un système GNU/Linux, les configurations et paramètres sont généralement stockés sous la forme de fichier textes, dans un format lisible par l'humain. La plupart des configurations peuvent être faites graphiquement via YaST ou divers autres applications graphiques. Toutefois, il est bon de connaître l'emplacement des fichiers les plus importants.
 
-System wide configurations are mainly stored in **/etc/**, user settings are stored in hidden files in the home folder for the individual user.
+Les configurations s'appliquant au système entier sont placées dans **/etc/** tandis que les paramètres des utilisateurs sont stockés dans des fichiers cachés dans leurs dossiers *home* respectifs.
 
 <table class="table">
 <tbody>
     <tr>
     <td style="width: 230px;"><b>/etc/fstab</b></td>
-    <td>The file system table, file systems/partitions mounted during boot.</td>
+    <td>La table des systèmes de fichiers, liste les systèmes de fichiers et partitions montés au démarrage.</td>
     </tr>
     <tr class="d1">
     <td style="width: 230px;"><b>/etc/sysconfig/yast2</b></td>
-    <td>Configuration for YaST.</td>
+    <td>Configuration pour YaST.</td>
     </tr>
     <tr>
     <td style="width: 230px;"><b>/etc/zypp/zypp.conf</b></td>
-    <td>Configuration for the software management.</td>
+    <td>Configuration de la gestion des logiciels.</td>
     </tr>
     <tr class="d1">
     <td style="width: 230px;"><b>/etc/samba/smb.conf</b></td>
-    <td>Samba configuration ("Windows Network")</td>
+    <td>Configuration de Samba (« Windows Network »)</td>
     </tr>
     <tr>
     <td style="width: 230px;"><b>/etc/HOSTNAME</b></td>
-    <td>The hostname for the machine.</td>
+    <td>Le nom de la machine.</td>
     </tr>
     <tr class="d1">
     <td style="width: 230px;"><b>/etc/X11/xorg.conf.d/</b></td>
-    <td>X-server configuration files. By default autodetection is used, edit these files if you must configure the X-server.</td>
+    <td>Fichiers de configuration du serveur X. Par défaut, l'auto détection est utilisée, n'éditez ces fichiers que si vous devez configurer X.</td>
     </tr>
     <tr>
     <td style="width: 230px;"><b>/etc/sysconfig/kernel</b></td>
-    <td>The kernel. For example loading extra modules during boot.</td>
+    <td>Le noyau. Peut servir à charger des modules complèmentaires au démarrage.</td>
     </tr>
     <tr class="d1">
     <td style="width: 230px;"><b>/etc/modprobe.d/50-blacklist.conf</b></td>
-    <td>Blacklisting kernel modules.</td>
+    <td>Mettre des modules du noyau sur liste noire (interdire leur chargement).</td>
     </tr>
 </tbody>
 </table>
 
 
-## C.5 Logs
+## C.5 Journaux
 
-In case of problems it's good to know the location of the main log files, most are kept in **/var/log/**.
+En cas de problème, il est utile de connaître l'emplacement des fichiers de *logs* (journaux) principaux, la majorité d'entre eux étant placés dans **/var/log**.
 
 <table class="table">
 <tbody>
   <tr>
       <td style="width: 230px;"><b>/var/log/Xorg.0.log</b></td>
-      <td>Log for the X-server.</td>
+      <td>Log du serveur X.</td>
   </tr>
   <tr class="d1">
-      <td style="width: 230px;"><b>/home/<i>username</i>/.xsession-errors</b></td>
-      <td>Useful for troubleshooting applications ran as normal user.</td>
+      <td style="width: 230px;"><b>/home/<i>utilisateur</i>/.xsession-errors</b></td>
+      <td>Utile pour débogguer les applications exécutées en tant qu'utilisateur normal.</td>
   </tr>
   <tr class="d1">
       <td style="width: 230px;"><b>/var/log/YaST2/</b></td>
-      <td>Log files for various YaST modules and components.</td>
+      <td>Journaux des modules et composants YaST.</td>
   </tr>
   </tbody>
 </table>
 
-The main system log can be viewed with the YaST module *systemd-journal* or with the command journalctl:
+Le journal principal du système peut être visualisé grâce au module YaST *systemd-journal* ou via la commande *journalctl* :
 
 <div class="clroot">journalctl</div>
 
-Read up on journalctl to use it effectively.
+Il est recommandé de se documenter sur journalctl pour l'utiliser le plus efficacement possible.
 
-## C.6 Troubleshooting
+## C.6 Déboggage
 
-Here are some basic troubleshooting tips for GNU/Linux in case an application crashes or won't start at all.
+Voici quelques astuces basiques de déboggage pour GNu/Linux dans le cas où une application dysfonctionne ou ne démarre pas du tout.
 
-- If an application fails, try running it from a terminal to get more/better output
-- Try removing/renaming the hidden folder(s) for the application in the users home folder
-- Try creating a new user and see if the problem persists. If the problem does not persist for a new user, the cause can probably be found in the settings/data in the home folder of the user with the problem
-- Check out relevant log files
+- Si une application échoue, essayez de la lancer depuis un terminal afin d'obtenir plus de messages d'information
+- Essayez de supprimer ou renommer les dossiers cachés de l'application dans le dossier *home* de l'utilisateur
+- Essayez de créer un nouvel utilisateur pour voir si le problème persiste. Si ce n'est pas le cas, la cause se trouve probablement dans les paramètres ou données de l'application présents dans le dossier *home* de l'utilisateur rencontrant le problème
+- Vérifiez les fichiers de journaux (*logs*) appropriés
 
-{% include tip.html tip="Reinstalling the software packages almost never solves anything, because the old settings and data will remain in hidden folders in the home folder." %}
+{% include tip.html tip="Réinstaller le logiciel ne résoud généralement rien dans la mesure où les anciens paramètres et/ou données sont conservés dans les dossiers cachés, au sein du dossier *home*." %}

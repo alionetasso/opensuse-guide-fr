@@ -6,7 +6,7 @@ permalink: codecs
 
 # 13. Codecs multimédia
 
-Ce chapitre décrit deux méthodes différentes pour installer les paquets nécessaires à la lecture de la plupart des formats multimédias, y compris MP3, DVD, etc., avec les lecteurs multimédia par défaut Dragon et VLC. Vous pouvez utiliser l'installation manuelle en 1 clic ou utiliser la ligne de commande - selon la méthode que vous préférez.
+Ce chapitre décrit deux méthodes différentes pour installer les paquets nécessaires à la lecture de la plupart des formats multimédias, y compris MP3, DVD, etc., avec le lecteur multimédia par défaut VLC. Vous pouvez utiliser l'installation manuelle en 1 clic ou utiliser la ligne de commande - selon la méthode que vous préférez.
 
 Par défaut, seuls les formats libres, ouverts et non protégés par un brevet tels que Ogg Theora, Ogg Vorbis et Flac sont supportés pour des raisons légales (brevets logiciels américains et Digital Millennium Copyright Act (DMCA)).
 
@@ -33,15 +33,13 @@ Pour installer les codecs à l'aide du terminal, procédez comme suit :
 
 1) Ajoutez les dépôts nécessaires :
 
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.0/ dvd</div>
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.1/ packman</div>
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.1/ dvd</div>
 
 2) Ensuite, installez les paquets nécessaires :
 
-<div class="clroot">zypper install ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2 vlc-codecs</div>
-
-On vous demandera si vous voulez autoriser le changement de fournisseur pour certains paquets - autorisez-le (habituellement en choisissant la solution 1 des solutions proposées).
+<div class="clroot">zypper install --allow-vendor-change ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2 vlc-codecs</div>
 
 3) Assurez-vous que tous vos paquets multimédia proviennent du dépôt Packman :
 
-<div class="clroot">zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_15.0/</div>
+<div class="clroot">zypper dup --allow-vendor-change --from http://packman.inode.at/suse/openSUSE_Leap_15.1/</div>

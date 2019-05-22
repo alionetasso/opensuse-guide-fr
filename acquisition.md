@@ -40,4 +40,4 @@ Il y a des sociétés qui vendent openSUSE dans une boîte (en allemand) avec su
 
 Vous pouvez trouver le code source de tous les paquets gratuits d'openSUSE ici, sous forme de fichiers RPM source :  
 
-[http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/src/](http://download.opensuse.org/source/distribution/leap/15.0/repo/oss/src/)
+[http://download.opensuse.org/source/distribution/leap/15.1/repo/oss/src/](http://download.opensuse.org/source/distribution/leap/15.1/repo/oss/src/)

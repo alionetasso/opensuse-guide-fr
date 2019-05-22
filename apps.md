@@ -39,15 +39,15 @@ LibreOffice est une suite bureautique complète avec traitement de texte, feuill
 
 Alternatives à considérer : Calligra, Abiword, Gnumeric
 
-## 6.3 Lecture multimédia avec VLC ou Dragon
+## 6.3 Lecture multimédia avec VLC
 
-L'installation par défaut avec l'environnement KDE inclut VLC qui lit la musique et la vidéo ainsi que le lecteur vidéo Dragon.
+L'installation par défaut avec l'environnement KDE inclut le lecteur multimedia VLC qui lit la musique et la vidéo.
 
 {% include screenshot.html image="vlc" %}
 
 Alternatives à considérer pour la musique : Amarok, Elisa, Clementine, JuK, Qmmp
 
-Alternatives à considérer pour les vidéos : SMPlayer, mpv, Kaffeine
+Alternatives à considérer pour les vidéos : SMPlayer, mpv, Kaffeine, Dragon
 
 ## 6.4 Édition d'images avec GIMP
 

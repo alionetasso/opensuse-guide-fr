@@ -78,7 +78,7 @@ Si vous le souhaitez, vous pouvez également gérer vos dépôts via un terminal
 
 Ajout d'un dépôt avec auto-refresh activé `zypper addrepo -f[URL][Alias]`. Exemple :
 
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.1/ packman</div>
 
 Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
@@ -86,7 +86,7 @@ Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
 Supprimer un dépôt `zypper removerepo [URL|Alias]`. Exemple:
 
-<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_15.0/</div>
+<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_15.1/</div>
 
 Lister les dépôts configurés, en affichant les détails (priorités, URL, etc.):
 

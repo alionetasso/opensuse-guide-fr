@@ -71,13 +71,22 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 	</tr>
 </table><br />
 
+### Interface utilisateur
+
+<table>
+	<tr>
+		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
+		<td valign="top">Différentes interfaces graphiques (environnements de bureau) existent pour GNU/Linux. L'espace de travail Plasma de KDE est présélectionné et est préféré par environ 70% des utilisateurs d'openSUSE et est également l'objet de ce guide. Mais vous pouvez aussi choisir le bureau GNOME ou l'installation d'un serveur en mode texte.<br /><br />
+		Sous "Personnalisé", vous pouvez sélectionner manuellement différents motifs, y compris les environnements de bureau légers comme Xfce.</td>
+	</tr>
+</table><br />
+
 ### Partitionnement
 
 <table>
 	<tr>
 	  <td width="205" valign="top"><a href="images/installation/dvd/inst-disk.png" rel="thumbnail"><img src="images/installation/dvd/inst-diskb.png" alt="inst-disk" class="pic" /></a></td>
 	  <td valign="top">Par défaut openSUSE proposera de créer trois nouvelles partitions / (root) pour les fichiers système, /home/ pour les fichiers personnels des utilisateurs et swap qui est utilisé comme un complément pour la RAM, similaire au fichier d'échange pagefile.sys dans MS Windows.<br /><br />
-	  Ne vous inquiétez pas de tous les sous-volumes créés, ce ne sont que des aspects techniques du système de fichiers Btrfs, et non de "vraies" partitions, dont les utilisateurs normaux doivent se soucier.<br /><br />
 	  Vérifiez toujours que la proposition de partitionnement est ce que vous voulez, et si vous effectuez une installation en dual boot, faites très attention, pour vous assurer que tout est comme vous le souhaitez.<br /><br />
 	  Notez que Linux étiquette les disques/partitions en utilisant le schéma suivant - <i>sda1</i> est la première partition sur le premier disque, <i>sdb3</i> est la troisième partition sur le deuxième disque, et ainsi de suite. Les partitions qui seront formatées sont écrites en rouge.</td>
 	</tr>
@@ -92,15 +101,6 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 	</tr>
 </table><br />
 
-### Interface utilisateur
-
-<table>
-	<tr>
-		<td width="205" valign="top"><a href="images/installation/dvd/inst-desktop.png" rel="thumbnail"><img src="images/installation/dvd/inst-desktopb.png" alt="inst-desktop" class="pic" /></a></td>
-		<td valign="top">Différentes interfaces graphiques (environnements de bureau) existent pour GNU/Linux. L'espace de travail Plasma de KDE est présélectionné et est préféré par environ 70% des utilisateurs d'openSUSE et est également l'objet de ce guide. Mais vous pouvez aussi choisir le bureau GNOME ou l'installation d'un serveur en mode texte.<br /><br />
-		Sous "Personnalisé", vous pouvez sélectionner manuellement différents motifs, y compris les environnements de bureau légers Xfce et LXDE.</td>
-	</tr>
-</table><br />
 
 ### Créer un nouvel utilisateur
 

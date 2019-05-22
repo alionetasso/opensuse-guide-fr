@@ -16,7 +16,7 @@ Installez le package **freshplayerplugin**, si vous avez besoin du support Flash
 
 Installation de Flash dans le terminal :
 
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.0/ packman</div>
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.1/ packman</div>
 
 <div class="clroot">zypper install freshplayerplugin</div>
 

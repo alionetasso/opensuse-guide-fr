@@ -23,7 +23,7 @@ Cependant, certaines choses diffèrent considérablement de la plupart des autre
 
 ### 5.1.1 Le menu lanceur d'applications
 
-Le menu de lancement s'ouvre en cliquant sur l'icône dans le coin inférieur gauche de l'écran ou en appuyant sur la touche Super ou Alt+F1. En bas, il y a un champ de recherche et en haut à gauche, vos applications préférées. Vous pouvez ajouter et supprimer des applications de vos favoris en cliquant dessus avec le bouton droit de la souris.
+Le menu de lancement s'ouvre en cliquant sur l'icône dans le coin inférieur gauche de l'écran ou en appuyant sur la touche Super ou Alt+F1. Si vous commencez à taper, un champ de recherche apparaîtra en haut. Vous pouvez ajouter et supprimer des applications à vos favoris en cliquant avec le bouton droit de la souris sur les éléments du menu. Vous pouvez ajouter et supprimer des applications à vos favoris en cliquant avec le bouton droit de la souris sur les éléments du menu.
 
 <center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center><br />
 

@@ -1,106 +1,111 @@
 ---
 layout: default
-title: "Appendix A: Help and Docs - Support and Documentation for openSUSE"
+title: "Appendix A: Aide et Docs - Support et documentation pour openSUSE"
 permalink: help
 ---
 
-# Appendix A: Help and Docs
+# Appendix A: Aide et Docs
 
-This guide is just a brief introduction to some of the basics, so it's likely you're going to need additional help at some point. Nothing beats getting help from a friend face-to-face and on-site, but that's often not an option, so thankfully there are many places where you can get help from openSUSE users online - which method to choose depends on your personal preference.
+Ce guide n'est qu'une brève introduction à quelques notions de base, il est donc probable que vous aurez besoin d'aide supplémentaire à un moment donné. Rien ne vaut l'aide d'un ami en face à face et sur place, mais ce n'est pas souvent possible, donc heureusement, il existe de nombreux endroits où vous pouvez obtenir de l'aide des utilisateurs openSUSE sur le net - la méthode à choisir dépend de vos préférences personnelles.
 
-{% include tip.html tip="Always give detailed problem descriptions, and provide relevant information, such as openSUSE version, desktop environment, relevant hardware components etc., when asking for help online - otherwise it's impossible to help you effectively." %}
+{% include tip.html tip="Lorsque vous demandez de l'aide sur le net, donnez toujours des descriptions détaillées des problèmes et fournissez des informations pertinentes, telles que la version d'openSUSE, l'environnement de bureau, les composants matériels pertinents, etc." %}
 
-## A.1 Search the Web
+## A.1 Rechercher sur le Web
 
-In most cases you'll easily find the answer to your question with a simple search using your favourite web search engine.
+Dans la plupart des cas, vous trouverez facilement la réponse à votre question en effectuant une recherche simple à l'aide de votre moteur de recherche Web préféré.
 
 ## A.2 Forums
 
-You can ask for help on the official web forums.
+Vous pouvez demander de l'aide sur les forums officiels.
 
-[http://forums.opensuse.org](http://forums.opensuse.org)
+[http://forums.opensuse.org (en anglais)](http://forums.opensuse.org)
+[https://www.alionet.org/forum.php (en français)](https://www.alionet.org/forum.php)
 
-For questions related to the KDE workspace and KDE applications you might also want to try the official KDE forum.
+Pour toute question relative à l'espace de travail KDE et aux applications KDE, vous pouvez également essayer le forum officiel de KDE.
 
 [http://forum.kde.org/](http://forum.kde.org/)
 
-And there's a forum for the LibreOffice office suite too:
+Et il y a aussi un forum pour la suite bureautique LibreOffice :
 
-[http://libreofficeforum.org/](http://libreofficeforum.org/)
+[https://fr.libreoffice.org/get-help/community-support/](https://fr.libreoffice.org/get-help/community-support/)
 
 ## A.3 IRC
 
-You can get help in realtime using IRC (Internet Relay Chat). The IRC-client Konversation is installed by default and preconfigured to join the [#suse](irc://irc.opensuse.org/opensuse) channel on the Freenode IRC network.
+Vous pouvez obtenir de l'aide en temps réel en utilisant IRC (Internet Relay Chat). Le client IRC Konversation est installé par défaut et préconfiguré pour rejoindre le canal[#suse](irc://irc.opensuse.org/opensuse) sur le réseau IRC Freenode.
 
 {% include screenshot.html image="konversation" %}
 
-If you're new to IRC you should probably read the rules before joining.
+Si vous êtes nouveau à IRC, vous devriez probablement lire les règles avant de vous inscrire.
 
-[https://en.opensuse.org/openSUSE:IRC_rules](https://en.opensuse.org/openSUSE:IRC_rules)
+[https://fr.opensuse.org/Communiquer/IRC_pour_les_nouveaux](https://fr.opensuse.org/Communiquer/IRC_pour_les_nouveaux)
 
-IRC channels also exist for support in many other languages than English. See the list here:
+Les informations pour le canal IRC en langue française sont ici :  
+
+[https://fr.opensuse.org/openSUSE:Communiquer#Discussion_instantan.C3.A9e_.28IRC.29](https://fr.opensuse.org/openSUSE:Communiquer#Discussion_instantan.C3.A9e_.28IRC.29)
+
+Les canaux IRC existent également pour le support dans de nombreuses autres langues que l'anglais. Voir la liste ici :
 
 [http://en.opensuse.org/openSUSE:IRC_list](http://en.opensuse.org/openSUSE:IRC_list)
 
 ## A.4 Mailinglists
 
-You can get support on mailing lists, see:
+Vous pouvez obtenir de l'aide sur les listes de diffusion, voir :
 
-[http://en.opensuse.org/openSUSE:Mailing_lists](http://en.opensuse.org/openSUSE:Mailing_lists)
+[http://fr.opensuse.org/openSUSE:Mailing_lists](http://fr.opensuse.org/openSUSE:Mailing_lists)
 
 ## A.5 Documentation
 
-Reading the manuals is always a good idea. You can find the official openSUSE manuals in PDF, EPUB and HTML format here:
+La lecture des manuels est toujours une bonne idée. Vous pouvez trouver les manuels officiels d'openSUSE en format PDF, EPUB et HTML ici :
 
-[http://doc.opensuse.org/](http://doc.opensuse.org/)
+[http://doc.opensuse.org/ (en anglais)](http://doc.opensuse.org/)
 
-Many applications come with a handbook, often you can access it by pressing *F1*. Usually packages also include documentation which is normally installed to the location */usr/share/doc/*.
+De nombreuses applications sont accompagnées d'un manuel, souvent vous pouvez y accéder en appuyant sur *F1*. Habituellement, les paquets incluent aussi de la documentation qui est normalement installée à l'emplacement */usr/share/doc/*.
 
-You'll find a lot of docs and howtos on the documentation portal on the wiki:
+Vous trouverez de nombreux documents et howtos sur le portail de documentation sur le wiki :
 
-[http://en.opensuse.org/Portal:Documentation](http://en.opensuse.org/Portal:Documentation)
+[http://fr.opensuse.org/Portal:Documentation](http://fr.opensuse.org/Portal:Documentation)
 
-## A.6 Other Resources
+## A.6 Autres ressources
 
-There's a unified search for the openSUSE wiki, forums, mailinglists etc. on:
+Il y a une recherche unifiée pour le wiki openSUSE, les forums, les listes de diffusion, etc. sur :
 
 [http://search.opensuse.org](http://search.opensuse.org)
 
-When asking for support online it can be very useful to share text (e.g. commandline output) or screenshots showing your problem. The openSUSE pastebin makes this easy:
+Lorsque vous demandez de l'aide en ligne, il peut être très utile de partager du texte (par exemple une sortie en ligne de commande) ou des captures d'écran montrant votre problème en les hébergeant sur un serveur. Le Pastebin d'openSUSE rend cela facile :
 
-[http://susepaste.org/](http://susepaste.org/) (text)
+[http://susepaste.org/](http://susepaste.org/) ( pour les textes)
 
-[http://img.susepaste.org/](http://img.susepaste.org/) (images)
+[http://img.susepaste.org/](http://img.susepaste.org/) (pour les images)
 
-## A.7 Linux User Groups
+## A.7 Groupes d'utilisateurs Linux
 
-There's likely to be a LUG in your vicinity, with mailinglists or forums and possibly meetings where you can get help face-to-face and meet other GNU/Linux users in "real life".
+Il y aura probablement un GUL dans votre voisinage, avec des listes de diffusion ou des forums et éventuellement des réunions où vous pourrez obtenir de l'aide en face à face et rencontrer d'autres utilisateurs GNU/Linux dans "la vraie vie".
 
-## A.8 Hardware
+## A.8 Matériel informatique
 
-GNU/Linux supports most hardware, but not all. Components that are very new on the market, or components with little marketshare, are most prone to causing problems. Here are some databases tracking support for various hardware types. It's recommended to research whether hardware is supported by GNU/Linux *before* making a purchase.
+GNU/Linux supporte la plupart des matériels, mais pas tous. Les composants qui sont très nouveaux sur le marché, ou ceux dont la part de marché est faible, sont les plus susceptibles de causer des problèmes. Voici quelques bases de données de suivi du support pour les différents types de matériel. Il est recommandé de vérifier si le matériel est supporté par GNU/Linux *avant* de faire un achat.
 
-{% include tip.html tip="Don't expect these databases to be 100% complete or up-to-date - and remember to contribute with your own findings." %}
+{% include tip.html tip="Ne vous attendez pas à ce que ces bases de données soient complètes ou à jour à 100 % - et n'oubliez pas de contribuer avec vos propres résultats." %}
 
 - [http://en.opensuse.org/Portal:Hardware](http://en.opensuse.org/Portal:Hardware)
-- [http://www.linux-laptop.net/](http://www.linux-laptop.net/) (Laptops)
-- [http://www.linlap.com/](http://www.linlap.com/) (Laptops)
+- [http://www.linux-laptop.net/](http://www.linux-laptop.net/) (Portables)
+- [http://www.linlap.com/](http://www.linlap.com/) (Portables)
 - [http://thinkwiki.org/wiki/ThinkWiki](http://thinkwiki.org/wiki/ThinkWiki) (IBM/Lenovo Thinkpads)
-- [http://bugtrack.alsa-project.org/main/index.php/Matrix:Main](http://bugtrack.alsa-project.org/main/index.php/Matrix:Main) (Sound cards)
-- [http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro](http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro) (Printers)
+- [http://bugtrack.alsa-project.org/main/index.php/Matrix:Main](http://bugtrack.alsa-project.org/main/index.php/Matrix:Main) (Cartes son)
+- [http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro](http://www.linuxfoundation.org/collaborate/workgroups/openprinting/database/databaseintro) (Imprimantes)
 - [http://www.sane-project.org/sane-supported-devices.html](http://www.sane-project.org/sane-supported-devices.html) (Scanners)
-- [http://wireless.kernel.org/en/users/Devices](http://wireless.kernel.org/en/users/Devices) (Wireless devices)
-- [http://linux-wless.passys.nl/](http://linux-wless.passys.nl/) (Wireless devices)
-- [http://linuxtv.org/](http://linuxtv.org/) (TV cards)
-- [http://www.linux-usb.org/](http://www.linux-usb.org/) (USB devices)
+- [http://wireless.kernel.org/en/users/Devices](http://wireless.kernel.org/en/users/Devices) (Appareils sans fil)
+- [http://linux-wless.passys.nl/](http://linux-wless.passys.nl/) (Appareils sans fil)
+- [http://linuxtv.org/](http://linuxtv.org/) (TCartes TV)
+- [http://www.linux-usb.org/](http://www.linux-usb.org/) (Appareils USB)
 - [http://www.linux1394.org/hcl.php](http://www.linux1394.org/hcl.php)  (FireWire)
 - [http://mxhaard.free.fr/spca5xx.html](http://mxhaard.free.fr/spca5xx.html) (Webcams)
 - [http://www.ideasonboard.org/uvc/#devices](http://www.ideasonboard.org/uvc/#devices) (Webcams)
-- [https://h-node.org/](https://h-node.org/) (General hardware working with free software)
+- [https://h-node.org/](https://h-node.org/) (Matériel général fonctionnant avec des logiciels libres)
 
-## A.9 General and in-depth knowledge
+## A.9 Connaissances générales et approfondies
 
-If you really want to get deep knowledge of GNU/Linux on a serious level, consider reading some books. Technical book stores are loaded with GNU/Linux litterature and you might find something interesting in your local library too. You can also check out these websites, for gratis e-books:
+Si vous voulez vraiment acquérir une connaissance approfondie de GNU/Linux à un niveau sérieux, pensez à lire quelques livres. Les librairies techniques sont chargées de littérature GNU/Linux et vous trouverez peut-être quelque chose d'intéressant dans votre bibliothèque locale aussi. Vous pouvez également consulter ces sites Web, pour des livres électroniques gratuits :
 
 [http://tldp.org/](http://tldp.org/)
 

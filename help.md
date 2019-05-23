@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Appendix A: Aide et Docs - Support et documentation pour openSUSE"
-permalink: help
+permalink: aide
 ---
 
 # Appendix A: Aide et Docs

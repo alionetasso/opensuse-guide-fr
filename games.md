@@ -1,78 +1,78 @@
 ---
 layout: default
-title: "Appendix B: Games - Playing Games on openSUSE"
-permalink: games
+title: "Appendix B: Jeux - Jouer à des jeux sur openSUSE"
+permalink: jeux
 ---
 
-# Appendix B: Games
+# Appendix B: Jeux
 
-Not all major, mainstream games run natively on GNU/Linux, but there are still plenty of gaming options.
+Tous les grands jeux grand public ne fonctionnent pas nativement sous GNU/Linux, mais il y a encore beaucoup de possibilités de jeu.
 
 <center><img src="{{ site.baseurl | append: '/images/pics/spil.jpg' | replace: '//', '/' }}" alt="spil" class="pic" /></center>
 
-## B.1 Native GNU/Linux Games
+## B.1 Jeux GNU/Linux natifs
 
-### B.1.1 openSUSE Build Service Games Repository
+### B.1.1 Dépôt pour les jeux : openSUSE Build Service Games Repository
 
-Some games are included in the official openSUSE repositories, but the Games repository on the openSUSE Build Service includes a lot more games. You can easily add this repository via the list of Community Repositories as described in the chapter about [Software Repositories](repositories)
+Certains jeux sont inclus dans les dépôts officiels d'openSUSE, mais le dépôt Games sur openSUSE Build Service contient beaucoup plus de jeux. Vous pouvez facilement ajouter ce dépôt via la liste des dépôts communautaires comme décrit dans le chapitre [Dépôts de logiciels](depots).
 
-Or add the games repository using the command line:
+Ou ajoutez le référentiel de jeux en utilisant la ligne de commande :
 
 <div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.1/ games</div>
 
-### B.1.2 Steam Gaming Platform and Store
+### B.1.2 Plate-forme et magasin de jeux Steam Gaming
 
-The [Steam gaming platform and store](http://store.steampowered.com/browse/linux/) is available for GNU/Linux.You can find packages of it [here](http://software.opensuse.org/package/steam).
+La [Plate-forme de jeu et magasin Steam](http://store.steampowered.com/browse/linux/) est disponible pour GNU/Linux. Vous pouvez en trouver des paquets [ici](http://software.opensuse.org/package/steam).
 
 ### B.1.3 Desura
 
-The Desura distribution service for gamers provides easy access to non-free indie games, see:
+La platforme de distribution en ligne Desura offre un accès facile aux jeux créés par des développeurs indépendants, les jeux sont pour la plupart payants, certains sont gratuits, voir :
 
 [http://www.desura.com](http://www.desura.com)
 
-### B.1.4 Other GNU/Linux Gaming Resources
+### B.1.4 Autres ressources de jeux pour GNU/Linux
 
-Linux Game Publishing buy titles and port them to GNU/Linux, see:
+Linux Game Publishing achète des titres et les porte vers GNU/Linux, voir :
 
-[http://www.linuxgamepublishing.com](http://www.linuxgamepublishing.com)
+[http://www.linuxgamepublishing.com](http://www.linuxgamepublishing.com) (n'existe plus depuis 2014)
 
-Lots and lots more of free and non-free games exist - some small and simple, others quite big, and many very good. Check out some of these sites:
+Il existe de plus en plus de jeux gratuits et/ou non-libres - certains petits et simples, d'autres assez grands, et beaucoup de très bons. Consultez certains de ces sites :
 
-[http://www.tuxgames.com/](http://www.tuxgames.com/)
+[http://www.tuxgames.com/](http://www.tuxgames.com/) (n'existe plus depuis 2014)
 
 [http://www.penguspy.com/](http://www.penguspy.com/)
 
-[http://www.lgdb.org/](http://www.lgdb.org/)
+[http://www.lgdb.org/](http://www.lgdb.org/) (ne semble plus exister)
 
-[http://www.linuxgamingworld.com/](http://www.linuxgamingworld.com/)
+[http://www.linuxgamingworld.com/](http://www.linuxgamingworld.com/)  (ne semble plus exister)
 
-## B.2 Running MS Windows Games
+## B.2 Exécution des jeux MS Windows
 
-Some software available for GNU/Linux allows you to run games developed for MS Windows on GNU/Linux - ease of use and success rate may vary - however, the more popular the game, the more likely it is to be supported.
+Certains logiciels disponibles pour GNU/Linux vous permettent d'exécuter des jeux développés pour MS Windows sous GNU/Linux - la facilité d'utilisation et le taux de réussite peuvent varier - cependant, plus le jeu est populaire, plus il a de chances d'être supporté.
 
 ### B.2.1 Wine
 
-Wine (Wine Is Not an Emulator) is the first option, it's free software installable via the package manager. See the Wine app database for information on running individual games:
+Wine (Wine Is Not an Emulator) est la première option, c'est un logiciel gratuit installable via le gestionnaire de paquets. Consultez la base de données de l'application Wine pour plus d'informations sur l'exécution de jeux individuels :
 
 [http://appdb.winehq.org/appbrowse.php?iCatId=2](http://appdb.winehq.org/appbrowse.php?iCatId=2)
 
-Wine is a command line application, the syntax is:
+Wine est une application en ligne de commande, la syntaxe est :
 
 <div class="cl">wine /path/to/setup.exe</div>
 
 ### B.2.2 PlayOnLinux
 
-[PlayOnLinux](http://www.playonlinux.com/) is based on Wine and lets you easily install and use (some) MS Windows Games. You can find packages of PlayOnLinux in the above mentioned Games repository.
+[PlayOnLinux](http://www.playonlinux.com/) est basé sur Wine et vous permet d'installer et d'utiliser facilement (certains) jeux MS Windows. Vous pouvez trouver des paquets de PlayOnLinux dans le dépôt de jeux mentionné ci-dessus.
 
 ### B.2.3 CrossOver Games
 
-A second option is CrossOver Games which is an effort based on Wine. See:
+CrossOver est un programme commercial et propriétaire basé sur Wine. Voir :
 
 [https://www.codeweavers.com/products/cxgames/](https://www.codeweavers.com/products/cxgames/)
 
-## B.3 Emulators
+## B.3 Émulateurs
 
-Numerous emulators exist, making it possible to run many old classic games of other platforms on GNU/Linux. For example:
+De nombreux émulateurs existent, permettant d'exécuter de nombreux anciens jeux classiques d'autres plates-formes sur GNU/Linux. Par exemple :
 
 - Amiga (UAE)
 - Arcade (MAME)
@@ -82,4 +82,4 @@ Numerous emulators exist, making it possible to run many old classic games of ot
 - Nintendo (infones, bsnes, nestopia)
 - Play Station (pcsx, pcsx2)
 
-{% include tip.html tip="Usually you can only do this legally, if you own the original hardware/have a licence for it." %}
+{% include tip.html tip="Habituellement, vous ne pouvez le faire légalement que si vous possédez le DVD/une licence pour celui-ci." %}

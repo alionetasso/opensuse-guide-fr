@@ -108,7 +108,7 @@ En 2014, la branche de développement openSUSE Factory a été suffisamment stab
 	</tr>
       	<tr>
 		<td class="image-caption">La mascotte du projet GNU</td>
-		<td class="image-caption">La mascotte officielle de Linux - le pingouin Tux</td>
+		<td class="image-caption">La mascotte officielle de Linux - le manchot Tux</td>
 		<td class="image-caption">La mascotte de KDE - le dragon Konqui</td>
 		<td class="image-caption">La mascotte de SUSE - le caméléon nommé Geeko</td>
 	</tr>

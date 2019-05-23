@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Appendix D: History and Background - What is Free Software and Open Source and What is the History of openSUSE"
-permalink: history
+title: "Appendix D: Histoire et contexte - Qu'est-ce que le Logiciel Libre et Open Source et Quelle est l'histoire d'openSUSE ?"
+permalink: histoire
 ---
 
-# Appendix D: History and Background
+# Appendix D: Histoire et contexte
 
-The purpose of this chapter is to give readers some insight into and background knowledge of the history and eco system of GNU/Linux and free/open source software in general.
+Le but de ce chapitre est de donner aux lecteurs un aperçu et une connaissance de base de l'histoire et de l'écosystème de GNU/Linux et des logiciels libres/open source en général..
 
-## D.1 Source Code vs. Binary Machine Code
+## D.1 Code source vs Code machine binaire
 
-Computer software is written in various different programming languages. This *source code* can be written and understood by anyone with the proper training:
+Les logiciels informatiques sont écrits dans différents langages de programmation. Ce *code source* peut être écrit et compris par toute personne ayant la formation appropriée :
 
     #include <iostream.h>
 
@@ -20,15 +20,15 @@ Computer software is written in various different programming languages. This *s
         return 0;
     }
 
-The human-readable source code is then compiled into *binary machine code* that computers can run:
+Le code source lisible par l'homme est ensuite compilé en *code machine binaire* que les ordinateurs peuvent exécuter :
 
     01001000 01100101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100 00100001 00100000
 
-Without access to the source code and permission to modify it, neither you as an individual, nor your community at large, can study how the software works and what it does - let alone change it and improve it - you are completely dependent on the whims of the company/person which does have the source code.
+Sans accès au code source et sans autorisation de le modifier, ni vous en tant qu'individu, ni votre communauté en général, ne pouvez étudier comment le logiciel fonctionne et ce qu'il fait - et encore moins le modifier et l'améliorer - vous êtes totalement dépendant des caprices de la société/personne qui possède le code source.
 
-## D.2 Richard Stallman, GNU and Free Software
+## D.2 Richard Stallman, GNU et le logiciel libre
 
-In 1984 and 1985 respectively, system programmer Richard M. Stallman (RMS), who was increasingly frustrated by the technical and social restrictions proprietary software imposed on him, founded the [GNU](http://www.gnu.org/) project (GNU's Not Unix) with the aim to create a free Unix like operating system, and the [Free Software Foundation (FSF)](http://www.fsf.org) a foundation to promote free software.
+En 1984 et 1985 respectivement, le programmeur système Richard M. Stallman (RMS), de plus en plus frustré par les restrictions techniques et sociales imposées par les logiciels propriétaires, créa le projet [GNU](http://www.gnu.org/) (GNU's Not Unix) afin de créer un système d'exploitation libre semblable à Unix et la [Free Software Foundation (FSF)] (http://www.fsf.org) une fondation visant à promouvoir les logiciels libres.
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
@@ -41,28 +41,28 @@ In 1984 and 1985 respectively, system programmer Richard M. Stallman (RMS), who 
 </tbody>
 </table>
 
-Free software doesn't mean free of charge, free software can be commercial. It refers to free as in freedom, specifically defined by the following four fundamental freedoms:
+Logiciel libre ne signifie pas gratuit, le logiciel libre peut être commercial. Libre se réfère à la liberté, spécifiquement définie par les quatre libertés fondamentales suivantes :
 
-- (0) The freedom to run the program, for any purpose.
-- (1) The freedom to study how the program works, and change it to make it do what you wish.
-- (2) The freedom to redistribute copies so you can help your neighbor.
-- (3) The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits.
+- (0) La liberté d'exécuter le programme, pour n'importe quel but.
+- (1) La liberté d'étudier le fonctionnement du programme et de le modifier pour qu'il fasse ce que vous voulez.
+- (2) La liberté de redistribuer des copies pour que vous puissiez aider votre voisin.
+- (3) La liberté d'améliorer le programme, et de diffuser vos améliorations (et les versions modifiées en général) au public, afin que toute la communauté en bénéficie.
 
-The freedoms 1 and 3 require access to the source code of the program.
+Les libertés 1 et 3 nécessitent l'accès au code source du programme.
 
-{% include tip.html tip="If you want to know more about free software, consider downloading this [video of Richard M. Stallman speaking](http://audio-video.gnu.org/video/20090122_richard_stallman.ogv) (550 MB, Ogg Theora format)" %}
+{% include tip.html tip="Si vous voulez en savoir plus sur les logiciels libres, pensez à télécharger cette [vidéo de Richard M. Stallman en parlant].(http://audio-video.gnu.org/video/20090122_richard_stallman.ogv) (550 MB, Ogg Theora format)" %}
 
-### D.2.1 GNU GPL, Copyleft and Other Free Software Licenses
+### D.2.1 GNU GPL, Copyleft et autres licences de logiciels libres
 
-Any software licence that secures the above mentioned four fundamental freedoms, is considered a free software licence. Dozens and dozens of different free software licenses exist. Free software licences work by building on existing copyright laws to provide users with a lot more freedom and rights than you'd normally have.
+Toute licence de logiciel qui garantit les quatre libertés fondamentales mentionnées ci-dessus est considérée comme une licence de logiciel libre. Il existe des dizaines et des dizaines de licences de logiciels libres différentes. Les licences de logiciels libres s'appuient sur les lois existantes sur le droit d'auteur pour offrir aux utilisateurs beaucoup plus de liberté et de droits que ce que vous auriez normalement.
 
-The most widely used free software licence by far, is the GNU General Public License (GPL). One of the characteristics of the GNU GPL is that it applies a principle known as *copyleft*. This means that while you're allowed to modify and redistribute GPL'ed software - these derivative works **must** be distributed under similar terms - thus ensuring that GPL'ed programs will always remain free software. Non-copyleft licenses are also called *permissive* licenses, these types of free software licenses allow redistributing the software under different, incompatible licenses - even proprietary ones.
+La licence de logiciel libre de loin la plus utilisée est la GNU General Public License (GPL). L'une des caractéristiques de la GNU GPL est qu'elle applique un principe connu sous le nom de *copyleft*. Cela signifie que même si vous êtes autorisé à modifier et redistribuer des logiciels sous GPL - ces travaux dérivés **doivent** être distribués sous des conditions similaires - assurant ainsi que les programmes sous GPL resteront toujours des logiciels libres. Les licences sans copyleft sont aussi appelées licences *permissives*, ces types de licences de logiciels libres permettent de redistribuer le logiciel sous différentes licences incompatibles, même propriétaires.
 
-## D.3 Linux and Linus Torvalds
+## D.3 Linux et Linus Torvalds
 
-By the late 1980s the GNU project had created an [almost complete free Unix operating system](http://directory.fsf.org/GNU/), but the kernel was causing problems.
+Vers la fin des années 1980, le projet GNU avait créé un [système d'exploitation Unix libre presque complet](http://directory.fsf.org/GNU/), mais le noyau causait des problèmes.
 
-In 1991, independentantly of the GNU project, then 22-year old Finnish university student Linus Torvalds decided to write a Unix kernel that he could use at home. Later that year he announced the first release on a newsgroup, using these now immortal words: *"...I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)..."*.
+En 1991, indépendamment du projet GNU, Linus Torvalds, alors étudiant finlandais de 22 ans, a décidé d'écrire un noyau Unix qu'il pourrait utiliser à la maison. Plus tard dans l'année, il annonça la première sortie sur un groupe de discussion, utilisant ces mots désormais immortels : *"...I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)..."*.
 
 <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
 	<tbody>
@@ -75,15 +75,15 @@ In 1991, independentantly of the GNU project, then 22-year old Finnish universit
 </tbody>
 </table>
 
-The kernel was named Linux and soon it was licenced under the GNU GPL, and people started combining it with the GNU tools. A fully functional, free Unix-like operating system consisting of GNU plus Linux was reality!
+Le noyau s'appelait Linux et bientôt il a été distribué sous licence GNU GPL, et les gens ont commencé à le combiner avec les outils GNU. Un système d'exploitation entièrement fonctionnel et libre de type Unix, composé de GNU et de Linux, était une réalité !
 
-Today Linus Torvalds lives in the U.S. and continues to lead development of the Linux kernel - but he's no longer alone, today over a thousand developers contribute code to the kernel every year - some of which are volunteers contributing in their spare time, while others are employed by large corporations, such as IBM, Intel, Novell and Red Hat.
+Aujourd'hui, Linus Torvalds vit aux Etats-Unis et continue à diriger le développement du noyau Linux - mais il n'est plus seul, aujourd'hui plus d'un millier de développeurs contribuent au code du noyau chaque année - certains d'entre eux sont des volontaires qui contribuent pendant leur temps libre, tandis que d'autres sont employés par de grandes entreprises, telles que IBM, Intel, Novell et Red Hat.
 
 ## D.4 Open Source
 
-The term [open source](http://opensource.org/) was created in 1998, by a group of people who wanted to distance themselves somewhat from the ideological rhetoric of the free software movement for the purpose of making free software more appealing to commercial interests.
+Le terme [open source](http://opensource.org/) a été créé en 1998, par un groupe de personnes qui voulaient se distancier quelque peu de la rhétorique idéologique du mouvement du logiciel libre dans le but de rendre le logiciel libre plus attrayant aux intérêts commerciaux.
 
-The software licences recognised by the Free Software Foundation and the Open Source Initiative are almost all the same, therefore there's very little difference between open source and free software in practice - the differences are almost exclusively on a philosophical and rhetorical level. To bridge the gap between the two camps the term "FOSS" (Free and Open Source Software) is often used.
+Les licences de logiciels reconnues par la Free Software Foundation et l'Open Source Initiative sont presque toutes identiques, donc il y a très peu de différence entre l'open source et le logiciel libre dans la pratique - les différences sont presque exclusivement sur un plan philosophique et rhétorique. Pour combler le fossé entre les deux camps, le terme "FOSS" (Free and Open Source Software) est souvent utilisé.
 
 ## D.5 The History of openSUSE
 

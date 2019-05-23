@@ -41,14 +41,14 @@
 
 - title: Appendix
   pages:
-  - title: "A: Help and Docs"
-    link: help
-  - title: "B: Games"
-    link: games
-  - title: "C. Under the Hood"
+  - title: "A: Aide et Docs"
+    link: aide
+  - title: "B: Jeux"
+    link: jeux
+  - title: "C. Sous le capot"
     link: under
-  - title: "D. History and Background"
-    link: history
+  - title: "D. Histoire et contexte - Qu'est-ce que le Logiciel Libre et Open Source et Quelle est l'histoire d'openSUSE ?"
+    link: histoire
   - title: "E: Getting Involved"
     link: contribute
   - title: GNU Free Documentation License

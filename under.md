@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Annexe C: Dans les coulisses - À la découverte de ce qu'il se passe sous la surface"
+title: "Annexe C: Sous le capot - À la découverte de ce qu'il se passe sous la surface"
 permalink: under
 ---
 

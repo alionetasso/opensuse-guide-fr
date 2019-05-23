@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Appendix E: S'investir - Faire partie de la communauté openSUSE et comment contribuer"
+title: "Annexe E: S'investir - Faire partie de la communauté openSUSE et comment contribuer"
 permalink: contribuer
 ---
 
-# Appendix E: Contribuer
+# Annexe E: Contribuer
 
 openSUSE est développé en mode ouvert, et tout le monde peut y participer - cela signifie que vous pouvez aider à créer et à façonner openSUSE. Si vous souhaitez participer activement à openSUSE ou à d'autres projets de logiciels libres, il y a beaucoup de choses à faire. Trouver quelque chose qui correspond à vos intérêts, à votre temps disponible et à vos compétences ne devrait poser aucun problème.
 

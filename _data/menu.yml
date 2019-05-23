@@ -39,7 +39,7 @@
   - title: 16. Wifi
     link: wlan
 
-- title: Appendix
+- title: Annexes
   pages:
   - title: "A: Aide et Docs"
     link: aide
@@ -49,7 +49,7 @@
     link: under
   - title: "D. Histoire et contexte"
     link: histoire
-  - title: "E: Getting Involved"
+  - title: "E: Contribuer"
     link: contribuer
   - title: GNU Free Documentation License
     link: license

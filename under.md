@@ -4,7 +4,7 @@ title: "Annexe C: Sous le capot - À la découverte de ce qu'il se passe sous la
 permalink: under
 ---
 
-# Appendix C: Sous la surface
+# Annexe C: Sous la surface
 
 L'objectif de ce chapitre est de donner au lecteur un aperçu et quelques idées de ce qu'il se passe dans les rouages d'un système d'exploitation openSUSE GNU/Linux.
 

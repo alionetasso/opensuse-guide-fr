@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Appendix A: Aide et Docs - Support et documentation pour openSUSE"
+title: "Annexe A: Aide et Docs - Support et documentation pour openSUSE"
 permalink: aide
 ---
 
-# Appendix A: Aide et Docs
+# Annexe A: Aide et Docs
 
 Ce guide n'est qu'une brève introduction à quelques notions de base, il est donc probable que vous aurez besoin d'aide supplémentaire à un moment donné. Rien ne vaut l'aide d'un ami en face à face et sur place, mais ce n'est pas souvent possible, donc heureusement, il existe de nombreux endroits où vous pouvez obtenir de l'aide des utilisateurs openSUSE sur le net - la méthode à choisir dépend de vos préférences personnelles.
 

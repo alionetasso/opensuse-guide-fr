@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Appendix B: Jeux - Jouer à des jeux sur openSUSE"
+title: "Annexe B: Jeux - Jouer à des jeux sur openSUSE"
 permalink: jeux
 ---
 
-# Appendix B: Jeux
+# Annexe B: Jeux
 
 Tous les grands jeux grand public ne fonctionnent pas nativement sous GNU/Linux, mais il y a encore beaucoup de possibilités de jeu.
 

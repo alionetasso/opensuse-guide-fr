@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Appendix D: Histoire et contexte - Qu'est-ce que le Logiciel Libre et Open Source et Quelle est l'histoire d'openSUSE ?"
+title: "Annexe D: Histoire et contexte - Qu'est-ce que le Logiciel Libre et Open Source et Quelle est l'histoire d'openSUSE ?"
 permalink: histoire
 ---
 
-# Appendix D: Histoire et contexte
+# Annexe D: Histoire et contexte
 
 Le but de ce chapitre est de donner aux lecteurs un aperçu et une connaissance basique de l'histoire et de l'écosystème de GNU/Linux et des logiciels libres/open source en général..
 

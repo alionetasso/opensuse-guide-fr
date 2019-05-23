@@ -1,134 +1,137 @@
 ---
 layout: default
-title: "Appendix E: Getting Involved - Being a Part of the openSUSE Community and How to Contribute"
-permalink: contribute
+title: "Appendix E: S'investir - Faire partie de la communauté openSUSE et comment contribuer"
+permalink: contribuer
 ---
 
-# Appendix E: Getting Involved
+# Appendix E: Contribuer
 
-openSUSE is developed in the open, and everybody can join in - this means that you can help to create and shape openSUSE. If you wish to participate actively in openSUSE or other free software projects, there are plenty of things to do. Finding something that matches your interests, available time and your skills should be no problem at all.
+openSUSE est développé en mode ouvert, et tout le monde peut y participer - cela signifie que vous pouvez aider à créer et à façonner openSUSE. Si vous souhaitez participer activement à openSUSE ou à d'autres projets de logiciels libres, il y a beaucoup de choses à faire. Trouver quelque chose qui correspond à vos intérêts, à votre temps disponible et à vos compétences ne devrait poser aucun problème.
 
-<div class="tip"><em>"I get the question of "Where should I start?" fairly often and my advice is just don't even ask that question. It's more like if you're not interested enough in one particular area that you already know what you want to try to do, don't do it. Just let it go and then when you hit something where you say, "I could do this better" and you actually feel motivated enough that you go from saying that to doing that, you will have answered that question yourself."</em> - <b>Linus Torvalds</b></div>
+<div class="tip"><em>"On me demande souvent par où commencer et mon conseil est de ne même pas poser cette question. C'est comme si vous n'étiez pas assez intéressé par un domaine particulier pour savoir déjà ce que vous voulez essayer de faire, ne le faites pas. Il suffit de lâcher prise et lorsque vous tombez sur quelque chose où vous dites : "Je pourrais faire mieux" et que vous vous sentez suffisamment motivé pour passer de dire cela à faire cela, vous aurez répondu à cette question vous-même."</em> - <b>Linus Torvalds</b></div>
 
-## E.1 Get in Touch
+## E.1 Prenez contact avec nous
 
-The first steps to getting involved is to follow the news and getting to know the community.
+Les premières étapes pour s'impliquer sont de suivre les nouvelles et d'apprendre à connaître la communauté.
 
-### E.1.1 News and Blogs
+Communauté francophone openSUSE/Linux : [https://www.alionet.org/content.php](https://www.alionet.org/content.php)
 
-Consider following these sources. These and more relevant news feeds are preconfigured in the Akregator RSS-reader which is installed by default and is part of the Kontact suite:
+### E.1.1 Actualités et blogs
+
+Envisagez de suivre ces sources. Ces flux d'informations et d'autres plus pertinents sont préconfigurés dans le lecteur RSS d'Akregator qui est installé par défaut et fait partie de la suite Kontact :
 
 [http://news.opensuse.org](http://news.opensuse.org)
 
 [http://planet.opensuse.org](http://planet.opensuse.org)
 
-### E.1.2 Mailinglists
+La plupart des annonces est traduite sur le site [https://www.alionet.org/content.php](https://www.alionet.org/content.php)
 
-You should also join some of the mailinglists, this is the primary form of communication for the project, -announce, -project, -kde and -factory are some of the major ones, that most would want to subscribe to:
+### E.1.2 Listes de diffusion
 
-[http://en.opensuse.org/openSUSE:Mailing_lists](http://en.opensuse.org/openSUSE:Mailing_lists)
+Vous devriez également vous inscrire à certaines des listes de diffusion, c'est la principale forme de communication pour le projet, -announce, -project, -kde et -factory sont quelques-unes des plus importantes, auxquelles la plupart voudra s'inscrire :
+
+[http://fr.opensuse.org/openSUSE:Mailing_lists](http://fr.opensuse.org/openSUSE:Mailing_lists)
+
 
 ### E.1.3 IRC
 
-Consider hanging out in some IRC channels, where much communication and coordination takes place, as well as regular meetings.
+Envisagez de traîner dans certains canaux de l'IRC, où il y a beaucoup de communication et de coordination, ainsi que des réunions régulières.
 
-[http://en.opensuse.org/openSUSE:IRC_list](http://en.opensuse.org/openSUSE:IRC_list)
+[http://fr.opensuse.org/openSUSE:Communiquer#Discussion instantanée (IRC)](https://fr.opensuse.org/openSUSE:Communiquer#Discussion instantanée (IRC))
 
-### E.1.4 Social Networks
+### E.1.4 Réseaux sociaux
 
-The openSUSE project has its own social network where community members can communicate:
+Le projet openSUSE possède son propre réseau social où les membres de la communauté peuvent communiquer :
 
 [https://connect.opensuse.org/](https://connect.opensuse.org/)
 
-Of course the openSUSE community is also present on all the major social media:
+Bien sûr, la communauté openSUSE est également présente sur tous les principaux médias sociaux :
 
 [https://twitter.com/openSUSE](https://twitter.com/openSUSE)
 
 [http://www.facebook.com/pages/openSUSE/45393742283](http://www.facebook.com/pages/openSUSE/45393742283)
 
-[https://plus.google.com/110312141834246266844/](https://plus.google.com/110312141834246266844/)
-
 [http://www.linkedin.com/groups?home=&gid=61388&trk=anet_ug_hm](http://www.linkedin.com/groups?home=&gid=61388&trk=anet_ug_hm)
 
-### E.1.5 Conferences and events
+### E.1.5 Conférences et événements
 
-The openSUSE community meets regularly on different continents. This is a great opportunity to meet other community members.
+La communauté openSUSE se réunit régulièrement sur différents continents. C'est une excellente occasion de rencontrer d'autres membres de la communauté.
 
 [https://events.opensuse.org/](https://events.opensuse.org/)
 
-## E.2 Participating in openSUSE
+## E.2 Participer à openSUSE
 
-This is just a brief summary of some of the areas where you can contribute while helping to shape the distribution and having a lot of fun.
+Ceci n'est qu'un bref résumé de certains des domaines dans lesquels vous pouvez contribuer tout en aidant à façonner la distribution et en vous amusant beaucoup.
 
-### E.2.1 User Support
+### E.2.1 Soutien aux utilisateurs
 
-Once you have familiarized yourself with openSUSE, you'll quickly be able to help new users in the [forums](http://forums.opensuse.org), [IRC](http://en.opensuse.org/openSUSE:IRC_list) or [mailinglists](http://en.opensuse.org/openSUSE:Mailing_lists). Apart from helping others, you will learn a lot yourself in the process.
+Une fois que vous vous serez familiarisé avec openSUSE, vous pourrez rapidement aider les nouveaux utilisateurs dans les [forums](http://forums.opensuse.org), [IRC](http://fr.opensuse.org/openSUSE:IRC_list) ou [listes de diffusion](http://fr.opensuse.org/openSUSE:Mailing_lists). En plus d'aider les autres, vous apprendrez beaucoup vous-même.
 
 ### E.2.2 Marketing
 
-There's a marketing team working on promoting openSUSE in various ways, which you can join or even become an official openSUSE ambassador.
+Il y a une équipe marketing qui travaille sur la promotion d'openSUSE de différentes manières, que vous pouvez rejoindre ou même devenir un ambassadeur officiel d'openSUSE.
 
 [http://en.opensuse.org/Portal:Marketing](http://en.opensuse.org/Portal:Marketing)
 
 [http://en.opensuse.org/openSUSE:Ambassadors](http://en.opensuse.org/openSUSE:Ambassadors)
 
-You can buy merchandise and help market openSUSE that way:
+Vous pouvez acheter des produits et aider à soutenir le fonctionnement d'openSUSE de cette façon :
 
 [http://shop.opensuse.org/](http://shop.opensuse.org/)
 
-### E.2.3 Wiki and Documentation
+### E.2.3 Wiki et documentation
 
-The openSUSE wiki is always in need of new articles, or cleanup of existing ones.
+Le wiki openSUSE a toujours besoin de nouveaux articles, ou de nettoyage des articles existants.
 
-[http://en.opensuse.org/openSUSE:Wiki_team](http://en.opensuse.org/openSUSE:Wiki_team)
+[http://fr.opensuse.org/openSUSE:Wiki_team](http://fr.opensuse.org/openSUSE:Wiki_team)
 
-Read about the documentation team here:
+Pour en savoir plus sur l'équipe de documentation, cliquez ici :
 
 [http://en.opensuse.org/openSUSE:Documentation_team](http://en.opensuse.org/openSUSE:Documentation_team)
 
-### E.2.4 Translation
+### E.2.4 Traduction
 
-Translate the openSUSE distribution and/or wiki to your native language. You can find a web based interface (Weblate) to translate openSUSE specific software here:
+Traduisez la distribution openSUSE et/ou le wiki dans votre langue maternelle. Vous pouvez trouver une interface web (Weblate) pour traduire le logiciel spécifique openSUSE ici :
 
 [http://l10n.opensuse.org/](http://l10n.opensuse.org/)
 
-You can see an overview of the existing translation teams here:
+Vous pouvez voir un aperçu des équipes de traduction existantes ici :
 
 [https://en.opensuse.org/OpenSUSE_Localization_Teams](https://en.opensuse.org/OpenSUSE_Localization_Teams)
 
 ### E.2.5 Artwork
 
-If you're an artist you can create icons and other artwork for the distribution, marketing, websites and so forth.
+Si vous êtes un artiste, vous pouvez créer des icônes et d'autres œuvres d'art pour la distribution, le marketing, les sites Web, etc.
 
-[http://en.opensuse.org/Portal:Artwork](https://en.opensuse.org/OpenSUSE_Localization_Teams)
+[https://en.opensuse.org/Portal:Artwork](https://en.opensuse.org/Portal:Artwork)
 
-### E.2.6 Bug Reports and Feature Requests
+### E.2.6 Rapports de bogues et demandes de fonctionnalités
 
-You can help test the development versions of upcoming openSUSE releases.
+Vous pouvez aider à tester les versions de développement des prochaines versions d'openSUSE.
 
-You'll find the roadmap here:
+Vous trouverez la feuille de route ici :
 
-[http://en.opensuse.org/Roadmap](http://en.opensuse.org/Roadmap)
+[http://fr.opensuse.org/Roadmap](http://fr.opensuse.org/Roadmap)
 
-Get the latest development version here:
+Téléchargez la dernière version en développement ici :
 
 [http://software.opensuse.org/developer](http://software.opensuse.org/developer)
 
-Read this before reporting bugs:
+Lisez ceci avant de signaler des bogues :
 
-[http://en.opensuse.org/openSUSE:Submitting_bug_reports](http://en.opensuse.org/openSUSE:Submitting_bug_reports)
+[https://fr.opensuse.org/Déclarer_un_bogue](http://fr.opensuse.org/openSUSE:Submitting_bug_reports)
 
-You can request new features for openSUSE here, or vote for (or against) existing requests:
+Vous pouvez demander de nouvelles fonctionnalités pour openSUSE ici, ou voter pour (ou contre) les demandes existantes :
 
 [http://features.opensuse.org/](http://features.opensuse.org/)
 
-There's also an organized testing team which you can join, see:
+Il y a aussi une équipe de test que vous pouvez rejoindre :
 
 [http://en.opensuse.org/openSUSE:Testing](http://en.opensuse.org/openSUSE:Testing)
 
-### E.2.7 Building Packages
+### E.2.7 Construire des paquets
 
-The availability of as many as possible, high quality binary packages is crucial for any distribution. You can build packages on the openSUSE Build Service and even maintain packages in the official distribution:
+La disponibilité du plus grand nombre possible de paquets binaires de haute qualité est cruciale pour toute distribution. Vous pouvez compiler des paquets sur openSUSE Build Service et même maintenir des paquets dans la distribution officielle :
 
 [http://en.opensuse.org/Portal:Build_Service](http://en.opensuse.org/Portal:Build_Service)
 
@@ -142,27 +145,27 @@ The availability of as many as possible, high quality binary packages is crucial
 
 [http://en.opensuse.org/openSUSE:Junior_jobs](http://en.opensuse.org/openSUSE:Junior_jobs)
 
-You can also contribute to the Packman project - which provides a very important 3rd party repository with particularly multimedia - with packaging and other contributions:
+Vous pouvez également contribuer au projet Packman - qui fournit un dépôt tiers très important avec notamment du multimédia - avec des contributions de packaging et autres :
 
 [http://packman.links2linux.org/](http://packman.links2linux.org/)
 
 ### E.2.8 Code
 
-If you're a programmer you can contribute code to fix bugs or add features e.g. in YaST or other components developed by the openSUSE project itself - and of course if you contribute code to upstream projects, openSUSE will benefit from this too - eventually. You can find the source code for various openSUSE components here in publically accessible version control systems:
+Si vous êtes programmeur, vous pouvez contribuer au code pour corriger des bugs ou ajouter des fonctionnalités, par exemple dans YaST ou d'autres composants développés par le projet openSUSE lui-même - et bien sûr si vous contribuez au code des projets amont, openSUSE en profitera aussi - à terme. Vous trouverez ici le code source des différents composants openSUSE dans les systèmes de contrôle de version accessibles au public :
 
 [https://github.com/openSUSE](https://github.com/openSUSE)
 
 [https://github.com/yast/](https://github.com/yast/)
 
-### E.2.9 Mirror Admin
+### E.2.9 Admin miroir
 
-openSUSE needs fast and reliable mirrors to host ISOs and repositories in all parts of the world, to ensure that users have a good experience, if you work in a university or similar, maybe you can help out.
+openSUSE a besoin de miroirs rapides et fiables pour héberger les ISO et les dépôts dans toutes les parties du monde, pour s'assurer que les utilisateurs ont une bonne expérience, si vous travaillez dans une université ou similaire, peut-être pouvez-vous aider.
 
 [http://en.opensuse.org/openSUSE:Mirror_infrastructure](http://en.opensuse.org/openSUSE:Mirror_infrastructure)
 
-### E.2.10 Funds
+### E.2.10 Fonds
 
-Development of free software also needs money and you can help by donating money to your favourite projects or joining some organizations, like e.g.:
+Le développement de logiciels libres a aussi besoin d'argent et vous pouvez aider en donnant de l'argent à vos projets préférés ou en rejoignant certaines organisations, comme par exemple :
 
 [http://jointhegame.kde.org/](http://jointhegame.kde.org/)
 

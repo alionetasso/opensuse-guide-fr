@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 8. Terminal - Exécution des commandes et utilisation de l'interface de ligne de commande sur openSUSE
+title: 9. Terminal - Exécution des commandes et utilisation de l'interface de ligne de commande sur openSUSE
 permalink: command
 ---
 
-# 8. Terminal
+# 9. Terminal
 
 Presque toutes les tâches peuvent être effectuées graphiquement sur une distribution GNU/Linux moderne comme openSUSE, mais pour vraiment devenir un utilisateur autonome et profiter pleinement de la puissance de votre système d'exploitation GNU/Linux, vous devriez au moins connaître quelques bases du terminal - ce n'est pas difficile du tout !
 
@@ -20,7 +20,7 @@ L'utilisation de la ligne de commande est assez simple. Entrez simplement une co
 
 La *commande* **ls** affiche une liste de fichiers, l'*option* **-l** signifie que la liste sera affichée dans un format de liste longue, et l'*argument* **/home/[username]/** spécifie le répertoire dont le contenu est listé.
 
-## 8.1 Raccourcis utiles
+## 9.1 Raccourcis utiles
 
 ### touche tabulation
 
@@ -34,14 +34,14 @@ Coller à partir du presse-papiers.
 
 Ce raccourci arrête toute opération que vous avez démarrée.
 
-## 8.2 Exemples de commandes de base
+## 9.2 Exemples de commandes de base
 
 Ceci n'est qu'une toute petite sélection de commandes pour vous donner une idée de la façon dont les choses fonctionnent.  
 Le terme user dans les commandes est à remplacer par votre nom d'utilisateur.
 
 {% include tip.html tip="Les commandes écrites en **rouge** doivent être exécutées en tant que root." %}
 
-### 8.2.1 Gestion des fichiers et répertoires
+### 9.2.1 Gestion des fichiers et répertoires
 
 Changer de répertoire
 
@@ -67,7 +67,7 @@ Déplacer ou renommer un fichier
 
 <div class="cl">mv /home/user/nomfichier /home/user/nouveaunomfichier</div>
 
-### 8.2.2 Surveillance du système
+### 9.2.2 Surveillance du système
 
 Exécution des processus et consommation des ressources du système. Appuyez sur **'Q'** pour quitter.
 
@@ -81,7 +81,7 @@ Consommation de mémoire
 
 <div class="cl">free</div>
 
-### 8.2.3 Réseau
+### 9.2.3 Réseau
 
 Trouvez votre adresse IP
 
@@ -95,7 +95,7 @@ Découvrez vos serveurs DNS
 
 <div class="cl">cat /etc/resolv.conf</div>
 
-### 8.2.4 Pages Man et aide
+### 9.2.4 Pages Man et aide
 
 Presque toutes les commandes sont accompagnées d'une page de manuel décrivant comment utiliser la commande et les options disponibles. Par exemple, tapez :
 
@@ -107,7 +107,7 @@ Si une commande n'a pas de page de manuel, essayez plutôt *--help*, par exemple
 
 <div class="cl">cp --help</div>
 
-### 8.2.5 Devenir Root
+### 9.2.5 Devenir Root
 
 Pour passer à l'utilisateur root pour exécuter les tâches d'administration du système, tapez :
 
@@ -125,7 +125,7 @@ Pour exécuter une seule commande en tant que root, utilisez :
 
 {% include note.html note="Ne travaillez pas en tant que root à moins que ce ne soit nécessaire." %}
 
-### 8.2.6 Tâches système
+### 9.2.6 Tâches système
 
 Éteindre l'ordinateur :
 
@@ -147,7 +147,7 @@ Activez ou désactivez un service à chaque démarrage. Exemples :
 <div class="clroot">systemctl enable sshd</div>
 <div class="clroot">systemctl disable cups</div>
 
-### 8.2.7 Le noyau
+### 9.2.7 Le noyau
 
 Découvrez la version et la nature de votre noyau :
 
@@ -169,7 +169,7 @@ Déchargement d'un module du noyau :
 
 <div class="clroot">rmmod [nommodule]</div>
 
-### 8.2.8 Informations sur le matériel
+### 9.2.8 Informations sur le matériel
 
 La commande hwinfo peut vous fournir des informations sur presque tout matériel, quelques exemples :
 
@@ -184,7 +184,7 @@ Lister les périphériques USB :
 
 <div class="cl">lsusb</div>
 
-## 8.3 Édition des fichiers texte
+## 9.3 Édition des fichiers texte
 
 L'édition de fichiers de configuration ou d'autres fichiers texte peut se faire de la même manière avec l'éditeur vim, qui est installé par défaut.
 
@@ -198,7 +198,7 @@ Appuyez sur **i** pour entrer en mode insertion (vous verrez "-- -- INSERT --" e
 
 Vim est assez avancé, vous pouvez envisager d'installer un éditeur de texte plus simple, par exemple essayez *nano*.
 
-## 8.4 Lectures complémentaires
+## 9.4 Lectures complémentaires
 
 Si vous voulez en savoir plus sur l'utilisation du terminal, il existe de nombreuses ressources disponibles sur Internet, voici quelques liens.
 

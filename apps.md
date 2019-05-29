@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 6. Applications pour les tâches courantes - Applications pour effectuer les tâches les plus courantes
+title: 7. Applications pour les tâches courantes - Applications pour effectuer les tâches les plus courantes
 permalink: applications
 ---
 
-# 6. Applications pour les tâches courantes
+# 7. Applications pour les tâches courantes
 
 Voici une liste d'applications utilisées pour effectuer des tâches courantes, elles sont toutes installées par défaut avec l'environnement KDE et sont toutes de haute qualité, mais vous pouvez naturellement les remplacer par des alternatives si vous le souhaitez.
 
@@ -23,7 +23,7 @@ Vous trouverez ici d'autres produits de remplacement pour vos applications habit
 
 [http://fr.opensuse.org/Application_equivalents](http://fr.opensuse.org/Application_equivalents)
 
-## 6.1 Surfez sur le Web avec Firefox
+## 7.1 Surfez sur le Web avec Firefox
 
 Mozilla Firefox est le navigateur Web par défaut. C'est l'un des principaux navigateurs Web au monde.
 
@@ -31,7 +31,7 @@ Mozilla Firefox est le navigateur Web par défaut. C'est l'un des principaux nav
 
 Alternatives à considérer : Opéra, Chromium, Falkon, Konqueror
 
-## 6.2 Productivité bureautique avec LibreOffice
+## 7.2 Productivité bureautique avec LibreOffice
 
 LibreOffice est une suite bureautique complète avec traitement de texte, feuilles de calcul, présentation, dessin et plus encore. Elle est très compatible avec la suite bureautique Microsoft Office.
 
@@ -39,7 +39,7 @@ LibreOffice est une suite bureautique complète avec traitement de texte, feuill
 
 Alternatives à considérer : Calligra, Abiword, Gnumeric
 
-## 6.3 Lecture multimédia avec VLC
+## 7.3 Lecture multimédia avec VLC
 
 L'installation par défaut avec l'environnement KDE inclut le lecteur multimedia VLC qui lit la musique et la vidéo.
 
@@ -49,7 +49,7 @@ Alternatives à considérer pour la musique : Amarok, Elisa, Clementine, JuK, Qm
 
 Alternatives à considérer pour les vidéos : SMPlayer, mpv, Kaffeine, Dragon
 
-## 6.4 Édition d'images avec GIMP
+## 7.4 Édition d'images avec GIMP
 
 GIMP (GNU Image Manipulation Program) est une application d'édition d'images très puissante.
 
@@ -59,7 +59,7 @@ GIMP (GNU Image Manipulation Program) est une application d'édition d'images tr
 
 Alternatives à considérer : Gwenview (édition très basique seulement), Krita (principalement une application de dessin/peinture)
 
-## 6.5 Courriel, Calendrier, Flux d'actualités et plus encore avec Kontact
+## 7.5 Courriel, Calendrier, Flux d'actualités et plus encore avec Kontact
 
 Kontact est une véritable suite PIM (gestion des informations personnelles), combinant e-mail, calendrier, flux d'informations, carnet d'adresses et plus encore en un seul endroit. Chacun des composants Kontact (KMail, KOrganizer, Akregator, etc.) peut également être utilisé comme application autonome.
 

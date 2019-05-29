@@ -1,22 +1,22 @@
 ---
 layout: default
-title: 11. Dépôts de logiciels - Ajout et gestion des dépôts de paquets
+title: 12. Dépôts de logiciels - Ajout et gestion des dépôts de paquets
 permalink: depots
 ---
 
-# 11. Dépôts de logiciels
+# 12. Dépôts de logiciels
 
 Comme mentionné dans le chapitre précédent, le gestionnaire de paquets installe un logiciel en récupérant le paquet et ses dépendances dans les dépôts de logiciels, donc les logiciels disponibles pour une installation facile via le gestionnaire de paquets dépendent des dépôts configurés.
 
 Un dépôt logiciel est une collection de paquets RPM (le format d'empaquetage d'openSUSE) et de métadonnées pour les paquets disponibles. Habituellement, les dépôts se trouvent sur des serveurs en ligne, mais ils peuvent aussi se trouver sur un CD/DVD ou sur d'autres supports.
 
-## 11.1 Gestion des dépôts
+## 12.1 Gestion des dépôts
 
 Les dépôts de logiciels peuvent être ajoutés, supprimés et configurés via YaST, dans le module Dépôts de logiciels.
 
 {% include screenshot.html image="yast-repos" %}
 
-### 11.1.1 Ajout de dépôts
+### 12.1.1 Ajout de dépôts
 
 Les dépôts officiels sont préconfigurés, mais de nombreux dépôts non officiels existent et peuvent être ajoutés.
 
@@ -38,7 +38,7 @@ La façon la plus simple et la plus sûre d'ajouter des dépôts est d'utiliser 
 
 Notez que *openSUSE BuildService* est un service permettant à la communauté de créer et de partager des paquets. *Les dépôts openSUSE BuildService ne sont pas officiels et ne sont pas pris en charge*. L'utilisation se fait à **vos propres risques**.
 
-### 11.1.2 Dépôts recommandés
+### 12.1.2 Dépôts recommandés
 
 Vous devriez toujours avoir les quatre dépôts *officiels* (qui sont configurés prêts à l'emploi) :<br/>
 
@@ -66,13 +66,13 @@ N'oubliez pas d'ajouter des dépôts non officiels avec prudence !
 {% endcapture %}
 {% include tip.html tip=repositories_tip %}
 
-### 11.1.3 Mises à jour des changements de fournisseur
+### 12.1.3 Mises à jour des changements de fournisseur
 
 Mettre à jour les paquets installés d'un dépôt vers des versions d'un autre dépôt avec un autre *fournisseur*, est un peu compliqué. Pour en savoir plus, cliquez ici :
 
 [https://fr.opensuse.org/SDB:Mise_à_jour_avec_changement_de_fournisseur](https://fr.opensuse.org/SDB:Mise_à_jour_avec_changement_de_fournisseur)
 
-## 11.2 Gestion des dépôts dans le terminal
+## 12.2 Gestion des dépôts dans le terminal
 
 Si vous le souhaitez, vous pouvez également gérer vos dépôts via un terminal.
 

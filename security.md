@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 7. Sécurité et root - sécurité de base et travailler en tant qu'utilisateur root
+title: 8. Sécurité et root - sécurité de base et travailler en tant qu'utilisateur root
 permalink: securite
 ---
 
-# 7. Sécurité et root
+# 8. Sécurité et root
 
 openSUSE et GNU/Linux en général est un système d'exploitation très sécurisé, mais lorsque vous utilisez n'importe quel ordinateur sur Internet, vous devez toujours être prudent.
 
-## 7.1 L'utilisateur root
+## 8.1 L'utilisateur root
 
 L'une des raisons pour lesquelles GNU/Linux est très sûr, c'est que vous ne travaillez normalement pas avec les permissions administrateur - seul l'utilisateur *root* (ou *super utilisateur*) a les permissions administratives complètes.
 
@@ -16,13 +16,13 @@ Le mot de passe *root* vous sera demandé lors de l'installation de paquets ou d
 
 {% include note.html note="Ne travaillez en tant que *root* que lorsque c'est nécessaire." %}
 
-### 7.1.1 Gestionnaire de fichiers super utilisateur
+### 8.1.1 Gestionnaire de fichiers super utilisateur
 
 Pour travailler graphiquement avec les fichiers système qui nécessitent des permissions *root*, vous pouvez lancer le gestionnaire de fichiers Dolphin en mode *super utilisateur*.
 
 {% include screenshot.html image="super-dolph" %}
 
-### 7.1.2 Travailler en tant qu'utilisateur root dans le terminal
+### 8.1.2 Travailler en tant qu'utilisateur root dans le terminal
 
 La commande suivante est utilisée pour passer à l'utilisateur *root* dans un terminal :
 
@@ -40,7 +40,7 @@ Pour exécuter une seule commande en tant que root, vous pouvez utiliser :
 
 Pour en savoir plus sur l'utilisation du terminal, reportez-vous au chapitre suivant.
 
-## 7.2 Mises à jour de sécurité
+## 8.2 Mises à jour de sécurité
 
 Lorsque de nouvelles mises à jour sont disponibles, vous serez averti par l'applet de mise à jour qui s'exécute dans la zone de la barre d'état système :
 
@@ -48,7 +48,7 @@ Lorsque de nouvelles mises à jour sont disponibles, vous serez averti par l'app
 
 La mise à jour peut se faire graphiquement en cliquant sur l'applet de mise à jour dans la barre d'état.
 
-### 7.2.1 Installation des mises à jour dans le terminal
+### 8.2.1 Installation des mises à jour dans le terminal
 
 Pour installer les correctifs de sécurité officiels et les correctifs de bogues uniquement, exécutez :
 
@@ -58,10 +58,10 @@ Pour installer les correctifs officiels ainsi que les mises à jour des dépôts
 
 <div class="clroot">zypper update</div>
 
-## 7.3 Pare-feu
+## 8.3 Pare-feu
 
 openSUSE est livré avec un pare-feu inclus dans l'installation par défaut ('firewalld'). Par défaut, il autorise tout le trafic sortant et bloque tout le trafic entrant, donc vous n'aurez besoin de changer la configuration que si vous voulez exécuter certains serveurs réseau. Le pare-feu est configurable dans YaST, lisez à propos de YaST dans un chapitre ultérieur.
 
-## 7.4 Vírus et spyware
+## 8.4 Vírus et spyware
 
 Il n'est pas nécessaire d'exécuter un antivirus ou de rechercher des logiciels espions. La propagation de logiciels malveillants via Internet et infectant les systèmes de bureau des utilisateurs à domicile normaux est pratiquement inexistante pour GNU/Linux. Assurez-vous simplement que vous n'installez et n'exécutez pas vous-même des logiciels ou des scripts provenant de sources non fiables, et vous serez en sécurité.

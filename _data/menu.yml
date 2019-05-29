@@ -13,30 +13,32 @@
   pages:
   - title: 5. Espace de travail KDE Plasma
     link: kde
-  - title: 6. Apps pour les tâches courantes
+  - title: 6. Espace de travail GNOME
+    link: gnome
+  - title: 7. Apps pour les tâches courantes
     link: applications
-  - title: 7. Sécurité et root
+  - title: 8. Sécurité et root
     link: securite
-  - title: 8. Terminal
+  - title: 9. Terminal
     link: command
-  - title: 9. Paramètres Admin. (YaST)
+  - title: 10. Paramètres Admin. (YaST)
     link: yast
-  - title: 10. Installation de logiciels
+  - title: 11. Installation de logiciels
     link: installationpaquets
-  - title: 11. Dépôts de logiciels
+  - title: 12. Dépôts de logiciels
     link: depots
 
 - title: Configuration
   pages:
-  - title: 12. MS Windows Interop
+  - title: 13. MS Windows Interop
     link: windows
-  - title: 13. Codecs Multimedia
+  - title: 14. Codecs Multimedia
     link: codecs
-  - title: 14. Plugins de navigateur
+  - title: 15. Plugins de navigateur
     link: browserplugins
-  - title: 15. Pilotes graphiques
+  - title: 16. Pilotes graphiques
     link: 3d
-  - title: 16. Wifi
+  - title: 17. Wifi
     link: wlan
 
 - title: Annexes

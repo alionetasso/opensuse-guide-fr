@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 10. Installation de logiciels - Installer les programmes avec le gestionnaire de paquets
+title: 11. Installation de logiciels - Installer les programmes avec le gestionnaire de paquets
 permalink: installationpaquets
 ---
 
-# 10. Installation d'un logiciel
+# 11. Installation d'un logiciel
 
 L'installation d'un logiciel est généralement très facile sur openSUSE. Il y a un gestionnaire de paquets, qui vous permet d'installer et de supprimer des paquets très facilement - c'est comparable aux app stores que l'on trouve sur de nombreux smartphones modernes.
 
-## 10.1 Utilisation du gestionnaire de paquets
+## 11.1 Utilisation du gestionnaire de paquets
 
 Ouvrez simplement YaST Software Management.
 
@@ -19,7 +19,7 @@ Maintenant, recherchez le paquet que vous voulez, sélectionnez-le pour l'instal
 
 {% include tip.html tip="La disponibilité des logiciels dans le gestionnaire de logiciels dépend des _dépôts de logiciels_ configurés. Pour en savoir plus sur les dépôts de logiciels, lisez le chapitre suivant." %}
 
-### 10.1.1 Utilisation de l'installation en 1-clic
+### 11.1.1 Utilisation de l'installation en 1-clic
 
 Lorsque vous naviguez sur des sites Web liés à openSUSE, il est probable que vous rencontriez des boutons tels que celui-ci :
 
@@ -27,13 +27,13 @@ Lorsque vous naviguez sur des sites Web liés à openSUSE, il est probable que v
 
 L'installation en 1 clic (également appelée "Installation directe") automatise simplement le processus d'ajout d'un ou plusieurs dépôts de logiciels au gestionnaire de paquets et l'installation d'un ou plusieurs paquets RPM. Par conséquent, l'installation en 1 clic _devrait être utilisée avec le même soin_ que l'ajout manuel de dépôts non officiels (voir le chapitre suivant pour en savoir plus sur les dépôts de logiciels).
 
-## 10.2 Autres méthodes d'installation
+## 11.2 Autres méthodes d'installation
 
 La plupart des utilisateurs trouveront tout ce dont ils ont besoin et plus encore dans le gestionnaire de paquets - surtout si quelques dépôts de logiciels supplémentaires sont ajoutés (voir chapitre suivant). Mais tous les logiciels ne sont pas empaquetés et fournis via des dépôts, et les logiciels non-libres ne peuvent généralement pas être redistribués légalement via le gestionnaire de paquets en raison des restrictions de licence.
 
 Dans ces cas, vous devrez aller sur le site Web du développeur/fournisseur et télécharger et installer le logiciel manuellement - mais **toujours** rechercher d'abord un paquet openSUSE dans les dépôts - et vous assurer que vous téléchargez et installez uniquement des logiciels de **sources fiables**.
 
-### 10.2.1 fichier RPM
+### 11.2.1 fichier RPM
 
 Avec un peu de chance, le site web du développeur/vendeur aura un fichier RPM pour openSUSE. Pour installer un seul fichier RPM téléchargé :
 
@@ -41,7 +41,7 @@ Avec un peu de chance, le site web du développeur/vendeur aura un fichier RPM p
 
 {% include note.html note="N'installez que les fichiers RPM qui sont conçus spécifiquement pour (votre version de) openSUSE." %}
 
-### 10.2.2 Archives Tarball
+### 11.2.2 Archives Tarball
 
 Si le site Web n'a pas de RPM pour openSUSE, il aura très probablement un fichier archive _tarball_. Les archives Tarballs (\*.tar.gz, \*.tar.bz2) sont simplement des archives compressées similaires aux fichiers ZIP et RAR. Pour décompresser une archive :
 
@@ -49,7 +49,7 @@ Si le site Web n'a pas de RPM pour openSUSE, il aura très probablement un fichi
 
 L'archive peut contenir des binaires qu'il suffit d'exécuter, ou il peut contenir du code source qui doit être compilé pour fonctionner sur votre système - cela peut être très compliqué, et vous devez d'abord installer divers outils de développement. Il n'y a pas de méthode standard pour installer le contenu de l'archive, mais les instructions doivent toujours être incluses dans l'archive dans des fichiers appelés INSTALL, README ou similaires - ou vous devriez pouvoir trouver les instructions d'installation sur le site Web où vous avez téléchargé l'archive.
 
-## 10.3 Gestion des paquets dans le terminal
+## 11.3 Gestion des paquets dans le terminal
 
 Si vous le souhaitez, vous pouvez également installer et supprimer des paquets via un terminal.
 
@@ -73,19 +73,19 @@ Ou pour de l'aide sur les commandes individuelles, utilisez par exemple :
 
 <div class="cl">zypper install --help</div>
 
-### 10.3.1 Utilisation de 1-click dans le terminal
+### 11.3.1 Utilisation de 1-click dans le terminal
 
 Vous pouvez aussi utiliser l'installation en 1 clic dans le terminal, la syntaxe est _OCICLI[URL]_, Exemple :
 
 <div class="clroot">OCICLI http://opensuse-community.org/nvidia.ymp</div>
 
-### 10.3.2 Fichier RPM téléchargé manuellement
+### 11.3.2 Fichier RPM téléchargé manuellement
 
 Pour installer un fichier RPM téléchargé manuellement, utilisez :
 
 <div class="clroot">zypper install /chemin/vers/lefichier_manuellement_téléchargé.rpm</div>
 
-### 10.3.3 Informations sur les paquets RPM
+### 11.3.3 Informations sur les paquets RPM
 
 Vous pouvez obtenir très facilement plusieurs informations utiles sur les paquets installés à partir de la base de données RPM.
 

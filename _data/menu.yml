@@ -24,7 +24,7 @@
   - title: 10. Paramètres Admin. (YaST)
     link: yast
   - title: 11. Installation de logiciels
-    link: installationpaquets
+    link: installpackage
   - title: 12. Dépôts de logiciels
     link: depots
 

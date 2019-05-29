@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 9. Paramètres administrateur (YaST) - Introduction à l'outil de configuration YaST
+title: 10. Paramètres administrateur (YaST) - Introduction à l'outil de configuration YaST
 permalink: yast
 ---
 
-# 9. Paramètres administrateur (YaST)
+# 10. Paramètres administrateur (YaST)
 
 YaST (*Y*et *a*nother *S*etup *T*ool : encore un autre outil de configuration) est l'outil central de l'administration du système. Vous pourrez trouver YaST dans le menu principal, dans la catégorie Système (ou en faisant une recherche dans le shell si vous utilisez GNOME).
 
@@ -36,7 +36,7 @@ En plus de ceux présents dans l'installation par défaut, de nombreux autres mo
 
 {% include tip.html tip="Vous n'êtes pas tenus d'utiliser YaST si vous ne le souhaitez pas. Vous pouvez effectuer les mêmes tâches grâce à des outils en ligne de commande et en éditant manuellement les fichiers de configuration." %}
 
-## 9.1 YaST en terminal
+## 10.1 YaST en terminal
 
 Les modules YaST peuvent aussi être utilisés depuis un terminal (en mode ncurses), ce qui est particulièrement utile sur des serveurs ne disposant pas d'environnement graphique, dans le cadre d'un accès via SSH ou encore si votre environment graphique rencontrait un problème.
 

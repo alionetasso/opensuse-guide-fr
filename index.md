@@ -29,7 +29,7 @@ openSUSE Leap est développé de manière ouverte et transparente par une commun
 
 Afin de faciliter la création de versions modifiées ou de traductions, le code source de ce guide et des versions connues à ce jour est à la disposition de toute personne susceptible d'être intéressée selon les termes de la [GNU Free Documentation License](licence) :
 
-- [Code source pour la traduction en français par l'équipe alionet](https://github.com/CChalu/opensuse-guide-fr)  
+- [Code source pour la traduction en français par l'équipe alionet](https://github.com/alionetasso/opensuse-guide-fr)  
 - [Code source du guide original en anglais par Martin Schlander](https://github.com/cb400f/opensuse-guide.org/)  
 - [Code source pour la traduction en portugais brésilien par le projet Linux Kamarada](https://github.com/kamarada/guiadoopensuse/)  
 - [Code sources pour la version dérivée espagnole](https://gitlab.com/victorhck/guia_openSUSE)

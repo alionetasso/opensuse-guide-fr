@@ -15,7 +15,7 @@ gems:
 # Site URL
 # The base protocol and hostname for the website
 # Default: not set (this variable is only necessary for external systems)
-url: "http://cchalu.github.io"
+url: "https://alionetasso.github.io"
 
 ###########
 # Serving #

@@ -24,13 +24,13 @@
   - title: 10. Paramètres Admin. (YaST)
     link: yast
   - title: 11. Installation de logiciels
-    link: installpackage
+    link: installationpaquets
   - title: 12. Dépôts de logiciels
     link: depots
 
 - title: Configuration
   pages:
-  - title: 13. MS Windows Interop
+  - title: 13. Interopérabilité MS Windows
     link: windows
   - title: 14. Codecs Multimedia
     link: codecs

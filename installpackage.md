@@ -14,6 +14,22 @@ Ouvrez simplement YaST Software Management.
 
 {% include video.html video="installpackage114" screenshot="sw-single" size="0.99 MB" %}
 
+<video width="640" height="360" controls autoplay>
+	<!-- MP4 must be first for iPad! -->
+	<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4"  /><!-- Safari / iOS, IE9 -->
+	<source src="http://clips.vorwaerts-gmbh.de/VfE.webm"      type="video/webm" /><!-- Chrome10+, Ffx4+, Opera10.6+ -->
+	<source src="http://clips.vorwaerts-gmbh.de/VfE.ogv"       type="video/ogg"  /><!-- Firefox3.6+ / Opera 10.5+ -->
+	<!-- fallback to Flash: -->
+	<object width="640" height="360" type="application/x-shockwave-flash" data="player.swf">
+		<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+		<param name="movie" value="player.swf" />
+		<param name="flashvars" value="autostart=true&amp;controlbar=over&amp;image=poster.jpg&amp;file=http://clips.vorwaerts-gmbh.de/VfE_flash.mp4" />
+		<!-- fallback image -->
+		<img src="poster.jpg" width="640" height="360" alt="Big Buck Bunny"
+		     title="No video playback capabilities, please download the video below" />
+	</object>
+</video>
+
 Maintenant, recherchez le paquet que vous voulez, sélectionnez-le pour l'installation et cliquez sur Accepter. Le gestionnaire de paquets récupérera alors le paquet RPM à partir de vos dépôts de logiciels configurés - et l'installera, y compris toutes les dépendances. Une fois l'installation terminée, l'application devrait apparaître dans le menu de lancement (sauf s'il s'agit d'un programme en ligne de commande).
 
 

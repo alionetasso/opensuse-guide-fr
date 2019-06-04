@@ -14,7 +14,7 @@ Ouvrez simplement YaST Software Management.
 
 {% include video.html video="installpackage114" screenshot="sw-single" size="0.99 MB" %}
 
-<center><video width="600" height="450" controls>
+<center><video width="600" height="450" controls="controls">
 	<!-- MP4 must be first for iPad! -->
 	<source src="/opensuse-guide-fr/video/installpackage114.mp4" type="video/mp4"  /><!-- Safari / iOS, IE9 -->
 	<source src="/opensuse-guide-fr/video/installpackage114.ogv" type="video/ogg"  /><!-- Firefox3.6+ / Opera 10.5+ -->

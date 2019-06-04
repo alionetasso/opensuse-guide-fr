@@ -25,23 +25,20 @@ Certaines choses diffèrent donc considérablement de la plupart des autres envi
 
 <center><a href="images/screenshots/gnome-desktop.png" rel="thumbnail"><img src="images/screenshots/gnome-desktop.png" alt="GNOME Desktop" class="pic" /></a></center><br />
 
-### 6.1.1 Le menu lanceur d'applications
+### 6.1.1 Le *Shell*
 
-Le menu de lancement s'ouvre en cliquant sur l'icône dans le coin inférieur gauche de l'écran ou en appuyant sur la touche Super ou Alt+F1. Si vous commencez à taper, un champ de recherche apparaîtra en haut. Vous pouvez ajouter et supprimer des applications à vos favoris en cliquant avec le bouton droit de la souris sur les éléments du menu. Vous pouvez ajouter et supprimer des applications à vos favoris en cliquant avec le bouton droit de la souris sur les éléments du menu.
+C'est sûrement l'aspect le plus particulier à GNOME. Lorsque vous appuyer sur la touche *Super* ou que vous cliquez sur *Activités* en haut à gauche ou bien que vous envoyez le pointeur de la souris dans ce même coin supérieur droit, GNOME affiche le *Shell* qui se compose de 4 éléments principaux :
 
-<center><a href="images/screenshots/launchmenu.png" rel="thumbnail"><img src="images/screenshots/launchmenub.png" alt="launchmenuç" class="pic" /></a></center><br />
+- le *Dock*: c'est la barre vertical à gauche qui contient les applications favorites ;
+- en haut au centre, il y a l'espace de recherche: dès que vous entrez dans le *Shell*, commencez à taper les premières lettres de votre recherche pour que s'affiche toutes les applications, mais aussi les fichiers, dossiers et logiciels disponibles (mais non installés) dont le nom contient les lettre recherchées. Ainsi taper "Fi" renverra notamment Firefox. Le résultat le plus pertinent est mis en surbrillance, il suffit d'appuyer sur Entrée pour lancer l'application ;
+- au centre se trouve la vue en mosaïque des fenêtres existantes dans l'espace de travail actuel ;
+- à droite, en vertical, vous trouverez la liste des espaces de travail virtuels.
 
-Vous pouvez modifier des entrées de menu ou en ajouter de nouvelles comme ceci :
-
-<div class="path">Cliquez avec le bouton droit de la souris sur l'icône du menu  =&gt; Modifier les applications...</div>
-
-Pour ajouter un raccourci pour une application sur le bureau ou dans le panneau, vous pouvez le faire (les widgets doivent être déverrouillés) ainsi :
-
-<div class="path">Trouver l'application dans le menu => Clic droit sur l'entrée => Cliquez sur "Ajouter au panneau" ou "Ajouter au bureau"</div>
 
 ### 6.1.2 Espace de travail virtuel
 
-Pour éviter que votre bureau ne soit encombré de fenêtres, vous pouvez utiliser des espaces de travail virtuels pour organiser vos applications et être plus productif. Dans le panneau vous trouverez une petite grille, c'est le pager de bureau, utilisez-le pour basculer entre vos bureaux virtuels.
+Pour éviter que votre bureau ne soit encombré de fenêtres, vous pouvez utiliser des espaces de travail virtuels pour organiser vos applications et être plus productif.
+GNOME en crée 2 par défaut, l'actuel plus un « en réserve » puis en crée d'autres au fur et à mesure que vous « peuplez » les espaces de travail virtuels existants.
 
 <center><img src="images/screenshots/pager.png" alt="pager" class="pic" /></center><br />
 

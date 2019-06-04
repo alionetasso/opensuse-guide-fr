@@ -1,5 +1,6 @@
-<center><video src="{{ site.baseurl | append: '/video/' | append: include.video | append: '.mp4' | replace: '//', '/' }}" controls>
-<src="{{ site.baseurl | append: '/video/' | append: include.video | append: '.ogv' | replace: '//', '/' }}" controls>
+<center><video width="600" height="450" controls>
+<source src="{{ site.baseurl | append: '/video/' | append: include.video | append: '.mp4' | replace: '//', '/' }}"/>
+<source src="{{ site.baseurl | append: '/video/' | append: include.video | append: '.ogv' | replace: '//', '/' }}" />
 
 {% include screenshot.html image=include.screenshot %}
 

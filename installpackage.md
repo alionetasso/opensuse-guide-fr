@@ -14,13 +14,6 @@ Ouvrez simplement YaST Software Management.
 
 {% include video.html video="installpackage114" screenshot="sw-single" size="0.99 MB" %}
 
-<center><video width="600" height="450" controls="controls">
-	<!-- MP4 must be first for iPad! -->
-	<source src="/opensuse-guide-fr/video/installpackage114.mp4" type="video/mp4"  /><!-- Safari / iOS, IE9 -->
-	<source src="/opensuse-guide-fr/video/installpackage114.ogv" type="video/ogg"  /><!-- Firefox3.6+ / Opera 10.5+ -->
-	<!-- fallback to Flash: -->
-</video></center>
-
 Maintenant, recherchez le paquet que vous voulez, sélectionnez-le pour l'installation et cliquez sur Accepter. Le gestionnaire de paquets récupérera alors le paquet RPM à partir de vos dépôts de logiciels configurés - et l'installera, y compris toutes les dépendances. Une fois l'installation terminée, l'application devrait apparaître dans le menu de lancement (sauf s'il s'agit d'un programme en ligne de commande).
 
 

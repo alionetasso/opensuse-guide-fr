@@ -14,6 +14,12 @@ Ouvrez simplement YaST Software Management.
 
 {% include video.html video="installpackage114" screenshot="sw-single" size="0.99 MB" %}
 
+<video width="600" height="450" controls="controls">
+  <source src="video/installpackage.mp4" type="video/mp4" />
+  <source src="video/installpackage.ogv" type="video/ogg" />
+  Vous n'avez pas de navigateur moderne, donc pas de balise video HTML5 !
+</video>
+
 Maintenant, recherchez le paquet que vous voulez, sélectionnez-le pour l'installation et cliquez sur Accepter. Le gestionnaire de paquets récupérera alors le paquet RPM à partir de vos dépôts de logiciels configurés - et l'installera, y compris toutes les dépendances. Une fois l'installation terminée, l'application devrait apparaître dans le menu de lancement (sauf s'il s'agit d'un programme en ligne de commande).
 
 

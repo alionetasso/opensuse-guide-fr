@@ -12,7 +12,7 @@ Il existe des milliers de commandes que vous pouvez exécuter, chacune avec un c
 
 Vous trouverez *Konsole* sous Système dans le menu de lancement.
 
-<center><video width="600" height="450" controls="controls">
+<center><video width="600" height="476" controls="controls">
   <source src="/opensuse-guide-fr/video/konsole.mp4" type="video/mp4" />
   <source src="/opensuse-guide-fr/video/konsole.ogv" type="video/ogg" />
   Vous n'avez pas de navigateur moderne, donc pas de balise video HTML5 ! Essayez Firefox.

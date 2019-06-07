@@ -15,8 +15,8 @@ Ouvrez simplement YaST Software Management.
 {% include video.html video="installpackage114" screenshot="sw-single" size="0.99 MB" %}
 
 <video width="600" height="450" controls="controls">
-  <source src="/video/installpackage.mp4" type="video/mp4" />
-  <source src="/video/installpackage.ogv" type="video/ogg" />
+  <source src="/opensuse-guide-fr/video/installpackage.mp4" type="video/mp4" />
+  <source src="/opensuse-guide-fr/video/installpackage.ogv" type="video/ogg" />
   Vous n'avez pas de navigateur moderne, donc pas de balise video HTML5 !
 </video>
 

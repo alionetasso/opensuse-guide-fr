@@ -34,7 +34,11 @@ La façon la plus simple et la plus sûre d'ajouter des dépôts est d'utiliser 
 
 <div class="path">YaST => Logiciels => Dépôts de logiciels => Cliquez sur "Ajouter" => Selectionner "Dépôts communautaires" et cliquez sur "Suivant"</div><p></p>
 
-{% include video.html video="repos114" screenshot="community-repos" size="1.2 MB" %}
+<center><video width="600" height="450" controls="controls">
+  <source src="/opensuse-guide-fr/video/repos114.mp4" type="video/mp4" />
+  <source src="/opensuse-guide-fr/video/repos114.ogv" type="video/ogg" />
+  Vous n'avez pas de navigateur moderne, donc pas de balise video HTML5 ! Essayez Firefox.
+</video></center>
 
 Notez que *openSUSE BuildService* est un service permettant à la communauté de créer et de partager des paquets. *Les dépôts openSUSE BuildService ne sont pas officiels et ne sont pas pris en charge*. L'utilisation se fait à **vos propres risques**.
 

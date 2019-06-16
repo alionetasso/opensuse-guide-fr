@@ -7,7 +7,7 @@ permalink: gnome
 # 6. Environnement de bureau GNOME
 
 Si vous avez fait le choix du bureau GNOME lors de l'installation, vous vous retrouverez, au redémarrage après celle-ci, devant GDM, le gestionnaire de connexion de l'environnement GNOME. Une fois connecté, vous vous retrouverez devant un espace simple et épuré, comprenant le bureau lui-même et la barre supérieure.
-Celle-ci vous se compose:
+Celle-ci se compose:
 - du menu Activités, tout à fait à gauche, qui vous donne accès à vos applications ainsi qu'à une vue générale des fenêtres ouvertes et des espaces de travail ;
 - du centre de notification, au centre : c'est là que vous retrouverez les messages du système et des logiciels (alertes, rappels de calendriers, etc..) ainsi que le calendrier ;
 - du menu utilisateur, tout à fait à droite, qui vous permet de gérer le son, la luminosité de l'écran, les connexions réseaux et Bluetooth mais aussi d'accéder à votre compte, aux paramètres du système et d'éteindre la machine.
@@ -23,11 +23,11 @@ Certaines choses diffèrent donc considérablement de la plupart des autres envi
 - le bureau lui-même n'est qu'un espace destiné à accueillir les fenêtres, il ne sert à afficher les icônes des applications ou des raccourcis vers vos fichiers ;
 - la plupart des raccourcis font appel à la touche Super (injustement représentée par le logo Windows sur la plupart des PC), préssée seule cette touche vous donne accès au *Shell* : c'est là que vous allez retrouver l'ensemble de vos applications ainsi qu'une vue étalée de toutes vos fenêtres ouvertes.
 
-<center><a href="images/screenshots/gnome-desktop.png" rel="thumbnail"><img src="images/screenshots/gnome-desktop.png" alt="GNOME Desktop" class="pic" /></a></center><br />
+<center><a href="images/screenshots/desktop-Gnome.png" rel="thumbnail"><img src="images/screenshots/desktop-Gnomeb.png" alt="Gnome-desktop" class="pic" /></a></center><br />
 
 ### 6.1.1 Le *Shell*
 
-C'est sûrement l'aspect le plus particulier à GNOME. Lorsque vous appuyer sur la touche *Super* ou que vous cliquez sur *Activités* en haut à gauche ou bien que vous envoyez le pointeur de la souris dans ce même coin supérieur droit, GNOME affiche le *Shell* qui se compose de 4 éléments principaux :
+C'est sûrement l'aspect le plus particulier à GNOME. Lorsque vous appuyez sur la touche *Super* ou que vous cliquez sur *Activités* en haut à gauche ou bien que vous envoyez le pointeur de la souris dans ce même coin supérieur droit, GNOME affiche le *Shell* qui se compose de 4 éléments principaux :
 
 - le *Dock*: c'est la barre vertical à gauche qui contient les applications favorites ;
 - en haut au centre, il y a l'espace de recherche: dès que vous entrez dans le *Shell*, commencez à taper les premières lettres de votre recherche pour que s'affiche toutes les applications, mais aussi les fichiers, dossiers et logiciels disponibles (mais non installés) dont le nom contient les lettre recherchées. Ainsi taper "Fi" renverra notamment Firefox. Le résultat le plus pertinent est mis en surbrillance, il suffit d'appuyer sur Entrée pour lancer l'application ;

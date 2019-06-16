@@ -23,8 +23,8 @@ Il y a de nombreuses raisons pour lesquelles des millions de personnes aiment ut
 - **Transparence :** la plupart des distributions GNU/Linux sont développées dans des espaces ouverts, en utilisant des listes publiques *e-mail*, des canaux IRC publics, des  *bug trackers* publics, des suiveurs de fonctionnalités (*feature trackers*) publics, etc...
 - **Diversité :** il existe plusieurs distributions GNU/Linux développées par différentes entreprises ou projets communautaires, pour différents objectifs, offrant différentes expériences utilisateur.
 - **Confidentialité :** Les *logiciels* libres respectent généralement votre vie privée, et le code source accessible au public offre une certaine protection contre les *backdoors* et autres activités similaires ;
-- **Essayez quelque chose de nouveau** : le simple fait d'essayer quelque chose de nouveau et de différent peut être, en soi, une motivation pour de nombreuses personnes. et....
-- Et... c'est très amusant !
+- **Essayez quelque chose de nouveau** : le simple fait d'essayer quelque chose de nouveau et de différent peut être, en soi, une motivation pour de nombreuses personnes. Et....
+- *c'est très amusant !*
 
 {% include pic.html image="hardware.gif" %}
 

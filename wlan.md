@@ -18,6 +18,10 @@ La première étape est de lancer la commande suivante afin d'identifier la puce
 
 <div class="clroot">hwinfo --wlan --short</div><p></p>
 
+ou encore mieux pour avoir des informations en plus sur le module noayau utilisé et éventuellement le pilote :
+
+<div class="clroot">lspci -nnkd ::280</div><p></p>
+
 {% include screenshot.html image="hwinfo" %}
 
 Maintenant que vous connaissez le type de puce présente sur la carte Wifi, il est temps de découvrir ce qui manque pour la faire fonctionner sous openSUSE ; généralement vous avez juste besoin d'installer un pilote et/ou des firmwares.

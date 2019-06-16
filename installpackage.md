@@ -10,7 +10,7 @@ L'installation d'un logiciel est généralement très facile sur openSUSE. Il y 
 
 ## 11.1 Utilisation du gestionnaire de paquets
 
-Ouvrez simplement YaST Software Management.
+Ouvrez simplement YaST > Logiciel > Installer et supprimer des logiciels.
 
 <center><video width="600" height="450" controls="controls">
   <source src="/opensuse-guide-fr/video/installpackage114.mp4" type="video/mp4" />

@@ -6,7 +6,7 @@ permalink: kde
 
 # 5. Environnement de bureau KDE Plasma
 
-L'environnement de bureau KDE Plasma est l'une des premières choses que vous verrez lorsque vous démarrerez openSUSE Leap pour la première fois. L'espace de bureau comprend le bureau lui-même, les menus, les panneaux, la gestion des fichiers et la gestion des fenêtres.
+L'environnement de bureau KDE Plasma, si c'est le choix que vous avez fait à l'installation, est l'une des premières choses que vous verrez lorsque vous démarrerez openSUSE Leap pour la première fois. L'espace de bureau comprend le bureau lui-même, les menus, les panneaux, la gestion des fichiers et la gestion des fenêtres.
 
 L'environnement de bureau Plasma de KDE est très configurable. S'il y a quelque chose que vous n'aimez pas, vous pouvez presque certainement le configurer à votre goût. Il est également extrêmement riche en fonctionnalités, ci-dessous ne sont mentionnées que les fonctionnalités les plus basiques.
 

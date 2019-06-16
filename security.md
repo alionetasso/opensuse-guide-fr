@@ -62,6 +62,6 @@ Pour installer les correctifs officiels ainsi que les mises à jour des dépôts
 
 openSUSE est livré avec un pare-feu inclus dans l'installation par défaut ('firewalld'). Par défaut, il autorise tout le trafic sortant et bloque tout le trafic entrant, donc vous n'aurez besoin de changer la configuration que si vous voulez exécuter certains serveurs réseau. Le pare-feu est configurable dans YaST, lisez à propos de YaST dans un chapitre ultérieur.
 
-## 8.4 Vírus et spyware
+## 8.4 Virus et spyware
 
 Il n'est pas nécessaire d'exécuter un antivirus ou de rechercher des logiciels espions. La propagation de logiciels malveillants via Internet et infectant les systèmes de bureau des utilisateurs à domicile normaux est pratiquement inexistante pour GNU/Linux. Assurez-vous simplement que vous n'installez et n'exécutez pas vous-même des logiciels ou des scripts provenant de sources non fiables, et vous serez en sécurité.

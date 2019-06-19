@@ -47,7 +47,7 @@ Vous retrouverez une vue miniature de tous vos espaces de travail dans le *Shell
 Le gestionnaire de fichiers par défaut est l'application **Fichiers** (du paquet *nautilus*), qui est l'un des favoris dans le Dock. Il devrait être très intuitif. Les clés USB et autres supports amovibles apparaîtront automatiquement dans le volet gauche.
 <div class="path">Shell => Recherche "Fichiers"</div><br />
 
-<center><a href="images/screenshots/nautilus.png" rel="thumbnail"><img src="images/screenshots/nautilus.png" alt="nautilus" class="pic" /></a></center><br />
+<center><a href="images/screenshots/nautilus.png" rel="thumbnail"><img src="images/screenshots/nautilusb.png" alt="nautilus" class="pic" /></a></center><br />
 
 ## 6.3 Configurer le bureau (Paramètres GNOME)
 

@@ -24,11 +24,11 @@ Ou ajoutez le référentiel de jeux en utilisant la ligne de commande :
 
 La [Plate-forme de jeu et magasin Steam](http://store.steampowered.com/browse/linux/) est disponible pour GNU/Linux. Vous pouvez en trouver des paquets [ici](http://software.opensuse.org/package/steam).
 
-### B.1.3 Desura
+### B.1.3 itch.io/games
 
-La platforme de distribution en ligne Desura offre un accès facile aux jeux créés par des développeurs indépendants, les jeux sont pour la plupart payants, certains sont gratuits, voir :
+itch.io est un marché ouvert pour les créateurs numériques indépendants qui se concentre sur les jeux vidéo indépendants. C'est une plateforme qui permet à chacun de vendre le contenu qu'il a créé. itch.io est aussi une collection de certaines des créations les plus uniques, intéressantes et indépendantes que vous trouverez sur le web. Voir :
 
-[http://www.desura.com](http://www.desura.com)
+[https://itch.io/games/platform-linux](https://itch.io/games/platform-linux)
 
 ### B.1.4 Autres ressources de jeux pour GNU/Linux
 
@@ -45,6 +45,10 @@ Il existe de plus en plus de jeux gratuits et/ou non-libres - certains petits et
 [http://www.lgdb.org/](http://www.lgdb.org/) (ne semble plus exister)
 
 [http://www.linuxgamingworld.com/](http://www.linuxgamingworld.com/)  (ne semble plus exister)
+
+[https://www.gog.com/games](https://www.gog.com/games)
+
+[https://www.humblebundle.com/store](https://www.humblebundle.com/store)
 
 ## B.2 Exécution des jeux MS Windows
 
@@ -69,6 +73,10 @@ Wine est une application en ligne de commande, la syntaxe est :
 CrossOver est un programme commercial et propriétaire basé sur Wine. Voir :
 
 [https://www.codeweavers.com/products/cxgames/](https://www.codeweavers.com/products/cxgames/)
+
+### B.2.4 Lutris
+
+[Lutris](https://lutris.net/) permet de rassembler et de gérer (installer, configurer et lancer) tous les jeux acquis depuis n'importe quelle source, dans une interface unique. Cela inclut, par exemple, les jeux Steam, GOG, Battle.net, Origin, Uplay, les jeux Windows (WINE), ou les jeux sur console émulés et les jeux par navigateur.
 
 ## B.3 Émulateurs
 

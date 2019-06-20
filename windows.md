@@ -64,6 +64,10 @@ Le project Wine maintient une base de données permettant de partager les expér
 
 [http://appdb.winehq.org/appbrowse.php](http://appdb.winehq.org/appbrowse.php)
 
+### 13.3.2 PlayOnLinux
+
+[PlayOnLinux](http://www.playonlinux.com/) est un logiciel basé sur Wine et disposant d'une d'une interface graphique. Il vous permet d'installer et d'utiliser facilement (certaines) application MS Windows.
+
 ### 13.3.2 CrossOver
 
 CrossOver n'est pas gratuit, ni libre. C'est un produit spécialisé dans l'exécution que quelques unes des applications MS Windows les plus courantes, principalement des logiciels bureautiques.

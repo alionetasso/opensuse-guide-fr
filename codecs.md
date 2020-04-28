@@ -38,7 +38,7 @@ Pour installer les codecs à l'aide du terminal, procédez comme suit :
 
 2) Ensuite, installez les paquets nécessaires :
 
-<div class="clroot">zypper install --allow-vendor-change ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2 vlc-codecs</div>
+<div class="clroot">zypper install --allow-vendor-change ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice56 libavdevice58 libdvdcss2 vlc-codecs</div>
 
 3) Assurez-vous que tous vos paquets multimédia proviennent du dépôt Packman :
 

@@ -57,7 +57,7 @@ Lorsque vous êtes prêt, insérez le DVD ou la clé USB et (re)démarrez l'ordi
 	<tr>
 		<td width="205" valign="top"><a href="images/installation/dvd/grub.png" rel="thumbnail"><img src="images/installation/dvd/grubb.png" alt="grub" class="pic" /></a></td>
 		<td valign="top">Vous obtenez un menu.<br /><br />
-		Ici, vous pouvez sélectionner la langue de votre choix en appuyant sur la touche F2 et quelques autres options, puis commencer l'installation.</td>
+		Ici, vous pouvez sélectionner la langue de votre choix en appuyant sur la **touche F2** et quelques autres options, puis commencer l'installation.</td>
 	</tr>
 </table><br />
 

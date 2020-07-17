@@ -18,7 +18,7 @@ Certains jeux sont inclus dans les dépôts officiels d'openSUSE, mais le dépô
 
 Ou ajoutez le référentiel de jeux en utilisant la ligne de commande :
 
-<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.1/ games</div>
+<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.2/ games</div>
 
 ### B.1.2 Plate-forme et magasin de jeux Steam Gaming
 

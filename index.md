@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1. Introduction - Guide du débutant sur openSUSE Leap 15.1
+title: 1. Introduction - Guide du débutant sur openSUSE Leap 15.2
 permalink: introduction
 redirect_from: /index.html
 ---

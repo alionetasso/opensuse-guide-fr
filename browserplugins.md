@@ -16,7 +16,7 @@ Installez le package **freshplayerplugin**, si vous avez besoin du support Flash
 
 Installation de Flash dans le terminal :
 
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.1/ packman</div>
+<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.2/ packman</div>
 
 <div class="clroot">zypper install freshplayerplugin</div>
 
@@ -24,11 +24,11 @@ Installation de Flash dans le terminal :
 
 Les applets Web Java sont utilisés pour les jeux, la banque à domicile dans certains pays, et diverses autres choses.
 
-Installez le paquet **java-1_8_8_0-openjdk-plugin** avec le gestionnaire de paquets s'il n'est pas déjà installé.
+Installez le paquet **icedtea-web** avec le gestionnaire de paquets s'il n'est pas déjà installé.
 
 Installation du plugin de navigateur Java dans le terminal :
 
-<div class="clroot">zypper install java-1_8_0-openjdk-plugin</div>
+<div class="clroot">zypper install icedtea-web</div>
 
 ## 15.3 Streaming vidéo et audio
 

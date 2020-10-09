@@ -35,8 +35,17 @@ Il y a des sociétés qui vendent openSUSE dans une boîte (en allemand) avec su
 
 {% include pic.html image="box.png" %}
 
+## 3.4 Acheter un PC avec openSUSE préinstallé
 
-## 3.4 Le code source
+Certains vendeurs proposent une partie ou la totalité de leurs ordinateurs portables ou de leurs PC avec openSUSE préinstallé. De cette façon, vous savez que le matériel fonctionne avec GNU/Linux, vous vous épargnez la peine de télécharger et d'installer openSUSE vous-même et vous soutenez les vendeurs qui sont favorables à GNU/Linux.
+
+Par exemple, consultez ces vendeurs :
+[https://www.tuxedocomputers.com](https://www.tuxedocomputers.com)
+[https://www.thinkpenguin.com/](https://www.thinkpenguin.com/)
+[https://slimbook.es/](https://slimbook.es/)
+
+
+## 3.5 Le code source
 
 Vous pouvez trouver le code source de tous les paquets gratuits d'openSUSE ici, sous forme de fichiers RPM source :  
 

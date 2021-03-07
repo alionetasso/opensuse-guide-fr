@@ -44,6 +44,7 @@ Par exemple, consultez ces vendeurs :
 - [https://www.thinkpenguin.com/](https://www.thinkpenguin.com/)
 - [https://slimbook.es/](https://slimbook.es/)
 
+{% include pic.html image="laptop.png" %}
 
 ## 3.5 Le code source
 

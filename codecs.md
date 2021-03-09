@@ -40,6 +40,6 @@ Pour installer les codecs à l'aide du terminal, procédez comme suit :
 
 <div class="clroot">zypper install --allow-vendor-change ffmpeg-3 lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice58 libdvdcss2 vlc-codecs</div>
 
-3) Assurez-vous que tous vos paquets multimédia proviennent du dépôt Packman :
+3) Assurez-vous que tous vos paquets multimédia proviennent bien du dépôt Packman :
 
 <div class="clroot">zypper dup --allow-vendor-change --from packman</div>

@@ -11,7 +11,7 @@ Voici quelques-unes des façons d'acquérir openSUSE.
 ## 3.1 Télécharger l'ISO
 
 Vous pouvez télécharger openSUSE gratuitement. Il suffit d'aller à l'adresse :  
-[http://software.opensuse.org/](http://software.opensuse.org/)
+[https://get.opensuse.org/leap](https://get.opensuse.org/leap)
 
 Le DVD complet (4,7 Go) offre l'expérience la plus fluide et la plus complète. Vous n'avez pas besoin d'utiliser un DVD, il peut aussi être placé sur une clé USB (voir chapitre suivant).
 

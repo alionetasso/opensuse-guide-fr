@@ -15,7 +15,7 @@ Par défaut, seuls les formats libres, ouverts et non protégés par un brevet t
 
 1) Cliquez sur le bouton ci-dessous pour ajouter les dépôts nécessaires et installer les paquets requis en 1 clic.
 
-{% include ymp.html icon="codecs" link="http://opensuse-community.org/codecs-kde.ymp" %}
+{% include ymp.html icon="codecs" link="https://opensuse-community.org/codecs-kde.ymp" %}
 
 {% include tip.html tip="Si une boîte de dialogue de conflit apparaît, sélectionnez pour installer les paquets *avec* Changement de fournisseur." %}
 

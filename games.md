@@ -18,7 +18,7 @@ Certains jeux sont inclus dans les dépôts officiels d'openSUSE, mais le dépô
 
 Ou ajoutez le référentiel de jeux en utilisant la ligne de commande :
 
-<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.2/ games</div>
+<div class="clroot">zypper addrepo -f http://download.opensuse.org/repositories/games/openSUSE_Leap_15.3/ games</div>
 
 ### B.1.2 Plate-forme et magasin de jeux Steam Gaming
 
@@ -38,13 +38,7 @@ Linux Game Publishing achète des titres et les porte vers GNU/Linux, voir :
 
 Il existe de plus en plus de jeux gratuits et/ou non-libres - certains petits et simples, d'autres assez grands, et beaucoup de très bons. Consultez certains de ces sites :
 
-[http://www.tuxgames.com/](http://www.tuxgames.com/) (n'existe plus depuis 2014)
-
 [http://www.penguspy.com/](http://www.penguspy.com/)
-
-[http://www.lgdb.org/](http://www.lgdb.org/) (ne semble plus exister)
-
-[http://www.linuxgamingworld.com/](http://www.linuxgamingworld.com/)  (ne semble plus exister)
 
 [https://www.gog.com/games](https://www.gog.com/games)
 

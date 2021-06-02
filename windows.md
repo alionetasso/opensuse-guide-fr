@@ -78,8 +78,6 @@ CrossOver n'est pas gratuit, ni libre. C'est un produit spécialisé dans l'exé
 
 Ainsi que nous l'avons mentionné dans le chapitre *Installation*, il est relativement simple d'exécuter GNU/Linux et MS Windows sur le même ordinateur. Si vous n'avez besoin que de quelques applications de temps à autres, cela peut valoir le coup de redémarrer sous MS Windows le temps de les utiliser.
 
-Lorsque vous installez un système en dual boot, vos disques ou partitions MS Windows doivent être montés sous */windows/C/*, */windows/D/*, etc. Si ce n'est pas le cas, vous pouvez assigner des points de montage (des dossiers dans lesquels les disques ou partitions doivent être montés) avec YaST → System → Partitioneur. Par défaut, les partitions formatées en utilisant le système de fichiers NTFS seront en lecture seule. Pour faire en sorte qu'un utilisateur normal puisse y écrire, il faut éditer les entrées correspondantes dans */etc/fstab* et remplacer *fmask=113,dmask=002* par *umask=0002*.
-
 ### 13.3.4 Virtualisation
 
 Il est possible d'exécuter MS Windows au sein de GNU/Linux, à l'intérieur d'une *machine virtuelle* en utilisant des logiciels tels que VirtualBox, KVM, Xen ou VMware. Il s'agît là d'un usage avancé qui requiert une certaine puissance de la part de votre ordinateur.

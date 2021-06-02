@@ -34,11 +34,11 @@ Pour installer les codecs à l'aide du terminal, procédez comme suit :
 1) Ajoutez les dépôts nécessaires :
 
 <div class="clroot">zypper addrepo -f 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/' packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.2/ dvd</div>
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.3/ dvd</div>
 
 2) Ensuite, installez les paquets nécessaires :
 
-<div class="clroot">zypper install --allow-vendor-change ffmpeg-3 lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice58 libdvdcss2 vlc-codecs</div>
+<div class="clroot">zypper install --allow-vendor-change ffmpeg-3 lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice57 libdvdcss2 vlc-codecs</div>
 
 3) Assurez-vous que tous vos paquets multimédia proviennent bien du dépôt Packman :
 

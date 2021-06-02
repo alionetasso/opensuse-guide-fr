@@ -25,12 +25,10 @@ Lorsque vous gravez les fichiers ISO téléchargés sur un DVD, il est important
 
 ### 4.1.2b Créer une clé USB
 
-L'ISO peut également être placé sur une clé USB, voir les instructions à ce sujet sur ces pages en fonction des systèmes d'exploitation dont vous disposez :
+L'ISO peut également être placé sur une clé USB, voir les instructions pour cela pour MS Windows, Apple MacOS, openSUSE et autres GNU/Linux ici :
+[https://en.opensuse.org/Create_installation_USB_stick](https://en.opensuse.org/Create_installation_USB_stick)
 
-- openSUSE ou autre Linux: [http://en.opensuse.org/SDB:Live_USB_stick](http://en.opensuse.org/SDB:Live_USB_stick)
-- Microsoft Windows: [https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows)
-- Mac OS X: [https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x](https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x)
-- La documentation française propose des méthodes pour les trois systèmes : [https://fr.opensuse.org/SDB:Live_USB_stick](https://fr.opensuse.org/SDB:Live_USB_stick)
+La documentation française propose aussi des méthodes pour les trois systèmes : [https://fr.opensuse.org/SDB:Live_USB_stick](https://fr.opensuse.org/SDB:Live_USB_stick)
 
 ### 4.1.3 Configurer le BIOS
 

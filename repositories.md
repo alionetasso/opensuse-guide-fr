@@ -60,13 +60,8 @@ Il manque toujours un paquet ?
 
 Vous pouvez rechercher des paquets/dépôts sur openSUSE BuildService ici :
 
-[http://software.opensuse.org/search](http://software.opensuse.org/search)
+[http://software.opensuse.org/search](http://software.opensuse.org/)
 
-Ce moteur de recherche de paquets inclut également le dépôt Packman :
-
-[http://webpinstant.com](http://webpinstant.com)
-
-N'oubliez pas d'ajouter des dépôts non officiels avec prudence !
 {% endcapture %}
 {% include tip.html tip=repositories_tip %}
 
@@ -82,7 +77,7 @@ Si vous le souhaitez, vous pouvez également gérer vos dépôts via un terminal
 
 Ajout d'un dépôt avec auto-refresh activé `zypper addrepo -f[URL][Alias]`. Exemple :
 
-<div class="clroot">zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_15.2/ packman</div>
+<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/ packman</div>
 
 Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
@@ -90,7 +85,7 @@ Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
 Supprimer un dépôt `zypper removerepo [URL|Alias]`. Exemple:
 
-<div class="clroot">zypper removerepo http://packman.inode.at/suse/openSUSE_Leap_15.2/</div>
+<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/</div>
 
 Lister les dépôts configurés, en affichant les détails (priorités, URL, etc.):
 

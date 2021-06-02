@@ -48,7 +48,6 @@ Vous pouvez également utiliser l'effet de grille du bureau pour obtenir une vue
 Le gestionnaire de fichiers par défaut est Dolphin, qui est l'un des favoris dans le menu de lancement ou dans la catégorie "Système". Il devrait être très intuitif. Les clés USB et autres supports amovibles apparaîtront automatiquement dans le volet gauche de Dolphin.
 <div class="path">Launch Menu => System => Dolphin</div><br />
 
-Vous pouvez également trouver Dolphin comme l'un des favoris dans le menu de lancement des applications.
 
 <center><a href="images/screenshots/dolphin.png" rel="thumbnail"><img src="images/screenshots/dolphinb.png" alt="dolphin" class="pic" /></a></center><br />
 

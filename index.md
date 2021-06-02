@@ -11,7 +11,7 @@ Le but de ce guide est de fournir aux nouveaux utilisateurs tout ce qu'ils ont b
 
 La lecture de ce guide devrait vous faire gagner beaucoup de temps à long terme. L'annexe à la fin s'adresse aux lecteurs particulièrement enthousiastes.
 
-Notez que ce guide n'est pas officiellement lié au [projet openSUSE](http://www.opensuse.org) ni à [SUSE LINUX Products GmbH](http://www.suse.com) ou à Micro Focus International.
+Notez que ce guide n'est pas officiellement lié au [projet openSUSE](http://www.opensuse.org) ni à [SUSE LINUX Products GmbH](http://www.suse.com).
 
 Amusez-vous bien ! (*Have a lot of fun!*)
 

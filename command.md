@@ -206,6 +206,7 @@ Vim est assez avancé, vous pouvez envisager d'installer un éditeur de texte pl
 
 Si vous voulez en savoir plus sur l'utilisation du terminal, il existe de nombreuses ressources disponibles sur Internet, voici quelques liens.
 
+[https://www.guru99.com/unix-linux-tutorial.html](https://www.guru99.com/unix-linux-tutorial.html)
 [http://linuxcommand.org/](http://linuxcommand.org/)
 
 [http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html](http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)

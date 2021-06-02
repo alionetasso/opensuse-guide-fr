@@ -50,4 +50,4 @@ Par exemple, consultez ces vendeurs :
 
 Vous pouvez trouver le code source de tous les paquets gratuits d'openSUSE ici, sous forme de fichiers RPM source :  
 
-[http://download.opensuse.org/source/distribution/leap/15.2/repo/oss/src/](http://download.opensuse.org/source/distribution/leap/15.2/repo/oss/src/)
+[http://download.opensuse.org/source/distribution/leap/15.3/repo/oss/src/](http://download.opensuse.org/source/distribution/leap/15.3/repo/oss/src/)

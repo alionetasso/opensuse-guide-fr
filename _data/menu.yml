@@ -34,11 +34,9 @@
     link: windows
   - title: 14. Codecs Multimedia
     link: codecs
-  - title: 15. Plugins de navigateur
-    link: browserplugins
-  - title: 16. Pilotes graphiques
+  - title: 15. Pilotes graphiques
     link: 3d
-  - title: 17. Wifi
+  - title: 16. Wifi
     link: wlan
 
 - title: Annexes

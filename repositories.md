@@ -50,7 +50,7 @@ Vous devriez toujours avoir les six dépôts *officiels* (qui sont configurés p
 - **Main Repository (NON-OSS)**
 - **Main Update Repository**
 - **Main Update Repository (NON-OSS)**
-- **Backports-updates Repository **
+- **Backports-updates Repository**
 - **sle-updates Repository**
 
 De plus, je recommande d'ajouter les dépôts *non-officiels* suivants de la liste des dépôts communautaires, pour avoir un bon équilibre entre la disponibilité et la stabilité des logiciels pour la plupart des utilisateurs.

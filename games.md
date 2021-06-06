@@ -44,7 +44,7 @@ Il existe de plus en plus de jeux gratuits et/ou non-libres - certains petits et
 
 [https://www.humblebundle.com/store](https://www.humblebundle.com/store)
 
-Enfin une recherche sur le web vous permettra de trouver d'autres liens comme par exemple cette chaînes youtube francophone :
+Enfin une recherche sur le web vous permettra de trouver d'autres liens comme par exemple cette chaîne youtube francophone :
 
 [Gaming Linux FR](https://www.youtube.com/user/vinceff44/featured)
 

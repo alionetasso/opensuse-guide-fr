@@ -44,6 +44,10 @@ Il existe de plus en plus de jeux gratuits et/ou non-libres - certains petits et
 
 [https://www.humblebundle.com/store](https://www.humblebundle.com/store)
 
+Enfin une recherche sur le web vous permettra de trouver d'autres liens comme par exemple cette chaînes youtube francophone :
+
+[Gaming Linux FR](https://www.youtube.com/user/vinceff44/featured)
+
 ## B.2 Exécution des jeux MS Windows
 
 Certains logiciels disponibles pour GNU/Linux vous permettent d'exécuter des jeux développés pour MS Windows sous GNU/Linux - la facilité d'utilisation et le taux de réussite peuvent varier - cependant, plus le jeu est populaire, plus il a de chances d'être supporté.

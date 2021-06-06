@@ -44,12 +44,14 @@ Notez que *openSUSE BuildService* est un service permettant à la communauté de
 
 ### 12.1.2 Dépôts recommandés
 
-Vous devriez toujours avoir les quatre dépôts *officiels* (qui sont configurés prêts à l'emploi) :<br/>
+Vous devriez toujours avoir les six dépôts *officiels* (qui sont configurés prêts à l'emploi) :<br/>
 
 - **Main Repository (OSS)**
 - **Main Repository (NON-OSS)**
 - **Main Update Repository**
 - **Main Update Repository (NON-OSS)**
+- **Backports-updates Repository **
+- **sle-updates Repository**
 
 De plus, je recommande d'ajouter les dépôts *non-officiels* suivants de la liste des dépôts communautaires, pour avoir un bon équilibre entre la disponibilité et la stabilité des logiciels pour la plupart des utilisateurs.
 

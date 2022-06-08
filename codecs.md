@@ -34,7 +34,7 @@ Pour installer les codecs à l'aide du terminal, procédez comme suit :
 1) Ajoutez les dépôts nécessaires :
 
 <div class="clroot">zypper addrepo -f 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/' packman</div>
-<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.3/ dvd</div>
+<div class="clroot">zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_15.4/ dvd</div>
 
 2) Ensuite, installez les paquets nécessaires :
 

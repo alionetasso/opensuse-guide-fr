@@ -79,7 +79,7 @@ Si vous le souhaitez, vous pouvez également gérer vos dépôts via un terminal
 
 Ajout d'un dépôt avec auto-refresh activé `zypper addrepo -f[URL][Alias]`. Exemple :
 
-<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/ packman</div>
+<div class="clroot">zypper addrepo -f http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.4/ packman</div>
 
 Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
@@ -87,7 +87,7 @@ Désactiver un dépôt `zypper modifyrepo -d [URL|Alias]`. Exemple:
 
 Supprimer un dépôt `zypper removerepo [URL|Alias]`. Exemple:
 
-<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.3/</div>
+<div class="clroot">zypper removerepo http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.4/</div>
 
 Lister les dépôts configurés, en affichant les détails (priorités, URL, etc.):
 

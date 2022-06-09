@@ -23,7 +23,7 @@ Certaines choses diffèrent donc considérablement de la plupart des autres envi
 - le bureau lui-même n'est qu'un espace destiné à accueillir les fenêtres, il ne sert à afficher les icônes des applications ou des raccourcis vers vos fichiers ;
 - la plupart des raccourcis font appel à la touche Super (injustement représentée par le logo Windows sur la plupart des PC), pressée seule cette touche vous donne accès au *Shell* : c'est là que vous allez retrouver l'ensemble de vos applications ainsi qu'une vue étalée de toutes vos fenêtres ouvertes.
 
-<center><a href="images/screenshots/desktop-Gnome2.png" rel="thumbnail"><img src="images/screenshots/desktop-Gnome2b.png" alt="Gnome-desktop" class="pic" /></a></center><br />
+<center><a href="images/screenshots/desktop-Gnome.png" rel="thumbnail"><img src="images/screenshots/desktop-Gnomeb.png" alt="Gnome-desktop" class="pic" /></a></center><br />
 
 ### 6.1.1 Le *Shell*
 

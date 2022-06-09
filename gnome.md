@@ -29,7 +29,7 @@ Certaines choses diffèrent donc considérablement de la plupart des autres envi
 
 C'est sûrement l'aspect le plus particulier à GNOME. Lorsque vous appuyez sur la touche *Super* ou que vous cliquez sur *Activités* en haut à gauche ou bien que vous envoyez le pointeur de la souris dans ce même coin supérieur droit, GNOME affiche le *Shell* qui se compose de 4 éléments principaux :
 
-- le *Dock*: c'est la barre vertical à gauche qui contient les applications favorites ;
+- le *Dock*: c'est la barre horizontale en bas qui contient les applications favorites ;
 - en haut au centre, il y a l'espace de recherche: dès que vous entrez dans le *Shell*, commencez à taper les premières lettres de votre recherche pour que s'affiche toutes les applications, mais aussi les fichiers, dossiers et logiciels disponibles (mais non installés) dont le nom contient les lettre recherchées. Ainsi taper "Fi" renverra notamment Firefox. Le résultat le plus pertinent est mis en surbrillance, il suffit d'appuyer sur Entrée pour lancer l'application ;
 - au centre se trouve la vue en mosaïque des fenêtres existantes dans l'espace de travail actuel ;
 - à droite, en vertical, vous trouverez la liste des espaces de travail virtuels.

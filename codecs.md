@@ -25,7 +25,7 @@ Par défaut, seuls les formats libres, ouverts et non protégés par un brevet t
 
 {% include screenshot.html image="packman-vendorchange" %}
 
-## 14.2 Installation des codecs dans le terminal
+## 14.2 Installation des codecs dans le terminal avec zypper
 
 Pour installer les codecs à l'aide du terminal, procédez comme suit :
 
@@ -38,7 +38,7 @@ Pour installer les codecs à l'aide du terminal, procédez comme suit :
 
 2) Ensuite, installez les paquets nécessaires :
 
-<div class="clroot">zypper install --allow-vendor-change ffmpeg-3 lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice57 libdvdcss2 vlc-codecs</div>
+<div class="clroot">zypper install --allow-vendor-change ffmpeg-4 lame gstreamer-plugins-bad gstreamer-plugins-bad-codecs gstreamer-plugins-ugly gstreamer-plugins-ugly-codecs gstreamer-plugins-libav libavdevice57 libdvdcss2 vlc-codecs</div>
 
 3) Assurez-vous que tous vos paquets multimédia proviennent bien du dépôt Packman :
 

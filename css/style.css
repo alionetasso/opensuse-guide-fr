@@ -292,28 +292,6 @@ a:hover {
         border-color: #A6A6A6;
 	 }
 
-pre.highlight {
-        color: black;                /* text color is black */
-        font-size: 8pt;
-        font-family: sans-serif;
-        background: #DCDCDC;
-        margin: 2px 100px 2px 2px;
-        padding: 6px 6px 6px 6px;
-        list-style: none;
-        border-style: dashed;
-        border-width: thin;
-        border-color: #74BA24;
-	 }
-
-pre { /* https://www.tutorialspoint.com/How-do-I-wrap-text-in-a-pre-tag-in-HTML */
-    overflow-x: auto;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-}
-
 .code { 
         color: black;              
 	font-size: 8pt;
@@ -339,7 +317,3 @@ pre { /* https://www.tutorialspoint.com/How-do-I-wrap-text-in-a-pre-tag-in-HTML 
         border-width: thin;        
         border-color: #A6A6A6;
           }
-/* To center images */
-.center {
-    text-align: center;
-}
